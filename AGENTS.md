@@ -9,7 +9,7 @@ database, no CMS. Homepage is section-based; articles are markdown.
 
 - `src/routes/` — pages (`+page.svelte` homepage, `articles/`, `404/`)
 - `src/lib/components/` — homepage sections (`Features`, `DefinitionList`, `Roadmap`, `Faq`, `About`) and shared (`Hero`, `Seo`, `JsonLd`, `Visualization`)
-- `src/lib/data/` — `business.json` (incl. contact email template), `author.json`
+- `src/lib/data/` — `business.json` (incl. contact email template), `author.json`, `talks.json` (latest talks shown on the homepage)
 - `src/lib/site.js` — site URL, `mailtoHref`, `formatDate` helpers
 - `src/content/articles/*.md` — mdsvex articles (frontmatter: `title`, `intro` (visible summary), `date`, `description` (meta/JSON-LD snippet); optional `modified` for the JSON-LD `dateModified`); `articles/[slug]/+page.js` imports each post dynamically, `src/lib/articles.js` globs metadata only for listings/entries
 - `static/` — global assets, the generated `embeddings.json`, and the committed social cards (`og/`)
@@ -27,7 +27,7 @@ database, no CMS. Homepage is section-based; articles are markdown.
 ```bash
 pnpm dev                              # dev server
 pnpm build                            # prerender to build/
-pnpm generate-embeddings              # build/ HTML -> static/embeddings.json + static/og/ cards, then rebuild
+pnpm generate-embeddings              # build/ HTML -> static/embeddings.json, then rebuild
 pnpm generate-og                      # embeddings -> static/og/ cards, then rebuild
 docker build -t resolve.works . && docker run --rm -p 8080:80 resolve.works
 ```
@@ -39,8 +39,8 @@ docker build -t resolve.works . && docker run --rm -p 8080:80 resolve.works
 - Use the `Seo` component for head meta. Every page must keep full SEO
   coverage: meta description, OG/Twitter, canonical `https` URL, JSON-LD, and
   a `static/sitemap.xml` entry.
-- Embeddings are content-derived: the generator embeds the prerendered HTML
-  of every page, so after editing any page content (article or page copy) run
-  `pnpm build` and `pnpm generate-embeddings` (which also regenerates the
-  committed `static/og/` cards), and update lastmod for the changed pages in
-  `static/sitemap.xml`.
+- Embeddings and OG cards are content-derived: the embedding generator embeds the
+  prerendered HTML of every page, and the cards are rendered from the embeddings
+  (separate script), so after editing any page content (article or page copy) run
+  `pnpm build`, `pnpm generate-embeddings`, and `pnpm generate-og`, and update
+  lastmod for the changed pages in `static/sitemap.xml`.

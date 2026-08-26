@@ -265,7 +265,7 @@
         <div>
           <h3>Latest articles</h3>
           <dl>
-            {#each articles.slice(0, 3) as article (article.slug)}
+            {#each articles.slice(0, 5) as article (article.slug)}
               <dt><a href={`/articles/${article.slug}/`}>{article.title}</a></dt>
               <dd><time datetime={article.date}>{formatDate(article.date)}</time></dd>
             {/each}
