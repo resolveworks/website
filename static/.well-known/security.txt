@@ -1,0 +1,5 @@
+# RFC 9116 security.txt for resolve.works
+Contact: mailto:security@resolve.works
+Expires: 2027-08-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://resolve.works/.well-known/security.txt
