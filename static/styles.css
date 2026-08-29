@@ -65,11 +65,13 @@ h6 {
   font-size: var(--text-size-h6);
 }
 
-/* Context-specific h3 styling for correct visual hierarchy */
+/* Context-specific heading styling for correct visual hierarchy */
 .features-block-2 h3,
 .features-block-3 h3,
 .section > ol > li > h3,
-.two-column-block h3 {
+.two-column-block h3,
+.writing-speaking h3,
+.related-articles h2 {
   font-size: var(--text-size-h4);
   margin-top: 1.5em;
   margin-bottom: 1em;
@@ -459,9 +461,11 @@ footer.section > a.site-name:hover {
 
 .author-info {
   grid-column: span 2;
+  margin-top: 2rem;
 }
 
 .author-name {
+  font-size: var(--text-size-h4);
   font-weight: 700;
 }
 
@@ -577,6 +581,10 @@ footer.section > a.site-name:hover {
     display: grid;
     grid-template-columns: 1fr calc((min(80rem, 100vw) - 6rem) / 3) 1fr;
     gap: 2rem;
+  }
+
+  .author-info {
+    margin-top: 0;
   }
 }
 

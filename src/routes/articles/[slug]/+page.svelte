@@ -90,7 +90,7 @@
         <aside class="author-block">
           <img src={author.avatar} alt={author.name} class="author-avatar" />
           <div class="author-info">
-            <p class="author-name">{author.name}</p>
+            <h2 class="author-name">{author.name}</h2>
             <div class="author-bio">
               {#each author.bio as paragraph}
                 <p>{paragraph}</p>
