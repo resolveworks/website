@@ -2,8 +2,7 @@
 // precomputed sentence-embedding scatter plots (data: static/embeddings.json).
 import * as d3 from 'd3';
 
-
-class EmbeddingVisualization {
+export class EmbeddingVisualization {
   constructor(container, data) {
     this.container = container;
     this.nodes = data.nodes || [];
@@ -15,12 +14,18 @@ class EmbeddingVisualization {
   }
 
   init() {
-    if (this.nodes.length === 0) {
-      this.container.remove();
-      return;
-    }
+    if (this.nodes.length === 0) return;
     this.createSvg();
     this.render();
+  }
+
+  destroy() {
+    // Remove everything this instance appended, so the container is left
+    // exactly as we found it (and a stray hover tooltip cannot outlive us).
+    this.svg?.remove();
+    this.svg = null;
+    this.tooltip?.remove();
+    this.tooltip = null;
   }
 
   getBaseSize() {
@@ -140,8 +145,8 @@ class EmbeddingVisualization {
       .attr("fill", (d) => this.getNodeColor(d.position))
       .attr("stroke-width", this.getStrokeWidth());
 
-    // Tooltips on hover
-    let tooltip = null;
+    // Tooltips on hover (kept on the instance so destroy() can remove them)
+    this.tooltip = null;
 
     nodeGroups
       .on("mouseenter", (event, d) => {
@@ -155,16 +160,16 @@ class EmbeddingVisualization {
           .attr("stroke-width", (e) =>
             edges.has(e) ? this.getStrokeWidth() * 1.8 : this.getStrokeWidth()
           );
-        tooltip = d3
+        this.tooltip = d3
           .select("body")
           .append("div")
           .attr("class", "tooltip")
           .text(d.text);
-        this.positionTooltip(tooltip, event);
+        this.positionTooltip(this.tooltip, event);
       })
       .on("mousemove", (event) => {
-        if (tooltip) {
-          this.positionTooltip(tooltip, event);
+        if (this.tooltip) {
+          this.positionTooltip(this.tooltip, event);
         }
       })
       .on("mouseleave", (event, d) => {
@@ -174,9 +179,9 @@ class EmbeddingVisualization {
         lines
           .style("stroke-opacity", edgeOpacity)
           .attr("stroke-width", this.getStrokeWidth());
-        if (tooltip) {
-          tooltip.remove();
-          tooltip = null;
+        if (this.tooltip) {
+          this.tooltip.remove();
+          this.tooltip = null;
         }
       });
   }
@@ -184,17 +189,29 @@ class EmbeddingVisualization {
 
 // Fetch /embeddings.json once per session and share it between all
 // visualizations on the page (articles index renders one per article).
+// Server-side (prerendering) there is nothing to fetch — the {#await}
+// pending state renders nothing.
 let embeddingsPromise;
 
-function loadEmbeddings() {
-  embeddingsPromise ??= fetch("/embeddings.json").then((response) =>
-    response.ok ? response.json() : {},
-  );
+export function loadEmbeddings() {
+  if (typeof window === 'undefined') return Promise.resolve({});
+  embeddingsPromise ??= fetch("/embeddings.json")
+    .then((response) => (response.ok ? response.json() : {}))
+    .catch(() => ({}));
   return embeddingsPromise;
 }
 
-export async function initVisualization(container, key) {
-  const dataByKey = await loadEmbeddings();
-  const data = dataByKey[key] || { nodes: [], edges: [] };
-  new EmbeddingVisualization(container, data).init();
+// Attachment factory: mounts a D3 chart into the element and tears it down
+// before the attachment re-runs (new data) or the element is removed.
+// https://svelte.dev/docs/svelte/@attach
+/**
+ * @param {object} data
+ * @returns {import('svelte/attachments').Attachment}
+ */
+export function embeddingChart(data) {
+  return (element) => {
+    const viz = new EmbeddingVisualization(element, data);
+    viz.init();
+    return () => viz.destroy();
+  };
 }
