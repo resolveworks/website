@@ -82,6 +82,7 @@
                 <dd><time datetime={article.date}>{formatDate(article.date)}</time></dd>
               {/each}
             </dl>
+            <p><a href="/articles/">All articles <span aria-hidden="true">→</span></a></p>
           </aside>
         </section>
       {/if}

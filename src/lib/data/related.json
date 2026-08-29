@@ -1,18 +1,22 @@
 {
   "ai-agents-are-human-too": [
     "pi-is-a-really-nice-agent",
-    "the-tool-is-not-the-author"
+    "the-tool-is-not-the-author",
+    "everything-in-its-place"
   ],
   "everything-in-its-place": [
     "pi-is-a-really-nice-agent",
-    "ai-agents-are-human-too"
+    "ai-agents-are-human-too",
+    "the-tool-is-not-the-author"
   ],
   "pi-is-a-really-nice-agent": [
     "ai-agents-are-human-too",
-    "everything-in-its-place"
+    "everything-in-its-place",
+    "the-tool-is-not-the-author"
   ],
   "the-tool-is-not-the-author": [
     "ai-agents-are-human-too",
-    "pi-is-a-really-nice-agent"
+    "pi-is-a-really-nice-agent",
+    "everything-in-its-place"
   ]
 }

@@ -45,7 +45,7 @@ import {
 
 // Related articles kept per article (strongest first), written to
 // RELATED_PATH for the article pages' related-articles lists.
-const RELATED_COUNT = 2;
+const RELATED_COUNT = 3;
 const RELATED_PATH = 'src/lib/data/related.json';
 
 // --- markdown -> text --------------------------------------------------------
