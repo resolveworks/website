@@ -439,6 +439,12 @@ footer.section > a.site-name:hover {
   filter: brightness(1.2) blur(0.35rem);
 }
 
+/* Related articles (article page): dt un-bolded to match the homepage's
+   latest-articles list */
+.related-articles dt {
+  font-weight: 400;
+}
+
 .author-block {
   display: flex;
   flex-direction: column;

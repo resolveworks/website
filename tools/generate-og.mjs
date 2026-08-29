@@ -59,7 +59,36 @@ const SOFTEN_DEFS = `<defs>
 
 // Zoom of the scatter relative to the homepage hero's sizing: at 2.5 the
 // card shows a tight crop of the hero-scale scatter — few nodes, large.
+// Sparse scatters step the zoom out until the crop holds a few nodes;
+// otherwise an unlucky small scatter renders a (near-)empty card.
 const ZOOM = 2.5;
+const MIN_VISIBLE = 3;
+
+// Scatter geometry at a zoom: the 0-1 node coordinates map to a square of
+// `base` px centered on the card.
+function geometry(zoom) {
+  const base = Math.max(WIDTH, HEIGHT) * 1.05 * zoom;
+  const padding = base * 0.025 + (base * 0.0012) / 2;
+  const span = base - 2 * padding;
+  return {
+    base,
+    x: (v) => (WIDTH - base) / 2 + padding + v * span,
+    y: (v) => (HEIGHT - base) / 2 + padding + v * span
+  };
+}
+
+function cardZoom(nodes) {
+  let zoom = ZOOM;
+  while (zoom > 0.6) {
+    const g = geometry(zoom);
+    const visible = nodes.filter(
+      (n) => g.x(n.x) >= 0 && g.x(n.x) <= WIDTH && g.y(n.y) >= 0 && g.y(n.y) <= HEIGHT
+    ).length;
+    if (visible >= Math.min(MIN_VISIBLE, nodes.length)) return zoom;
+    zoom *= 0.8;
+  }
+  return zoom;
+}
 
 // hsl() -> hex; s and l in 0..1.
 function hslHex(h, s, l) {
@@ -74,26 +103,22 @@ function hslHex(h, s, l) {
 
 const num = (v) => Math.round(v * 100) / 100;
 
-function scatterShapes(data) {
-  const base = Math.max(WIDTH, HEIGHT) * 1.05 * ZOOM;
-  const stroke = base * 0.0012;
-  const minRadius = base * 0.0075;
-  const maxRadius = base * 0.025;
-  const padding = maxRadius + stroke / 2;
-  const offsetX = (WIDTH - base) / 2;
-  const offsetY = (HEIGHT - base) / 2;
-  const scale = (v) => padding + v * (base - 2 * padding);
+function scatterShapes(data, zoom) {
+  const g = geometry(zoom);
+  const stroke = g.base * 0.0012;
+  const minRadius = g.base * 0.0075;
+  const maxRadius = g.base * 0.025;
   const color = (position) => hslHex(data.hue - 45 + position * 90, 0.5, 0.55);
 
   const byId = new Map(data.nodes.map((n) => [n.id, n]));
   const shapes = data.edges.map((e) => {
     const s = byId.get(e.source);
     const t = byId.get(e.target);
-    return `<line x1="${num(scale(s.x) + offsetX)}" y1="${num(scale(s.y) + offsetY)}" x2="${num(scale(t.x) + offsetX)}" y2="${num(scale(t.y) + offsetY)}" stroke="${EDGE}" stroke-opacity="${num(0.35 + 0.65 * (e.strength ?? 1))}" stroke-width="${num(stroke)}"/>`;
+    return `<line x1="${num(g.x(s.x))}" y1="${num(g.y(s.y))}" x2="${num(g.x(t.x))}" y2="${num(g.y(t.y))}" stroke="${EDGE}" stroke-opacity="${num(0.35 + 0.65 * (e.strength ?? 1))}" stroke-width="${num(stroke)}"/>`;
   });
   for (const n of [...data.nodes].sort((a, b) => a.z - b.z)) {
     shapes.push(
-      `<circle cx="${num(scale(n.x) + offsetX)}" cy="${num(scale(n.y) + offsetY)}" r="${num(minRadius + n.z * (maxRadius - minRadius))}" fill="${color(n.position)}" stroke="${LIGHT}" stroke-width="${num(stroke)}"/>`
+      `<circle cx="${num(g.x(n.x))}" cy="${num(g.y(n.y))}" r="${num(minRadius + n.z * (maxRadius - minRadius))}" fill="${color(n.position)}" stroke="${LIGHT}" stroke-width="${num(stroke)}"/>`
     );
   }
   return shapes.join('');
@@ -102,11 +127,12 @@ function scatterShapes(data) {
 /** Compose a card's SVG: scatter background, radial blur, wordmark. */
 function cardSvg(data) {
   const background = `<rect width="${WIDTH}" height="${HEIGHT}" fill="${LIGHT}"/>`;
+  const zoom = cardZoom(data.nodes);
   const scatter =
     data && data.nodes.length > 0
       ? SOFTEN_DEFS +
-        `<g>${scatterShapes(data)}</g>` +
-        `<g filter="url(#og-soften)" mask="url(#og-fade-mask)">${scatterShapes(data)}</g>`
+        `<g>${scatterShapes(data, zoom)}</g>` +
+        `<g filter="url(#og-soften)" mask="url(#og-fade-mask)">${scatterShapes(data, zoom)}</g>`
       : '';
   return (
     `<svg width="${WIDTH}" height="${HEIGHT}" viewBox="0 0 ${WIDTH} ${HEIGHT}" xmlns="http://www.w3.org/2000/svg">` +

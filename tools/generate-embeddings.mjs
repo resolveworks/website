@@ -6,14 +6,18 @@
  * Qwen3-Embedding-0.6B (transformers.js, ONNX — the model downloads once and
  * is cached), reduces them to 3D with UMAP (seeded, deterministic), and writes
  * static/embeddings.json: per page the node coordinates, similarity edges and
- * a content hue, consumed by src/lib/visualization.js and the og card
- * backgrounds.
+ * a content hue, consumed at runtime by src/lib/visualization.js and by the
+ * og card backgrounds (tools/generate-og.mjs). The input is the built pages
+ * themselves — the only stage that measures rendered output; related
+ * articles are ranked from the article markdown upstream of the build by
+ * tools/generate-related.mjs.
  *
  * Edges are the strongest EDGE_FRACTION of sentence pairs — relative
  * selection, so graph density survives embedding-model swaps (absolute
  * cosine thresholds are not comparable between models). Raw sentence
  * vectors are cached in .cache/embeddings.json (gitignored, keyed by
- * model + sentence hash) so re-tuning UMAP/edges skips the model run.
+ * model + sentence hash, shared with generate-related.mjs) so re-tuning
+ * UMAP/edges skips the model run.
  *
  * Run after `pnpm build` (the npm script also rebuilds, so build/ picks up
  * the fresh JSON):
@@ -25,8 +29,15 @@ import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, sep } from 'node:path';
 import { parseArgs } from 'node:util';
 import { parse } from 'node-html-parser';
-import { pipeline } from '@huggingface/transformers';
 import { UMAP } from 'umap-js';
+import {
+  createExtractor,
+  dot,
+  embedTexts,
+  loadCache,
+  saveCache,
+  toSentences
+} from './lib/embed.mjs';
 
 // Block-level HTML elements (text chunks split at these boundaries).
 const BLOCK_TAGS = new Set([
@@ -36,26 +47,15 @@ const BLOCK_TAGS = new Set([
   'section', 'summary', 'table', 'ul'
 ]);
 
-// Elements skipped entirely (non-content).
+// Elements skipped entirely (non-content). The baked related-articles list
+// renders inside an <aside>, keeping its link text out of the measurement.
 const SKIP_TAGS = new Set(['script', 'style', 'nav', 'header', 'footer', 'aside', 'head', 'meta']);
-
-// Minimum sentence length (characters) to keep.
-const MIN_SENTENCE_LENGTH = 10;
 
 // Fraction of strongest sentence pairs kept as edges. Relative selection
 // keeps graph density stable across embedding models; absolute cosine
 // thresholds are not comparable between models (MiniLM spreads similarities
 // over ~0-0.8, Qwen3 compresses them into ~0.2-0.75).
 const EDGE_FRACTION = 0.015;
-
-// Raw sentence vectors cached here (keyed by model + sentence hash) so
-// re-tuning the layout or edges doesn't re-run the model.
-const CACHE_PATH = '.cache/embeddings.json';
-
-// Embedding model (1024 dimensions). Qwen3-Embedding-0.6B scores 64.3 on the
-// MTEB multilingual leaderboard vs ~59 for all-MiniLM-L6-v2, at a still-modest
-// size; q8 keeps the download ~600 MB and CPU inference fast.
-const MODEL_NAME = 'onnx-community/Qwen3-Embedding-0.6B-ONNX';
 
 // Extract text chunks from HTML, respecting block structure.
 function extractChunks(root) {
@@ -85,60 +85,8 @@ function extractChunks(root) {
   return chunks;
 }
 
-// Naive sentence split: terminal punctuation followed by whitespace. Chunks
-// without punctuation (headings, list items) stay whole.
-function splitSentences(text) {
-  return text.replace(/\s+/g, ' ').match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) ?? [];
-}
-
 function htmlToSentences(html) {
-  return extractChunks(parse(html))
-    .flatMap(splitSentences)
-    .map((s) => s.trim())
-    .filter((s) => s.length >= MIN_SENTENCE_LENGTH);
-}
-
-// Embed sentences; vectors come out L2-normalized, so dot product == cosine
-// similarity and UMAP's euclidean metric is equivalent to cosine. Qwen3
-// embedding models pool at the final EOS token, not the mean. Vectors are
-// cached by model + sentence hash; only misses hit the model.
-async function embedSentences(extractor, sentences, cache) {
-  const vectors = new Array(sentences.length);
-  const missing = [];
-  for (let i = 0; i < sentences.length; i++) {
-    const hit = cache.get(cacheKey(sentences[i]));
-    if (hit) vectors[i] = hit;
-    else missing.push(i);
-  }
-  if (missing.length > 0) {
-    const output = await extractor(
-      missing.map((i) => sentences[i]),
-      { pooling: 'last_token', normalize: true }
-    );
-    const fresh = output.tolist();
-    missing.forEach((i, n) => {
-      vectors[i] = fresh[n];
-      cache.set(cacheKey(sentences[i]), fresh[n]);
-    });
-  }
-  return vectors;
-}
-
-function cacheKey(sentence) {
-  return createHash('sha256').update(MODEL_NAME + '\0' + sentence).digest('hex');
-}
-
-function loadCache() {
-  try {
-    return new Map(Object.entries(JSON.parse(readFileSync(CACHE_PATH, 'utf8'))));
-  } catch {
-    return new Map();
-  }
-}
-
-function saveCache(cache) {
-  mkdirSync(dirname(CACHE_PATH), { recursive: true });
-  writeFileSync(CACHE_PATH, JSON.stringify(Object.fromEntries(cache)));
+  return toSentences(extractChunks(parse(html)));
 }
 
 // Deterministic PRNG for UMAP's random initialization/sampling.
@@ -179,9 +127,7 @@ function computeEdges(vectors, { fraction = EDGE_FRACTION } = {}) {
   const pairs = [];
   for (let i = 0; i < vectors.length; i++) {
     for (let j = i + 1; j < vectors.length; j++) {
-      let similarity = 0;
-      for (let k = 0; k < vectors[i].length; k++) similarity += vectors[i][k] * vectors[j][k];
-      pairs.push({ source: i, target: j, similarity });
+      pairs.push({ source: i, target: j, similarity: dot(vectors[i], vectors[j]) });
     }
   }
   pairs.sort(
@@ -197,20 +143,26 @@ function computeEdges(vectors, { fraction = EDGE_FRACTION } = {}) {
   }));
 }
 
+// Mean sentence vector of a page — a single "what is this page about"
+// direction, hashed into the hue below.
+function meanVector(vectors) {
+  const mean = new Float64Array(vectors[0].length);
+  for (const v of vectors) {
+    for (let k = 0; k < mean.length; k++) mean[k] += v[k] / vectors.length;
+  }
+  return mean;
+}
+
 // Derive a well-distributed hue (0-360) from the mean embedding.
 function contentHue(vectors) {
-  const dim = vectors[0].length;
-  const mean = new Float64Array(dim);
-  for (const v of vectors) {
-    for (let k = 0; k < dim; k++) mean[k] += v[k] / vectors.length;
-  }
-  const hex = createHash('sha256').update(Buffer.from(mean.buffer)).digest('hex');
+  const hex = createHash('sha256')
+    .update(Buffer.from(meanVector(vectors).buffer))
+    .digest('hex');
   return parseInt(hex.slice(0, 8), 16) % 360;
 }
 
-async function visualizationData(sentences, extractor, cache) {
+function visualizationData(sentences, vectors) {
   if (sentences.length === 0) return { nodes: [], edges: [], hue: 0 };
-  const vectors = await embedSentences(extractor, sentences, cache);
   const coords = reduceTo3D(vectors);
   return {
     nodes: sentences.map((text, i) => ({
@@ -228,8 +180,6 @@ async function visualizationData(sentences, extractor, cache) {
 
 // Find index.html files under the input dir and derive their keys:
 // index.html -> home, articles/<slug>/index.html -> articles/<slug>.
-// The articles index page is skipped: the `articles` key below holds the
-// combined scatter of all articles instead.
 function discoverPages(inputDir) {
   return readdirSync(inputDir, { recursive: true })
     .map((file) => file.split(sep).join('/'))
@@ -238,8 +188,7 @@ function discoverPages(inputDir) {
     .map((file) => ({
       key: file === 'index.html' ? 'home' : file.slice(0, -'/index.html'.length),
       path: join(inputDir, file)
-    }))
-    .filter(({ key }) => key !== 'articles');
+    }));
 }
 
 async function main() {
@@ -257,34 +206,20 @@ async function main() {
     return;
   }
 
-  const extractor = await pipeline('feature-extraction', MODEL_NAME, { dtype: 'q8' });
+  const extractor = await createExtractor();
   const cache = loadCache();
 
-  const sentencesByKey = new Map();
   const result = {};
   for (const { key, path } of pages) {
     const sentences = htmlToSentences(readFileSync(path, 'utf8'));
-    sentencesByKey.set(key, sentences);
-    result[key] = await visualizationData(sentences, extractor, cache);
+    const vectors = await embedTexts(extractor, sentences, cache);
+    result[key] = visualizationData(sentences, vectors);
     console.error(
       `${key}: ${result[key].nodes.length} nodes, ${result[key].edges.length} edges, hue ${result[key].hue}`
     );
   }
 
-  // Combined scatter of all article sentences: background for /og/articles.png.
-  const articleSentences = [...sentencesByKey.entries()]
-    .filter(([key]) => key.startsWith('articles/'))
-    .sort()
-    .flatMap(([, sentences]) => sentences);
-  if (articleSentences.length > 0) {
-    result.articles = await visualizationData(articleSentences, extractor, cache);
-    console.error(
-      `articles (combined): ${result.articles.nodes.length} nodes, ${result.articles.edges.length} edges, hue ${result.articles.hue}`
-    );
-  }
-
   saveCache(cache);
-
   mkdirSync(dirname(values.output), { recursive: true });
   writeFileSync(values.output, JSON.stringify(result, null, 2) + '\n');
   console.error(`Wrote ${values.output}`);

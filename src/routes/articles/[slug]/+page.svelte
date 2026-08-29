@@ -5,7 +5,7 @@
   import JsonLd from '$lib/components/JsonLd.svelte';
   import author from '$lib/data/author.json';
   import business from '$lib/data/business.json';
-  import { SITE_URL } from '$lib/site.js';
+  import { SITE_URL, formatDate } from '$lib/site.js';
 
   let { data } = $props();
   const Article = $derived(data.content);
@@ -68,6 +68,23 @@
       <section class="section section-light">
         <Article />
       </section>
+
+      {#if data.related.length}
+        <section class="section section-light">
+          <!-- An <aside> on purpose: the embedding generator skips aside
+               elements, so these baked-in links stay out of the article's
+               own page embeddings. -->
+          <aside class="related-articles">
+            <h2>Related articles</h2>
+            <dl>
+              {#each data.related as article (article.slug)}
+                <dt><a href={`/articles/${article.slug}/`}>{article.title}</a></dt>
+                <dd><time datetime={article.date}>{formatDate(article.date)}</time></dd>
+              {/each}
+            </dl>
+          </aside>
+        </section>
+      {/if}
 
       <section class="section section-light">
         <aside class="author-block">

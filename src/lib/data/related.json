@@ -1,0 +1,18 @@
+{
+  "ai-agents-are-human-too": [
+    "pi-is-a-really-nice-agent",
+    "the-tool-is-not-the-author"
+  ],
+  "everything-in-its-place": [
+    "pi-is-a-really-nice-agent",
+    "ai-agents-are-human-too"
+  ],
+  "pi-is-a-really-nice-agent": [
+    "ai-agents-are-human-too",
+    "everything-in-its-place"
+  ],
+  "the-tool-is-not-the-author": [
+    "ai-agents-are-human-too",
+    "pi-is-a-really-nice-agent"
+  ]
+}

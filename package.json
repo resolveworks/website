@@ -7,8 +7,10 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
+    "generate-related": "node tools/generate-related.mjs && vite build",
     "generate-embeddings": "node tools/generate-embeddings.mjs && vite build",
     "generate-og": "node tools/generate-og.mjs && vite build",
+    "generate": "pnpm generate-related && pnpm generate-embeddings && pnpm generate-og",
     "preview": "vite preview"
   },
   "devDependencies": {
