@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
   <title>Resolve.</title>
   <link>https://resolve.works/</link>
@@ -11,6 +11,8 @@
     <link>https://resolve.works/articles/everything-in-its-place/</link>
     <guid>https://resolve.works/articles/everything-in-its-place/</guid>
     <description>After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.</description>
+    <enclosure url="https://resolve.works/og/articles/everything-in-its-place.png" length="118619" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/everything-in-its-place.png" fileSize="118619" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Wed, 26 Aug 2026 08:58:48 GMT</pubDate>
   </item>
   <item>
@@ -18,6 +20,8 @@
     <link>https://resolve.works/articles/pi-is-a-really-nice-agent/</link>
     <guid>https://resolve.works/articles/pi-is-a-really-nice-agent/</guid>
     <description>Pi starts with a small core and lets you build the rest yourself. The result is an agent environment that works the way I think.</description>
+    <enclosure url="https://resolve.works/og/articles/pi-is-a-really-nice-agent.png" length="291574" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/pi-is-a-really-nice-agent.png" fileSize="291574" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Thu, 30 Jul 2026 19:06:28 GMT</pubDate>
   </item>
   <item>
@@ -25,6 +29,8 @@
     <link>https://resolve.works/articles/the-tool-is-not-the-author/</link>
     <guid>https://resolve.works/articles/the-tool-is-not-the-author/</guid>
     <description>Authorship has always been about direction and selection, not manual execution of every detail.</description>
+    <enclosure url="https://resolve.works/og/articles/the-tool-is-not-the-author.png" length="144548" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/the-tool-is-not-the-author.png" fileSize="144548" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Fri, 10 Apr 2026 15:42:11 GMT</pubDate>
   </item>
   <item>
@@ -32,6 +38,8 @@
     <link>https://resolve.works/articles/ai-agents-are-human-too/</link>
     <guid>https://resolve.works/articles/ai-agents-are-human-too/</guid>
     <description>More and more often, my agent can't fetch the pages I send it to read. The blocking is economic, not technical — and it doesn't even work.</description>
+    <enclosure url="https://resolve.works/og/articles/ai-agents-are-human-too.png" length="166930" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/ai-agents-are-human-too.png" fileSize="166930" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Sat, 06 Dec 2025 01:17:21 GMT</pubDate>
   </item>
 </channel>
