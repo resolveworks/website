@@ -1,6 +1,6 @@
 ---
 title: "Articles - Resolve."
-description: "Essays on LLMs, data and the open web — notes from software engineering for journalism, accountability and open data."
+description: "Essays on tools, data and the open web — notes from an independent software and data engineering practice."
 ---
 
 # Articles

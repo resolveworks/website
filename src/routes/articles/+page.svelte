@@ -11,7 +11,7 @@
 
   // Meta/JSON-LD snippet; the visible hero intro stays editorial.
   const description =
-    'Essays on LLMs, data and the open web — notes from software engineering for journalism, accountability and open data.';
+    'Essays on tools, data and the open web — notes from an independent software and data engineering practice.';
 
   const articlesLd = $derived({
     '@context': 'https://schema.org',

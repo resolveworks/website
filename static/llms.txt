@@ -9,7 +9,7 @@ Contact: johan@resolve.works, +31 651 952 461.
 ## Pages
 
 - [Homepage](https://resolve.works/): Services, way of working, current work, selected experience and FAQ
-- [Articles](https://resolve.works/articles/): Essays on LLMs, data and the open web
+- [Articles](https://resolve.works/articles/): Essays on tools, data and the open web
 
 ## Articles
 
