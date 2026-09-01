@@ -4,7 +4,7 @@
  *
  * Distils each article route's +page.md frontmatter into
  * src/lib/data/articles.json — slug, title, intro, date (plus optional
- * description/modified) — sorted newest first. The listing pages (the
+ * description) — sorted newest first. The listing pages (the
  * articles page, the homepage's latest-articles column) and the (posts)
  * layout read this manifest instead of globbing the route files: route
  * group directories like `(posts)` and files like `+page.md` are made of
@@ -18,31 +18,16 @@
  */
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import { splitFrontmatter } from './lib/frontmatter.mjs';
 
 const ARTICLES_DIR = 'src/routes/articles/(posts)';
 const INDEX_PATH = 'src/lib/data/articles.json';
-
-// Quoted-string values, the only shape article frontmatter uses — same
-// parser contract as generate-related.mjs's splitFrontmatter.
-function parseFrontmatter(markdown) {
-  const lines = markdown.split('\n');
-  const end = lines.findIndex((line, i) => i > 0 && line.trim() === '---');
-  if (lines[0]?.trim() !== '---' || end === -1) {
-    throw new Error('missing or unterminated frontmatter');
-  }
-  const meta = {};
-  for (const line of lines.slice(1, end)) {
-    const match = line.match(/^(\w+):\s*"(.*)"$/);
-    if (match) meta[match[1]] = match[2];
-  }
-  return meta;
-}
 
 const articles = readdirSync(ARTICLES_DIR, { withFileTypes: true })
   .filter((entry) => entry.isDirectory())
   .map((entry) => {
     const path = join(ARTICLES_DIR, entry.name, '+page.md');
-    const article = { slug: entry.name, ...parseFrontmatter(readFileSync(path, 'utf8')) };
+    const article = { slug: entry.name, ...splitFrontmatter(readFileSync(path, 'utf8'), path).meta };
     for (const field of ['slug', 'title', 'intro', 'date']) {
       if (!article[field]) throw new Error(`${path}: missing "${field}"`);
     }

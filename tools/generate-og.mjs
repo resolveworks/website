@@ -13,7 +13,8 @@
  *
  * Cards are content-derived (via the embeddings) and committed, so the site
  * build itself rasterizes nothing. Run after `pnpm generate-embeddings`;
- * this npm script then rebuilds so build/ picks up the fresh PNGs:
+ * the fresh PNGs land in build/ on the next `pnpm build` (or the one at the
+ * end of `pnpm generate`):
  *
  *     pnpm generate-og
  */

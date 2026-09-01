@@ -18,7 +18,6 @@
     ogImageHeight = 630,
     ogImageAlt = "Resolve. wordmark over a scatter plot of the site's content embeddings",
     publishedTime = null,
-    modifiedTime = null,
     twitterCard = null
   } = $props();
 
@@ -44,6 +43,7 @@
   {/if}
   <link rel="canonical" href={canonical} />
   <link rel="alternate" type="text/markdown" href={`${canonical}index.md`} title="Markdown version" />
+  <link rel="alternate" type="application/rss+xml" href={`${SITE_URL}/rss.xml`} title="Resolve. articles" />
   <link rel="describedby" href={`${SITE_URL}/llms.txt`} />
   <meta property="og:type" content={ogType} />
   <meta property="og:url" content={canonical} />
@@ -57,9 +57,6 @@
   {/if}
   {#if publishedTime}
     <meta property="article:published_time" content={publishedTime} />
-  {/if}
-  {#if modifiedTime}
-    <meta property="article:modified_time" content={modifiedTime} />
   {/if}
   {#if description}
     <meta property="og:description" content={description} />

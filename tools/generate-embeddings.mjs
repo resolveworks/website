@@ -19,10 +19,10 @@
  * model + sentence hash, shared with generate-related.mjs) so re-tuning
  * UMAP/edges skips the model run.
  *
- * Run after `pnpm build` (the npm script also rebuilds, so build/ picks up
- * the fresh JSON):
+ * Run after `pnpm build`; the fresh JSON lands in build/ on the next
+ * `pnpm build` (or the one at the end of `pnpm generate`):
  *
- *     pnpm build && pnpm generate-embeddings
+ *     pnpm build && pnpm generate-embeddings && pnpm build
  */
 import { createHash } from 'node:crypto';
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';

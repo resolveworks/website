@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Resolve.</title>
+  <link>https://resolve.works/</link>
+  <description>Software and data engineering for journalism, accountability and open-data teams: LLM pipelines, verification interfaces and search infrastructure.</description>
+  <language>en</language>
+  <atom:link href="https://resolve.works/rss.xml" rel="self" type="application/rss+xml" />
+  <item>
+    <title>Everything in its place</title>
+    <link>https://resolve.works/articles/everything-in-its-place/</link>
+    <guid>https://resolve.works/articles/everything-in-its-place/</guid>
+    <description>After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.</description>
+    <pubDate>Wed, 26 Aug 2026 08:58:48 GMT</pubDate>
+  </item>
+  <item>
+    <title>Pi is a really nice agent</title>
+    <link>https://resolve.works/articles/pi-is-a-really-nice-agent/</link>
+    <guid>https://resolve.works/articles/pi-is-a-really-nice-agent/</guid>
+    <description>Pi starts with a small core and lets you build the rest yourself. The result is an agent environment that works the way I think.</description>
+    <pubDate>Thu, 30 Jul 2026 19:06:28 GMT</pubDate>
+  </item>
+  <item>
+    <title>The tool is not the author</title>
+    <link>https://resolve.works/articles/the-tool-is-not-the-author/</link>
+    <guid>https://resolve.works/articles/the-tool-is-not-the-author/</guid>
+    <description>Authorship has always been about direction and selection, not manual execution of every detail.</description>
+    <pubDate>Fri, 10 Apr 2026 15:42:11 GMT</pubDate>
+  </item>
+  <item>
+    <title>AI agents are human too</title>
+    <link>https://resolve.works/articles/ai-agents-are-human-too/</link>
+    <guid>https://resolve.works/articles/ai-agents-are-human-too/</guid>
+    <description>The monetization models on the web rely not on the content itself, but on the ecosystem surrounding it: the ads, recommendations, and engagement features that capture attention alongside the actual information.</description>
+    <pubDate>Sat, 06 Dec 2025 01:17:21 GMT</pubDate>
+  </item>
+</channel>
+</rss>

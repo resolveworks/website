@@ -92,12 +92,10 @@ function frontmatter(root, pagePath) {
   }
   const quote = (value) => `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
   const lines = [`title: ${quote(title)}`, `description: ${quote(description)}`];
-  // Article pages declare these via the Seo component; keep the served
-  // markdown's dates machine-readable rather than only rendered in the hero.
+  // Article pages declare this via the Seo component; keep the served
+  // markdown's date machine-readable rather than only rendered in the hero.
   const published = root.querySelector('meta[property="article:published_time"]')?.getAttribute('content');
-  const modified = root.querySelector('meta[property="article:modified_time"]')?.getAttribute('content');
   if (published) lines.push(`date: ${quote(published)}`);
-  if (modified && modified !== published) lines.push(`modified: ${quote(modified)}`);
   return `---\n${lines.join('\n')}\n---\n\n`;
 }
 

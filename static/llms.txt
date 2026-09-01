@@ -28,6 +28,7 @@ Contact: johan@resolve.works, +31 651 952 461.
 
 ## Optional
 
+- [RSS feed](https://resolve.works/rss.xml): New articles as they are published
 - [LinkedIn](https://www.linkedin.com/in/johanschuijt/): Johan Schuijt's profile
 - [GitHub](https://github.com/monneyboi/): Johan Schuijt's code
 - [Estonian business register](https://ariregister.rik.ee/eng/company/17154517/RESOLVE-SERVICES-OÜ): Resolve Services OÜ registration
