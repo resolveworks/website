@@ -57,6 +57,10 @@ const SKIP_TAGS = new Set(['script', 'style', 'nav', 'header', 'footer', 'aside'
 // over ~0-0.8, Qwen3 compresses them into ~0.2-0.75).
 const EDGE_FRACTION = 0.015;
 
+// UMAP neighbor count, clamped to one below the page's sentence count
+// (asserted in main: UMAP needs at least two points).
+const N_NEIGHBORS = 15;
+
 // Extract text chunks from HTML, respecting block structure.
 function extractChunks(root) {
   const chunks = [];
@@ -101,12 +105,11 @@ function mulberry32(seed) {
 }
 
 // Reduce embeddings to 3D with UMAP, normalized to 0-1 per dimension.
-function reduceTo3D(vectors, { nNeighbors = 15, minDist = 0.1 } = {}) {
-  if (vectors.length < 2) return [[0.5, 0.5, 0.5]];
+function reduceTo3D(vectors) {
   const umap = new UMAP({
     nComponents: 3,
-    nNeighbors: Math.min(nNeighbors, vectors.length - 1),
-    minDist,
+    nNeighbors: Math.min(N_NEIGHBORS, vectors.length - 1),
+    minDist: 0.1,
     random: mulberry32(42)
   });
   const coords = umap.fit(vectors);
@@ -123,7 +126,7 @@ function reduceTo3D(vectors, { nNeighbors = 15, minDist = 0.1 } = {}) {
 
 // Keep the strongest `fraction` of pairs as edges, normalized to a 0-1
 // strength for rendering. Deterministic: ties broken by node indices.
-function computeEdges(vectors, { fraction = EDGE_FRACTION } = {}) {
+function computeEdges(vectors) {
   const pairs = [];
   for (let i = 0; i < vectors.length; i++) {
     for (let j = i + 1; j < vectors.length; j++) {
@@ -133,10 +136,12 @@ function computeEdges(vectors, { fraction = EDGE_FRACTION } = {}) {
   pairs.sort(
     (a, b) => b.similarity - a.similarity || a.source - b.source || a.target - b.target
   );
-  const edges = pairs.slice(0, Math.round(pairs.length * fraction));
-  const max = edges[0]?.similarity ?? 0;
-  const min = edges[edges.length - 1]?.similarity ?? max;
+  const edges = pairs.slice(0, Math.round(pairs.length * EDGE_FRACTION));
+  const max = edges[0].similarity;
+  const min = edges[edges.length - 1].similarity;
   return edges.map(({ source, target, similarity }) => ({
+    // All-identical similarities (e.g. duplicated sentences) would divide
+    // by zero; strength is uniformly maximal then.
     source,
     target,
     strength: max > min ? (similarity - min) / (max - min) : 1
@@ -162,7 +167,6 @@ function contentHue(vectors) {
 }
 
 function visualizationData(sentences, vectors) {
-  if (sentences.length === 0) return { nodes: [], edges: [], hue: 0 };
   const coords = reduceTo3D(vectors);
   return {
     nodes: sentences.map((text, i) => ({
@@ -171,7 +175,7 @@ function visualizationData(sentences, vectors) {
       y: coords[i][1],
       z: coords[i][2],
       text,
-      position: i / Math.max(sentences.length - 1, 1)
+      position: i / (sentences.length - 1)
     })),
     edges: computeEdges(vectors),
     hue: contentHue(vectors)
@@ -212,6 +216,9 @@ async function main() {
   const result = {};
   for (const { key, path } of pages) {
     const sentences = htmlToSentences(readFileSync(path, 'utf8'));
+    if (sentences.length < 2) {
+      throw new Error(`${key}: only ${sentences.length} sentences — need at least 2`);
+    }
     const vectors = await embedTexts(extractor, sentences, cache);
     result[key] = visualizationData(sentences, vectors);
     console.error(

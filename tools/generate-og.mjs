@@ -114,7 +114,7 @@ function scatterShapes(data, zoom) {
   const shapes = data.edges.map((e) => {
     const s = byId.get(e.source);
     const t = byId.get(e.target);
-    return `<line x1="${num(g.x(s.x))}" y1="${num(g.y(s.y))}" x2="${num(g.x(t.x))}" y2="${num(g.y(t.y))}" stroke="${EDGE}" stroke-opacity="${num(0.35 + 0.65 * (e.strength ?? 1))}" stroke-width="${num(stroke)}"/>`;
+    return `<line x1="${num(g.x(s.x))}" y1="${num(g.y(s.y))}" x2="${num(g.x(t.x))}" y2="${num(g.y(t.y))}" stroke="${EDGE}" stroke-opacity="${num(0.35 + 0.65 * e.strength)}" stroke-width="${num(stroke)}"/>`;
   });
   for (const n of [...data.nodes].sort((a, b) => a.z - b.z)) {
     shapes.push(

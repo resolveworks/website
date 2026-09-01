@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -24,6 +23,7 @@
     "mdsvex": "^0.12.7",
     "node-html-parser": "^9.0.0",
     "svelte": "^5.56.6",
+    "turndown": "^7.2.4",
     "umap-js": "^1.4.0",
     "vite": "^8.1.5"
   },

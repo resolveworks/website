@@ -1,148 +1,106 @@
 #!/usr/bin/env node
 /**
  * Generates Markdown siblings for prerendered pages. Article sources are
- * copied verbatim; other pages are converted from HTML.
+ * copied verbatim; other pages are converted from HTML with turndown.
  */
 import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, sep } from 'node:path';
 import { parseArgs } from 'node:util';
+import TurndownService from 'turndown';
 import { parse } from 'node-html-parser';
 
 const SITE_URL = 'https://resolve.works';
 
 const ARTICLES_SRC = join('src', 'routes', 'articles', '(posts)');
 
-// The page hero is in header, so unlike the embedding generator we keep it.
-const SKIP_TAGS = new Set(['script', 'style', 'nav', 'footer', 'aside', 'head', 'svg']);
+// One converter per page: the URL rule needs to know the page's own path.
+// Inside main only JSON-LD script blocks are non-content; the hero header
+// stays, unlike the embedding generator's skips.
+function converter(pagePath) {
+  const td = new TurndownService({
+    headingStyle: 'atx',
+    codeBlockStyle: 'fenced',
+    emDelimiter: '*',
+    bulletListMarker: '-'
+  });
+  td.remove(['script']);
+  // Array filters match tag names only, so the function gets its own call.
+  // Decorative glyphs (link arrows) are marked aria-hidden.
+  td.remove((node) => node.getAttribute('aria-hidden') === 'true');
 
-function inline(node, pagePath) {
-  if (node.nodeType === 3) return node.text; // .text decodes entities
-  if (node.nodeType !== 1) return '';
-  const tag = node.tagName?.toLowerCase();
-  if (!tag || SKIP_TAGS.has(tag)) return '';
-  if (node.getAttribute('aria-hidden') === 'true') return '';
-  const inner = node.childNodes.map((child) => inline(child, pagePath)).join('');
-  switch (tag) {
-    case 'a': {
-      const label = inner.trim();
-      const href = absoluteUrl(node.getAttribute('href'), pagePath);
-      return label && href ? `[${label}](${href})` : label;
+  td.addRule('absoluteUrls', {
+    filter: (node) => node.nodeName === 'A' || node.nodeName === 'IMG',
+    replacement: (content, node) => {
+      const isLink = node.nodeName === 'A';
+      const href = node.getAttribute(isLink ? 'href' : 'src');
+      if (!href) return content;
+      const url = href.startsWith('/')
+        ? SITE_URL + href
+        : href.startsWith('#')
+          ? SITE_URL + pagePath + href
+          : href;
+      return isLink ? `[${content.trim()}](${url})` : `![${node.getAttribute('alt') ?? ''}](${url})`;
     }
-    case 'b':
-    case 'strong':
-      return `**${inner.trim()}**`;
-    case 'i':
-    case 'em':
-      return `*${inner.trim()}*`;
-    case 'code':
-      return `\`${inner.trim()}\``;
-    case 'img':
-      return `![${node.getAttribute('alt') ?? ''}](${absoluteUrl(node.getAttribute('src'), pagePath)})`;
-    default:
-      return inner;
-  }
-}
+  });
 
-function absoluteUrl(href, pagePath) {
-  if (!href) return null;
-  if (href.startsWith('/')) return SITE_URL + href;
-  if (href.startsWith('#')) return SITE_URL + pagePath + href;
-  return href;
-}
+  // Card titles are headings inside li — bold them instead of emitting
+  // headings mid-list.
+  td.addRule('headingInListItem', {
+    filter: (node) => {
+      if (!/^H[1-6]$/.test(node.nodeName)) return false;
+      for (let p = node.parentNode; p && p.nodeName !== '#document'; p = p.parentNode) {
+        if (p.nodeName === 'LI') return true;
+      }
+      return false;
+    },
+    replacement: (content) => `**${content.trim()}**`
+  });
 
-function text(node, pagePath) {
-  return inline(node, pagePath).replace(/\s+/g, ' ').trim();
-}
-
-function blocks(node, pagePath) {
-  const out = [];
-  for (const child of node.childNodes) {
-    if (child.nodeType === 3) {
-      const stray = child.text.trim();
-      if (stray) out.push(stray);
-      continue;
+  // turndown has no dl support: emit "- **term** — definition" lines.
+  td.addRule('definitionList', {
+    filter: ['dl'],
+    replacement: (_content, node) => {
+      const items = [];
+      for (const child of node.childNodes) {
+        const tag = child.nodeName?.toLowerCase();
+        if (tag === 'dt') items.push(`- **${td.turndown(child).trim()}**`);
+        else if (tag === 'dd' && items.length) {
+          items[items.length - 1] += ` — ${td.turndown(child).trim().replace(/\n+/g, ' ')}`;
+        }
+      }
+      return `\n\n${items.join('\n')}\n\n`;
     }
-    if (child.nodeType !== 1) continue;
-    const tag = child.tagName?.toLowerCase();
-    if (!tag || SKIP_TAGS.has(tag)) continue;
-    const heading = tag.match(/^h([1-6])$/);
-    if (heading) {
-      out.push(`${'#'.repeat(Number(heading[1]))} ${text(child, pagePath)}`);
-    } else if (tag === 'p' || tag === 'blockquote') {
-      const content = text(child, pagePath);
-      if (content) out.push(tag === 'blockquote' ? `> ${content}` : content);
-    } else if (tag === 'ul' || tag === 'ol') {
-      out.push(list(child, pagePath, tag === 'ol'));
-    } else if (tag === 'dl') {
-      out.push(definitionList(child, pagePath));
-    } else if (tag === 'details') {
-      out.push(details(child, pagePath));
-    } else if (tag === 'hr') {
-      out.push('---');
-    } else {
-      const inner = blocks(child, pagePath);
-      if (inner) out.push(inner);
-    }
-  }
-  return out.filter(Boolean).join('\n\n');
+  });
+
+  // FAQ questions; turndown treats summary as inline, so force separation
+  // between question and answer paragraphs.
+  td.addRule('summary', {
+    filter: ['summary'],
+    replacement: (content) => `\n\n**${content.trim()}**\n\n`
+  });
+
+  return td;
 }
 
-function list(node, pagePath, ordered) {
-  const renderItem = (child) => {
-    if (child.nodeType === 3) return child.text.trim();
-    const tag = child.tagName?.toLowerCase();
-    if (!tag || SKIP_TAGS.has(tag)) return '';
-    if (tag.match(/^h[1-6]$/)) return `**${text(child, pagePath)}**`;
-    if (tag === 'ul' || tag === 'ol') return list(child, pagePath, tag === 'ol');
-    if (tag === 'p' || tag === 'time') return text(child, pagePath);
-    return child.childNodes.map(renderItem).filter(Boolean).join('\n');
-  };
-  return node.childNodes
-    .filter((child) => child.tagName?.toLowerCase() === 'li')
-    .map((li, i) => {
-      const item = li.childNodes.map(renderItem).filter(Boolean).join('\n');
-      const prefix = ordered ? `${i + 1}. ` : '- ';
-      return prefix + item.replaceAll('\n', '\n  ');
-    })
-    .filter((item) => item.trim().length > (ordered ? 3 : 2))
-    .join('\n');
-}
-
-function definitionList(node, pagePath) {
-  const items = [];
-  for (const child of node.childNodes) {
-    const tag = child.tagName?.toLowerCase();
-    if (tag === 'dt') {
-      items.push(`- **${text(child, pagePath)}**`);
-    } else if (tag === 'dd' && items.length) {
-      items[items.length - 1] += ` — ${text(child, pagePath)}`;
-    }
-  }
-  return items.join('\n');
-}
-
-function details(node, pagePath) {
-  const summary = node.childNodes.find((child) => child.tagName?.toLowerCase() === 'summary');
-  const answer = blocks(
-    { childNodes: node.childNodes.filter((child) => child !== summary) },
-    pagePath
-  );
-  return [`**${text(summary, pagePath)}**`, answer].filter(Boolean).join('\n\n');
-}
-
-function frontmatter(root) {
+function frontmatter(root, pagePath) {
   const title = root.querySelector('title')?.text.trim();
   const description = root.querySelector('meta[name="description"]')?.getAttribute('content');
-  const quote = (value) => `"${value.replace(/"/g, '\\"')}"`;
-  const fields = [title && `title: ${quote(title)}`, description && `description: ${quote(description)}`]
-    .filter(Boolean);
-  return fields.length ? `---\n${fields.join('\n')}\n---\n\n` : '';
+  if (!title || !description) {
+    throw new Error(`${pagePath}: missing <title> or meta description — required on every page`);
+  }
+  const quote = (value) => `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
+  return `---\ntitle: ${quote(title)}\ndescription: ${quote(description)}\n---\n\n`;
 }
 
 function convertPage(html, pagePath) {
   const root = parse(html);
-  const body = root.querySelector('main') ?? root.querySelector('body') ?? root;
-  return frontmatter(root) + blocks(body, pagePath) + '\n';
+  const main = root.querySelector('main');
+  if (!main) throw new Error(`${pagePath}: no <main> element to convert`);
+  const markdown = converter(pagePath)
+    .turndown(main.outerHTML)
+    .replace(/^[ \t]+$/gm, '') // indent-only lines from list continuation
+    .replace(/\n{3,}/g, '\n\n');
+  return frontmatter(root, pagePath) + markdown.trim() + '\n';
 }
 
 function discoverPages(inputDir) {
@@ -174,12 +132,14 @@ async function main() {
   for (const { key, path } of pages) {
     const pagePath = `/${key ? key + '/' : ''}`;
     const target = join(values.output, key, 'index.md');
-
-    const source = key.startsWith('articles/')
-      ? join(ARTICLES_SRC, key.slice('articles/'.length), '+page.md')
-      : null;
     mkdirSync(dirname(target), { recursive: true });
-    if (source && existsSync(source)) {
+
+    if (key.startsWith('articles/')) {
+      // Article siblings are copied verbatim, never converted.
+      const source = join(ARTICLES_SRC, key.slice('articles/'.length), '+page.md');
+      if (!existsSync(source)) {
+        throw new Error(`${pagePath}: no article source at ${source}`);
+      }
       cpSync(source, target);
       console.error(`${pagePath}: copied ${source}`);
     } else {

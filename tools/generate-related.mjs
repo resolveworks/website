@@ -52,11 +52,12 @@ const RELATED_PATH = 'src/lib/data/related.json';
 
 // Split a file into its YAML frontmatter (title/intro/... — quoted-string
 // values, the only shape the article frontmatter uses) and the body.
-function splitFrontmatter(markdown) {
+function splitFrontmatter(markdown, slug) {
   const lines = markdown.split('\n');
-  if (lines[0]?.trim() !== '---') return { meta: {}, body: markdown };
   const end = lines.findIndex((line, i) => i > 0 && line.trim() === '---');
-  if (end === -1) return { meta: {}, body: markdown };
+  if (lines[0]?.trim() !== '---' || end === -1) {
+    throw new Error(`${slug}: missing or unterminated frontmatter`);
+  }
   const meta = {};
   for (const line of lines.slice(1, end)) {
     const field = line.match(/^(\w+):\s*"((?:[^"\\]|\\.)*)"\s*$/);
@@ -147,13 +148,15 @@ async function main() {
   for (const file of files) {
     const slug = file;
     const { meta, body } = splitFrontmatter(
-      readFileSync(join(values.input, file, '+page.md'), 'utf8')
+      readFileSync(join(values.input, file, '+page.md'), 'utf8'),
+      file
     );
+    for (const field of ['title', 'intro']) {
+      if (!meta[field]) throw new Error(`${file}: missing "${field}"`);
+    }
     // The rendered page shows the title (h1) and intro (hero tagline)
     // alongside the body; embed the article as that whole text.
-    const text = [meta.title, meta.intro, markdownToText(body)]
-      .filter(Boolean)
-      .join(' ');
+    const text = [meta.title, meta.intro, markdownToText(body)].join(' ');
     const [vector] = await embedTexts(extractor, [text], cache);
     vectorsBySlug.set(slug, vector);
     console.error(`${slug}: ${text.length} chars`);

@@ -13,36 +13,55 @@ I take on the part that isn't: hard software and data problems for organizations
 
 Every engagement starts with the best plan we can make — and the near-certainty that real data will punch holes in it. What stays fixed is how I work: in the open, in small pieces, with you close enough to steer.
 
-- **Demos, not decks.**
-  You judge **working software** running against your data, early enough that changing course is still cheap.
-- **Dead ends included.**
-  I write down **what didn't work** and why. Read the [PoliLoom devlog](https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121) to see what that looks like.
-- **You keep the keys.**
-  **Code, documentation, and a team** that understands what's running. Built to hand over, not to be needed.
+-   **Demos, not decks.**
+
+    You judge **working software** running against your data, early enough that changing course is still cheap.
+
+-   **Dead ends included.**
+
+    I write down **what didn't work** and why. Read the [PoliLoom devlog](https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121) to see what that looks like.
+
+-   **You keep the keys.**
+
+    **Code, documentation, and a team** that understands what's running. Built to hand over, not to be needed.
 
 ## What I do
 
 Fifteen years of production work keeps circling back to the same set of capabilities:
 
-- **LLM extraction & search**
-  Structured facts from unstructured documents, and agents that do the research. Underneath both is hybrid search, reconciling records across sources and languages over millions of entities.
-- **Interfaces for working with data**
-  Review screens, research tools, search frontends: interfaces where people judge, correct and explore. Built for people whose work depends on the data being right.
-- **The full stack**
-  Database, pipelines, API, the interface people work with, and the servers it runs on—auth, backups, deploys and monitoring included. One person, end to end.
-- **Stay up to date**
-  New models, tools and techniques, evaluated against real problems and adopted when they earn it. Right now that means coding agents and LLM tooling; next year it will mean something else.
+-   **LLM extraction & search**
+
+    Structured facts from unstructured documents, and agents that do the research. Underneath both is hybrid search, reconciling records across sources and languages over millions of entities.
+
+-   **Interfaces for working with data**
+
+    Review screens, research tools, search frontends: interfaces where people judge, correct and explore. Built for people whose work depends on the data being right.
+
+-   **The full stack**
+
+    Database, pipelines, API, the interface people work with, and the servers it runs on—auth, backups, deploys and monitoring included. One person, end to end.
+
+-   **Stay up to date**
+
+    New models, tools and techniques, evaluated against real problems and adopted when they earn it. Right now that means coding agents and LLM tooling; next year it will mean something else.
 
 ## From roadmap to rollout
 
-1. **Find the hard part**
-  Every project has one. We go there first, with real data.
-2. **Try the smallest useful thing**
-  A prototype that does something real, within weeks.
-3. **Learn where it breaks**
-  Real users, real edge cases, honest notes.
-4. **Make it boring**
-  Tested, monitored, documented: software your team can run without me.
+1.  **Find the hard part**
+
+    Every project has one. We go there first, with real data.
+
+2.  **Try the smallest useful thing**
+
+    A prototype that does something real, within weeks.
+
+3.  **Learn where it breaks**
+
+    Real users, real edge cases, honest notes.
+
+4.  **Make it boring**
+
+    Tested, monitored, documented: software your team can run without me.
 
 ## Current work
 
@@ -50,16 +69,25 @@ Fifteen years of production work keeps circling back to the same set of capabili
 - **Client** — [OpenSanctions](https://www.opensanctions.org/)
 - **Role** — Project lead, EveryPolitician (2025–present)
 
-- **The problem**
-  Assemble and verify structured politician data from Wikipedia/Wikidata and the wider web, across languages, ensuring provenance, correctness, and scale.
-- **Solution highlights**
-  **Two-stage extraction pipeline**: LLM extracts free-text positions → hybrid search maps to existing entities → LLM reconciles.
-  **Fast hybrid search**: Meilisearch with OpenAI embeddings for combined semantic and lexical entity matching
-  **Source verification**: web sources archived as MHTML via Playwright and reviewed through a FastAPI + Next.js confirmation UI
-- **Impact**
-  **Clarity**: From unstructured source documents to structured, linkable records.
-  **Trust**: Every extracted fact links back to a specific passage in an archived snapshot of the source.
-  **Scale**: Handles Wikidata-sized inputs through an incremental, parallelized pipeline.
+-   **The problem**
+
+    Assemble and verify structured politician data from Wikipedia/Wikidata and the wider web, across languages, ensuring provenance, correctness, and scale.
+
+-   **Solution highlights**
+
+    **Two-stage extraction pipeline**: LLM extracts free-text positions → hybrid search maps to existing entities → LLM reconciles.
+
+    **Fast hybrid search**: Meilisearch with OpenAI embeddings for combined semantic and lexical entity matching
+
+    **Source verification**: web sources archived as MHTML via Playwright and reviewed through a FastAPI + Next.js confirmation UI
+
+-   **Impact**
+
+    **Clarity**: From unstructured source documents to structured, linkable records.
+
+    **Trust**: Every extracted fact links back to a specific passage in an archived snapshot of the source.
+
+    **Scale**: Handles Wikidata-sized inputs through an incremental, parallelized pipeline.
 
 LLM entity reconciliation actually works well, and with human-in-the-loop verification, it's both accurate and accountable. [Read the devlog](https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121), or the [Wikimedia Deutschland interview](https://blog.wikimedia.de/2026/07/08/everypolitician-mit-wikidata/) about the project. The [Kolkhoz & Pravda projects](https://discuss.opensanctions.org/t/kolkhoz-pravda/322) ask the next question: can the same ideas work on any page — and how do you find the pages worth reading?
 
