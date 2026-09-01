@@ -31,6 +31,10 @@ database, no CMS. Homepage is section-based; articles are markdown.
 
 ## Conventions
 
+- Comments and docs explain only what the code can't show — intent,
+  constraints, gotchas — never a restatement of what the logic already
+  makes apparent; don't mirror new code into comments or README/AGENTS.md
+  updates.
 - Site-level config — name, url, meta descriptions — lives in
   `src/lib/data/site.json`. The app consumes it via `$lib/site.js`, the
   generators via `tools/lib/site.mjs`; don't hardcode these values elsewhere.
