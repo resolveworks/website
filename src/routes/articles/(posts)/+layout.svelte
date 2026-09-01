@@ -5,7 +5,7 @@
   import JsonLd from '$lib/components/JsonLd.svelte';
   import author from '$lib/data/author.json';
   import business from '$lib/data/business.json';
-  import { SITE_URL, formatDate } from '$lib/site.js';
+  import { SITE_NAME, SITE_URL, pageTitle, formatDate } from '$lib/site.js';
 
   let { data, children } = $props();
 
@@ -34,7 +34,7 @@
     publisher: {
       '@type': 'Organization',
       '@id': `${SITE_URL}/#organization`,
-      name: business.name,
+      name: SITE_NAME,
       logo: {
         '@type': 'ImageObject',
         url: `${SITE_URL}/apple-touch-icon.png`,
@@ -46,7 +46,7 @@
 </script>
 
 <Seo
-  title={`${data.title} - Resolve.`}
+  title={pageTitle(data.title)}
   socialTitle={data.title}
   description={data.description ?? data.intro}
   ogType="article"

@@ -10,8 +10,7 @@ import { dirname, join, sep } from 'node:path';
 import { parseArgs } from 'node:util';
 import TurndownService from 'turndown';
 import { parse } from 'node-html-parser';
-
-const SITE_URL = 'https://resolve.works';
+import { site } from './lib/site.mjs';
 
 // One converter per page: the URL rule needs to know the page's own path.
 // Inside main only JSON-LD script blocks are non-content; the hero header
@@ -37,9 +36,9 @@ function converter(pagePath) {
       const href = node.getAttribute(isLink ? 'href' : 'src');
       if (!href) return content;
       const url = href.startsWith('/')
-        ? SITE_URL + href
+        ? site.url + href
         : href.startsWith('#')
-          ? SITE_URL + pagePath + href
+          ? site.url + pagePath + href
           : href;
       return isLink ? `[${content.trim()}](${url})` : `![${node.getAttribute('alt') ?? ''}](${url})`;
     }

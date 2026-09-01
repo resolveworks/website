@@ -1,12 +1,13 @@
 <script>
   import Hero from '$lib/components/Hero.svelte';
   import Seo from '$lib/components/Seo.svelte';
+  import { pageTitle } from '$lib/site.js';
 
   let { title, message, description = message } = $props();
 </script>
 
 <Seo
-  title={`${title} - Resolve.`}
+  title={pageTitle(title)}
   socialTitle={title}
   {description}
   robots="noindex, follow"

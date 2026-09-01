@@ -1,6 +1,7 @@
 <script>
   import { page } from '$app/state';
-  import { SITE_URL } from '$lib/site.js';
+  import authorData from '$lib/data/author.json';
+  import { SITE_NAME, SITE_URL, OG_IMAGE_WIDTH, OG_IMAGE_HEIGHT } from '$lib/site.js';
 
   let {
     title,
@@ -8,21 +9,21 @@
     canonical = `${SITE_URL}${page.url.pathname}`,
     socialTitle = null,
     robots = 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
-    author = 'Johan Schuijt',
+    author = authorData.name,
     ogType = 'website',
     ogImage = null,
     // All og images are the pre-generated cards in static/og/ (rendered by
     // tools/generate-og.mjs), which are always 1200x630 and contain only the
     // wordmark over the embedding scatter — hence the shared alt default.
-    ogImageWidth = 1200,
-    ogImageHeight = 630,
-    ogImageAlt = "Resolve. wordmark over a scatter plot of the site's content embeddings",
+    ogImageWidth = OG_IMAGE_WIDTH,
+    ogImageHeight = OG_IMAGE_HEIGHT,
+    ogImageAlt = `${SITE_NAME} wordmark over a scatter plot of the site's content embeddings`,
     publishedTime = null,
     twitterCard = null
   } = $props();
 
   // OG/Twitter title matches the visible page name; `title` may carry the
-  // " - Resolve." suffix, so pages pass socialTitle to override it.
+  // ` - ${SITE_NAME}` suffix (see pageTitle), so pages pass socialTitle to override it.
   const social = $derived(socialTitle ?? title);
 
   // No image tags unless a page passes a real social card; the twitter card
@@ -43,12 +44,12 @@
   {/if}
   <link rel="canonical" href={canonical} />
   <link rel="alternate" type="text/markdown" href={`${canonical}index.md`} title="Markdown version" />
-  <link rel="alternate" type="application/rss+xml" href={`${SITE_URL}/rss.xml`} title="Resolve. articles" />
+  <link rel="alternate" type="application/rss+xml" href={`${SITE_URL}/rss.xml`} title={`${SITE_NAME} articles`} />
   <link rel="describedby" href={`${SITE_URL}/llms.txt`} />
   <meta property="og:type" content={ogType} />
   <meta property="og:url" content={canonical} />
   <meta property="og:title" content={social} />
-  <meta property="og:site_name" content="Resolve." />
+  <meta property="og:site_name" content={SITE_NAME} />
   {#if ogImage}
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content={ogImageWidth} />

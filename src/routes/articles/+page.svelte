@@ -3,21 +3,17 @@
   import Hero from '$lib/components/Hero.svelte';
   import Visualization from '$lib/components/Visualization.svelte';
   import JsonLd from '$lib/components/JsonLd.svelte';
-  import { SITE_URL, formatDate } from '$lib/site.js';
+  import { SITE_NAME, SITE_URL, SITE_DESCRIPTIONS, pageTitle, formatDate } from '$lib/site.js';
 
   let { data } = $props();
 
   const articles = $derived(data.articles);
 
-  // Meta/JSON-LD snippet; the visible hero intro stays editorial.
-  const description =
-    'Essays on tools, data and the open web — notes from an independent software and data engineering practice.';
-
   const articlesLd = $derived({
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Articles',
-    description,
+    description: SITE_DESCRIPTIONS.articles,
     url: `${SITE_URL}/articles/`,
     mainEntity: {
       '@type': 'ItemList',
@@ -32,9 +28,9 @@
 </script>
 
 <Seo
-  title="Articles - Resolve."
+  title={pageTitle('Articles')}
   socialTitle="Articles"
-  {description}
+  description={SITE_DESCRIPTIONS.articles}
   author={null}
   ogImage={`${SITE_URL}/og/articles.png`}
 />

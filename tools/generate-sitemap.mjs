@@ -15,8 +15,8 @@
 import { readdirSync, writeFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { join, sep } from 'node:path';
+import { site } from './lib/site.mjs';
 
-const SITE_URL = 'https://resolve.works';
 const STATIC_DIR = 'static';
 const SITEMAP_PATH = 'static/sitemap.xml';
 
@@ -51,7 +51,7 @@ function discoverPages() {
 const urls = discoverPages().map(({ pagePath, file }) => {
   const lastmod = lastModified(file);
   console.error(`${pagePath}: lastmod ${lastmod}`);
-  return `  <url>\n    <loc>${SITE_URL}${pagePath}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`;
+  return `  <url>\n    <loc>${site.url}${pagePath}</loc>\n    <lastmod>${lastmod}</lastmod>\n  </url>`;
 });
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>

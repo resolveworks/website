@@ -1,18 +1,19 @@
 <script>
   import '$lib/styles.css';
+  import { SITE_NAME } from '$lib/site.js';
   import business from '$lib/data/business.json';
 
   let { children } = $props();
 </script>
 
 <nav>
-  <a class="site-name" href="/">Resolve.</a>
+  <a class="site-name" href="/">{SITE_NAME}</a>
 </nav>
 
 {@render children()}
 
 <footer class="section">
-  <a class="site-name" href="/">Resolve.</a>
+  <a class="site-name" href="/">{SITE_NAME}</a>
   <section>
     <div>
       {#each business.taglines as tagline}

@@ -1,7 +1,7 @@
 <script>
   import business from '$lib/data/business.json';
   import author from '$lib/data/author.json';
-  import { SITE_URL, mailtoHref } from '$lib/site.js';
+  import { SITE_NAME, SITE_URL, SITE_DESCRIPTIONS, pageTitle, mailtoHref } from '$lib/site.js';
   import Seo from '$lib/components/Seo.svelte';
   import Hero from '$lib/components/Hero.svelte';
   import Features from '$lib/components/Features.svelte';
@@ -15,9 +15,6 @@
   import { formatDate } from '$lib/site.js';
 
   let { data } = $props();
-
-  const description =
-    'Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data.';
 
   // The FAQ copy is repeated as plain text only because JSON-LD must be data rather
   // than rendered markup. The visible content below stays normal Svelte markup.
@@ -62,7 +59,7 @@
   const professionalService = {
     '@context': 'https://schema.org',
     '@type': 'ProfessionalService',
-    name: business.name,
+    name: SITE_NAME,
     description:
       'Software and data engineering for organizations doing public-interest work: LLM-assisted data pipelines with human verification, entity resolution, search infrastructure, and full product development.',
     url: `${SITE_URL}/`,
@@ -97,8 +94,8 @@
 </script>
 
 <Seo
-  title="Software & data engineering for work that matters - Resolve."
-  {description}
+  title={pageTitle('Software & data engineering for work that matters')}
+  description={SITE_DESCRIPTIONS.home}
   socialTitle="Software & data engineering for work that matters"
   ogImage={`${SITE_URL}/og/home.png`}
 />

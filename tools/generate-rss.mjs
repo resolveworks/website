@@ -10,14 +10,10 @@
  * unchanged feed.
  */
 import { readFileSync, writeFileSync } from 'node:fs';
+import { site } from './lib/site.mjs';
 
-const SITE_URL = 'https://resolve.works';
 const INDEX_PATH = 'src/lib/data/articles.json';
 const FEED_PATH = 'static/rss.xml';
-
-// Same copy as the homepage's meta description.
-const CHANNEL_DESCRIPTION =
-  'Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data.';
 
 const escape = (value) =>
   value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -25,7 +21,7 @@ const escape = (value) =>
 const articles = JSON.parse(readFileSync(INDEX_PATH, 'utf8'));
 
 const items = articles.map((article) => {
-  const url = `${SITE_URL}/articles/${article.slug}/`;
+  const url = `${site.url}/articles/${article.slug}/`;
   return `  <item>
     <title>${escape(article.title)}</title>
     <link>${url}</link>
@@ -38,11 +34,11 @@ const items = articles.map((article) => {
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-  <title>Resolve.</title>
-  <link>${SITE_URL}/</link>
-  <description>${escape(CHANNEL_DESCRIPTION)}</description>
+  <title>${site.name}</title>
+  <link>${site.url}/</link>
+  <description>${escape(site.descriptions.home)}</description>
   <language>en</language>
-  <atom:link href="${SITE_URL}/rss.xml" rel="self" type="application/rss+xml" />
+  <atom:link href="${site.url}/rss.xml" rel="self" type="application/rss+xml" />
 ${items.join('\n')}
 </channel>
 </rss>

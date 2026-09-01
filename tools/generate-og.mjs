@@ -22,6 +22,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync
 import { dirname, join, sep } from 'node:path';
 import { parseArgs } from 'node:util';
 import { Resvg } from '@resvg/resvg-js';
+import { site } from './lib/site.mjs';
 
 // The wordmark's outer <svg> root is stripped: a nested <svg> would clip the
 // glow (filter region extends well past the wordmark's viewport).
@@ -29,8 +30,7 @@ const WORDMARK = readFileSync(join(import.meta.dirname, 'wordmark.svg'), 'utf8')
   .replace(/^<svg[^>]*>/, '')
   .replace(/<\/svg>\s*$/, '');
 
-const WIDTH = 1200;
-const HEIGHT = 630;
+const { width: WIDTH, height: HEIGHT } = site.ogImage; // shared with Seo.svelte meta tags
 const LIGHT = '#fafafa'; // --color-light
 const EDGE = '#d5d5d5'; // .visualization line
 

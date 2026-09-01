@@ -30,6 +30,9 @@ database, no CMS. Homepage is section-based; articles are markdown.
 
 ## Conventions
 
+- Site-level config — name, url, meta descriptions — lives in
+  `src/lib/data/site.json`. The app consumes it via `$lib/site.js`, the
+  generators via `tools/lib/site.mjs`; don't hardcode these values elsewhere.
 - Reuse existing `styles.css` classes; scope page-specific CSS by wrapping
   the page in a classed div (`home-page`, `article-page`), not body classes.
 - Use the `Seo` component for head meta. Every page must keep full SEO

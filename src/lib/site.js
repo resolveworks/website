@@ -1,6 +1,19 @@
+import site from '$lib/data/site.json';
 import business from '$lib/data/business.json';
 
-export const SITE_URL = 'https://resolve.works';
+export const SITE_NAME = site.name;
+export const SITE_URL = site.url;
+export const SITE_DESCRIPTIONS = site.descriptions;
+
+// og cards are pre-rendered by tools/generate-og.mjs — the size must
+// match what it rasterizes, hence the shared config.
+export const OG_IMAGE_WIDTH = site.ogImage.width;
+export const OG_IMAGE_HEIGHT = site.ogImage.height;
+
+/** Full document title: page name plus the site suffix. */
+export function pageTitle(title) {
+  return `${title} - ${site.name}`;
+}
 
 /** Build a mailto: href with proper percent-encoding. */
 export function mailtoHref(subject, body) {
