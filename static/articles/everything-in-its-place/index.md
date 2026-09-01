@@ -1,15 +1,20 @@
 ---
-title: "Everything in its place"
-intro: "After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself."
+title: "Everything in its place - Resolve."
 description: "Syncthing, KeePass, Restic and GrapheneOS: how one locked-down ecosystem pushed me toward an open, self-controlled setup that syncs files and secrets across every device."
 date: "2026-08-26T08:58:48.861087+00:00"
 ---
 
-For years my documents lived in my Documents folder. Making a backup meant copying files onto an external drive, archiving them, and then putting the archive into a backup folder on the new computer. It worked, but over time I ended up with backups inside backups inside backups. I no longer had any idea what was where. 
+# Everything in its place
+
+After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.
+
+August 26, 2026
+
+For years my documents lived in my Documents folder. Making a backup meant copying files onto an external drive, archiving them, and then putting the archive into a backup folder on the new computer. It worked, but over time I ended up with backups inside backups inside backups. I no longer had any idea what was where.
 
 Passwords were a different story though, neatly managed in a password manager. And API keys lived in environment files, which is standard practice, but it left them scattered across whatever machine needed them.
 
-I'd wanted proper backups and secret management for the longest time — I was just always working on something else. I tried to tackle it before. Years ago I ran [Syncthing](https://syncthing.net/) to sync files directly between my devices, and used [KeePass](https://keepass.info/) for managing secrets. It mostly worked. But back then this setup was rough around the edges and would break in unexpected ways. 
+I'd wanted proper backups and secret management for the longest time — I was just always working on something else. I tried to tackle it before. Years ago I ran [Syncthing](https://syncthing.net/) to sync files directly between my devices, and used [KeePass](https://keepass.info/) for managing secrets. It mostly worked. But back then this setup was rough around the edges and would break in unexpected ways.
 
 So at some point I switched to a commercial solution, which felt like progress. Until eventually it didn't anymore, and I wanted out.
 

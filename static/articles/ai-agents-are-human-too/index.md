@@ -1,9 +1,14 @@
 ---
-title: "AI agents are human too"
-intro: "The monetization models on the web rely not on the content itself, but on the ecosystem surrounding it: the ads, recommendations, and engagement features that capture attention alongside the actual information."
+title: "AI agents are human too - Resolve."
 description: "AI agents are being blocked from the web they read on our behalf. The reasons are economic, not technical — and the blocking doesn't even work."
 date: "2025-12-06T01:17:21.590384+00:00"
 ---
+
+# AI agents are human too
+
+The monetization models on the web rely not on the content itself, but on the ecosystem surrounding it: the ads, recommendations, and engagement features that capture attention alongside the actual information.
+
+December 6, 2025
 
 The way we access information online is changing. Sure you can use a web browser and search engines, but if you're like me, you're probably using AI agents to research everything. Having the model automatically fill its context with content from the web is great, however, more and more often it can't. Increasingly, the model is unable to fetch web pages. Why is this happening?
 
@@ -33,7 +38,7 @@ However, I would argue that if we want to keep the web open, while also facilita
 
 What everyone seems to be forgetting, is that there are actual humans behind most "automated" access. When someone uses an AI agent to research a topic, they're not "a bot", they're a person using a sophisticated tool to navigate information.
 
-Which is actually the realization of Tim Berners-Lee's vision for the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web): a web that can be processed by machines, to help humans navigate the information more effectively. We are witnessing exactly that, just not through [RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework) and [ontologies](<https://en.wikipedia.org/wiki/Ontology_(information_science)>), but through the capabilities of language models to parse unstructured content.
+Which is actually the realization of Tim Berners-Lee's vision for the [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web): a web that can be processed by machines, to help humans navigate the information more effectively. We are witnessing exactly that, just not through [RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework) and [ontologies](https://en.wikipedia.org/wiki/Ontology_(information_science)), but through the capabilities of language models to parse unstructured content.
 
 ## So, what now?
 

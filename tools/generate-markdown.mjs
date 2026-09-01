@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 /**
- * Generates Markdown siblings for prerendered pages. Article sources are
- * copied verbatim; other pages are converted from HTML with turndown.
+ * Generates Markdown siblings for prerendered pages. Every page — articles
+ * included — is converted from its built HTML with turndown: the build is
+ * the single source of truth, and the markdown is a derived artifact, the
+ * same way generate-embeddings.mjs measures the built pages.
  */
-import { cpSync, existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, join, sep } from 'node:path';
 import { parseArgs } from 'node:util';
 import TurndownService from 'turndown';
@@ -11,11 +13,11 @@ import { parse } from 'node-html-parser';
 
 const SITE_URL = 'https://resolve.works';
 
-const ARTICLES_SRC = join('src', 'routes', 'articles', '(posts)');
-
 // One converter per page: the URL rule needs to know the page's own path.
 // Inside main only JSON-LD script blocks are non-content; the hero header
-// stays, unlike the embedding generator's skips.
+// stays, unlike the embedding generator's skips. Asides go: on article
+// pages they hold the baked related-articles list and the author block —
+// boilerplate, not page content (the embedding generator skips them too).
 function converter(pagePath) {
   const td = new TurndownService({
     headingStyle: 'atx',
@@ -23,7 +25,7 @@ function converter(pagePath) {
     emDelimiter: '*',
     bulletListMarker: '-'
   });
-  td.remove(['script']);
+  td.remove(['script', 'aside']);
   // Array filters match tag names only, so the function gets its own call.
   // Decorative glyphs (link arrows) are marked aria-hidden.
   td.remove((node) => node.getAttribute('aria-hidden') === 'true');
@@ -89,7 +91,14 @@ function frontmatter(root, pagePath) {
     throw new Error(`${pagePath}: missing <title> or meta description — required on every page`);
   }
   const quote = (value) => `"${value.replace(/\\/g, '\\\\').replace(/"/g, '\\"')}"`;
-  return `---\ntitle: ${quote(title)}\ndescription: ${quote(description)}\n---\n\n`;
+  const lines = [`title: ${quote(title)}`, `description: ${quote(description)}`];
+  // Article pages declare these via the Seo component; keep the served
+  // markdown's dates machine-readable rather than only rendered in the hero.
+  const published = root.querySelector('meta[property="article:published_time"]')?.getAttribute('content');
+  const modified = root.querySelector('meta[property="article:modified_time"]')?.getAttribute('content');
+  if (published) lines.push(`date: ${quote(published)}`);
+  if (modified && modified !== published) lines.push(`modified: ${quote(modified)}`);
+  return `---\n${lines.join('\n')}\n---\n\n`;
 }
 
 function convertPage(html, pagePath) {
@@ -134,18 +143,8 @@ async function main() {
     const target = join(values.output, key, 'index.md');
     mkdirSync(dirname(target), { recursive: true });
 
-    if (key.startsWith('articles/')) {
-      // Article siblings are copied verbatim, never converted.
-      const source = join(ARTICLES_SRC, key.slice('articles/'.length), '+page.md');
-      if (!existsSync(source)) {
-        throw new Error(`${pagePath}: no article source at ${source}`);
-      }
-      cpSync(source, target);
-      console.error(`${pagePath}: copied ${source}`);
-    } else {
-      writeFileSync(target, convertPage(readFileSync(path, 'utf8'), pagePath));
-      console.error(`${pagePath}: converted ${path}`);
-    }
+    writeFileSync(target, convertPage(readFileSync(path, 'utf8'), pagePath));
+    console.error(`${pagePath}: converted ${path}`);
   }
 }
 
