@@ -151,8 +151,6 @@ During prototyping I'll share work frequently and need feedback. Once we're buil
 
 It depends entirely on the problem. A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what works.
 
-Rather than give you made-up estimates, I'd point you to the [PoliLoom devlog](https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121)—it shows how a real project unfolded, including the dead ends and course corrections.
-
 What I can promise: I ship early and often. You'll see working pieces within the first few weeks, not a big reveal after months of silence.
 
 **Who owns the code?**

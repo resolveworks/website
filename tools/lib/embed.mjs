@@ -74,10 +74,22 @@ export async function embedTexts(extractor, texts, cache) {
   return vectors;
 }
 
-// Naive sentence split: terminal punctuation followed by whitespace. Chunks
-// without punctuation (headings, list items) stay whole.
+// Sentence segmentation: the platform's Intl.Segmenter (UAX #29 sentence
+// break rules with ICU locale data) — the standard solution, not a
+// hand-rolled punctuation regex. The rules keep dotted tokens whole
+// (github.com, robots.txt, Next.js), handle abbreviations, and don't lose
+// chunks ending in ?" or !" — the regex predecessor silently dropped text
+// before any mid-token period and lost chunks ending in a closing quote.
+// Known limit: "v." before a name (X v. Y case citations) still splits; the
+// abbreviation isn't in ICU's suppression data. Whitespace is collapsed
+// first because UAX #29 counts line feeds as sentence separators —
+// source-wrapped page text would otherwise break mid-sentence.
+const segmenter = new Intl.Segmenter('en', { granularity: 'sentence' });
+
 export function splitSentences(text) {
-  return text.replace(/\s+/g, ' ').match(/[^.!?]+[.!?]+(?=\s|$)|[^.!?]+$/g) ?? [];
+  return [...segmenter.segment(text.replace(/\s+/g, ' '))]
+    .map(({ segment }) => segment.trim())
+    .filter((sentence) => sentence.length > 0);
 }
 
 // Text blocks (paragraphs, headings, list items, ...) -> kept sentences:

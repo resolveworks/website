@@ -9,52 +9,25 @@
   import Roadmap from '$lib/components/Roadmap.svelte';
   import Visualization from '$lib/components/Visualization.svelte';
   import About from '$lib/components/About.svelte';
-  import Faq from '$lib/components/Faq.svelte';
   import JsonLd from '$lib/components/JsonLd.svelte';
+  import faqQuestions from '$lib/data/faq.json';
   import talks from '$lib/data/talks.json';
   import { formatDate } from '$lib/site.js';
 
   let { data } = $props();
 
-  // The FAQ copy is repeated as plain text only because JSON-LD must be data rather
-  // than rendered markup. The visible content below stays normal Svelte markup.
-  const faqQuestions = [
-    {
-      question: 'What kinds of problems are you best at solving?',
-      answer:
-        "Data problems where information is scattered, unstructured, or trapped in formats that don't talk to each other. Think: extracting structured facts from thousands of documents, connecting data across systems, or building pipelines that turn messy inputs into something reliable and searchable. I use LLMs where they genuinely help—extraction, matching, classification—but they're usually one piece of a larger system. If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you that."
-    },
-    {
-      question: 'How involved does our team need to be?',
-      answer:
-        "More at the start, less over time. Early on I need access to the people who understand the problem—what's actually painful, what the data looks like, what \"good enough\" means. That might be a few hours in the first week or two. During prototyping I'll share work frequently and need feedback. Once we're building for real, involvement drops to occasional check-ins and testing. By handover, the goal is that your team understands what's running and can operate it without me."
-    },
-    {
-      question: 'What does a typical project timeline look like?',
-      answer:
-        "It depends entirely on the problem. A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what actually works. Rather than give you made-up estimates, I'd point you to the PoliLoom devlog—it shows how a real project unfolded, including the dead ends and course corrections. That's more honest than a tidy timeline. What I can promise: I ship early and often. You'll see working pieces within the first few weeks, not a big reveal after months of silence."
-    },
-    {
-      question: 'Who owns the code?',
-      answer:
-        "You do. Everything I build for you is yours—code, configurations, documentation. I prefer to build things that could be open-sourced if you wanted, and I'll actively suggest it when it makes sense. No vendor lock-in, no proprietary dependencies that tie you to me."
-    },
-    {
-      question: 'Do you also build the user interface, or just the backend?',
-      answer:
-        "Both. I design and build the full system—data pipelines, APIs, and the interface people actually use. A clear UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned."
-    },
-    {
-      question: 'What do you charge?',
-      answer:
-        "People hire me when the problem matters and the result has to hold up—if the deciding factor is price, I'm probably not the right hire."
-    },
-    {
-      question: "What do you need from us to figure out if we're a good fit?",
-      answer:
-        "A conversation about the actual problem—not a polished pitch, just what's frustrating and why it matters. I work best with organizations doing something meaningful: journalism, accountability, public interest, open data, or businesses that genuinely care about doing good work rather than just scaling revenue. If your goal is \"add AI to make investors happy,\" we're probably not a match. If you're trying to solve a real problem and want to understand what you're building, let's talk."
-    }
-  ];
+  const faqPage = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqQuestions.map(({ question, paragraphs }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: paragraphs.join('\n\n')
+      }
+    }))
+  };
 
   const professionalService = {
     '@context': 'https://schema.org',
@@ -298,85 +271,17 @@
 
     <section class="section section-light">
       <h2>Frequently asked questions</h2>
-      <Faq questions={faqQuestions}>
+      {#each faqQuestions as { question, paragraphs } (question)}
         <details>
-          <summary>What kinds of problems are you best at solving?</summary>
-          <p>
-            Data problems where information is scattered, unstructured, or trapped in formats that don't talk to each
-            other. Think: extracting structured facts from thousands of documents, connecting data across systems, or
-            building pipelines that turn messy inputs into something reliable and searchable.
-          </p>
-          <p>
-            I strive for simple solutions. If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you
-            that.
-          </p>
+          <summary>{question}</summary>
+          {#each paragraphs as paragraph}
+            <p>{paragraph}</p>
+          {/each}
         </details>
-        <details>
-          <summary>How involved does our team need to be?</summary>
-          <p>
-            More at the start, less over time. Early on I need access to the people who understand the problem—what's
-            painful, what the data looks like, what "good enough" means. That might be a few hours in the first
-            week or two.
-          </p>
-          <p>
-            During prototyping I'll share work frequently and need feedback. Once we're building for real, involvement
-            drops to occasional check-ins and testing. By handover, the goal is that your team understands what's running
-            and can operate it without me.
-          </p>
-        </details>
-        <details>
-          <summary>What does a typical project timeline look like?</summary>
-          <p>
-            It depends entirely on the problem. A small integration might take a few weeks; a complex data pipeline with
-            verification workflows takes months and evolves as we learn what works.
-          </p>
-          <p>
-            Rather than give you made-up estimates, I'd point you to the <a
-              href="https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121">PoliLoom devlog</a
-            >—it shows how a real project unfolded, including the dead ends and course corrections. 
-          </p>
-          <p>
-            What I can promise: I ship early and often. You'll see working pieces within the first few weeks, not a big
-            reveal after months of silence.
-          </p>
-        </details>
-        <details>
-          <summary>Who owns the code?</summary>
-          <p>
-            You do. Everything I build for you is yours—code, configurations, documentation. I prefer to build things that
-            could be open-sourced if you wanted, and I'll actively suggest it when it makes sense. No vendor lock-in, no
-            proprietary dependencies that tie you to me.
-          </p>
-        </details>
-        <details>
-          <summary>Do you also build the user interface, or just the backend?</summary>
-          <p>
-            Both. I design and build the full system—data pipelines, APIs, and interfaces. A clear
-            UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.
-          </p>
-        </details>
-        <details>
-          <summary>What do you charge?</summary>
-          <p>
-            People hire me when the problem matters and the result has to hold up—if the deciding factor is price, I'm
-            probably not the right hire.
-          </p>
-        </details>
-        <details>
-          <summary>What do you need from us to figure out if we're a good fit?</summary>
-          <p>
-            A conversation about the problem, and why it matters. I
-            work best with organizations doing something meaningful: journalism, accountability, public interest, open
-            data, or businesses that genuinely care about doing good work rather than just scaling revenue.
-          </p>
-          <p>
-            If your goal is "add AI to make investors happy," we're probably not a match. If you're trying to solve a real
-            problem and want to understand what you're building, let's talk.
-          </p>
-        </details>
-      </Faq>
+      {/each}
     </section>
   </main>
 
+  <JsonLd data={faqPage} />
   <JsonLd data={professionalService} />
 </div>
