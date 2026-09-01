@@ -20,7 +20,7 @@
     headline: data.title,
     description: data.description ?? data.intro,
     datePublished: data.date,
-    dateModified: data.date,
+    dateModified: data.dateModified,
     image: `${SITE_URL}/og/articles/${data.slug}.png`,
     url: articleUrl,
     mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
@@ -52,6 +52,7 @@
   ogType="article"
   ogImage={`${SITE_URL}/og/articles/${data.slug}.png`}
   publishedTime={data.date}
+  modifiedTime={data.dateModified}
 />
 
 <div class="article-page">

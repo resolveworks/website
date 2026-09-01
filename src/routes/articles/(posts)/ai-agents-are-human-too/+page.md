@@ -3,6 +3,7 @@ title: "AI agents are human too"
 intro: "More and more often, my agent can't fetch the pages I send it to read. The blocking is economic, not technical — and it doesn't even work."
 description: "AI agents are being blocked from the web they read on our behalf. The reasons are economic, not technical — and the blocking doesn't even work."
 date: "2025-12-06T01:17:21.590384+00:00"
+dateModified: "2025-12-06T01:17:21.590384+00:00"
 ---
 
 The way we access information online is changing. Sure you can use a web browser and search engines, but if you're like me, you're probably using AI agents to research everything. Having the model automatically fill its context with content from the web is great, however, more and more often it can't. Increasingly, the model is unable to fetch web pages. Why is this happening?

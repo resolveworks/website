@@ -4,27 +4,31 @@
     "title": "Everything in its place",
     "intro": "After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.",
     "description": "Syncthing, KeePass, Restic and GrapheneOS: how one locked-down ecosystem pushed me toward an open, self-controlled setup that syncs files and secrets across every device.",
-    "date": "2026-08-26T08:58:48.861087+00:00"
+    "date": "2026-08-26T08:58:48.861087+00:00",
+    "dateModified": "2026-08-26T08:58:48.861087+00:00"
   },
   {
     "slug": "pi-is-a-really-nice-agent",
     "title": "Pi is a really nice agent",
     "intro": "Pi starts with a small core and lets you build the rest yourself. The result is an agent environment that works the way I think.",
     "description": "How I shaped pi around my work with focused extensions, delegated contexts, deterministic code intelligence, and open-weight models.",
-    "date": "2026-07-30T19:06:28.631064+00:00"
+    "date": "2026-07-30T19:06:28.631064+00:00",
+    "dateModified": "2026-07-30T19:06:28.631064+00:00"
   },
   {
     "slug": "the-tool-is-not-the-author",
     "title": "The tool is not the author",
     "intro": "Authorship has always been about direction and selection, not manual execution of every detail.",
     "description": "Photography, auto-tune and machine translation settled this long ago: the human who directs the tool owns the output. LLMs are no different.",
-    "date": "2026-04-10T15:42:11.774613+00:00"
+    "date": "2026-04-10T15:42:11.774613+00:00",
+    "dateModified": "2026-04-10T15:42:11.774613+00:00"
   },
   {
     "slug": "ai-agents-are-human-too",
     "title": "AI agents are human too",
     "intro": "More and more often, my agent can't fetch the pages I send it to read. The blocking is economic, not technical — and it doesn't even work.",
     "description": "AI agents are being blocked from the web they read on our behalf. The reasons are economic, not technical — and the blocking doesn't even work.",
-    "date": "2025-12-06T01:17:21.590384+00:00"
+    "date": "2025-12-06T01:17:21.590384+00:00",
+    "dateModified": "2025-12-06T01:17:21.590384+00:00"
   }
 ]

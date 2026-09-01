@@ -8,7 +8,8 @@ database, no CMS. Homepage is section-based; articles are markdown.
 - Articles are mdsvex routes at
   `src/routes/articles/(posts)/<slug>/+page.md`; `(posts)/+layout.svelte`
   provides their shared chrome.
-- Frontmatter: `title`, `intro`, `date`, `description`.
+- Frontmatter: `title`, `intro`, `date`, `dateModified`, `description`.
+  `dateModified` starts equal to `date`; bump it on meaningful revision.
 - Listings read `src/lib/data/articles.json`; run `pnpm generate-index`
   after adding an article.
 

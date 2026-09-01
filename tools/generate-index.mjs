@@ -3,8 +3,8 @@
  * Article index generator.
  *
  * Distils each article route's +page.md frontmatter into
- * src/lib/data/articles.json — slug, title, intro, date (plus optional
- * description) — sorted newest first. The listing pages (the
+ * src/lib/data/articles.json — slug, title, intro, date, dateModified
+ * (plus optional description) — sorted newest first. The listing pages (the
  * articles page, the homepage's latest-articles column) and the (posts)
  * layout read this manifest instead of globbing the route files: route
  * group directories like `(posts)` and files like `+page.md` are made of
@@ -28,8 +28,14 @@ const articles = readdirSync(ARTICLES_DIR, { withFileTypes: true })
   .map((entry) => {
     const path = join(ARTICLES_DIR, entry.name, '+page.md');
     const article = { slug: entry.name, ...splitFrontmatter(readFileSync(path, 'utf8'), path).meta };
-    for (const field of ['slug', 'title', 'intro', 'date']) {
+    for (const field of ['slug', 'title', 'intro', 'date', 'dateModified']) {
       if (!article[field]) throw new Error(`${path}: missing "${field}"`);
+    }
+    const published = new Date(article.date);
+    const modified = new Date(article.dateModified);
+    if (Number.isNaN(published)) throw new Error(`${path}: "date" is not a valid date`);
+    if (Number.isNaN(modified) || modified < published) {
+      throw new Error(`${path}: "dateModified" must be a valid date on or after "date"`);
     }
     return article;
   })

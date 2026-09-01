@@ -19,6 +19,7 @@
     ogImageHeight = OG_IMAGE_HEIGHT,
     ogImageAlt = `${SITE_NAME} wordmark over a scatter plot of the site's content embeddings`,
     publishedTime = null,
+    modifiedTime = null,
     twitterCard = null
   } = $props();
 
@@ -58,6 +59,9 @@
   {/if}
   {#if publishedTime}
     <meta property="article:published_time" content={publishedTime} />
+  {/if}
+  {#if modifiedTime}
+    <meta property="article:modified_time" content={modifiedTime} />
   {/if}
   {#if description}
     <meta property="og:description" content={description} />

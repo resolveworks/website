@@ -3,6 +3,7 @@ title: "Pi is a really nice agent"
 intro: "Pi starts with a small core and lets you build the rest yourself. The result is an agent environment that works the way I think."
 description: "How I shaped pi around my work with focused extensions, delegated contexts, deterministic code intelligence, and open-weight models."
 date: "2026-07-30T19:06:28.631064+00:00"
+dateModified: "2026-07-30T19:06:28.631064+00:00"
 ---
 
 I have always built my own working environment. I use nvim, customized through plugins. I use ergodox keyboards with a keymap that probably makes sense only to me. Oh, and I use Arch, by the way. Not because everyone should manage their computer this way, but because I want my tools to adapt to how I work—not the other way around.

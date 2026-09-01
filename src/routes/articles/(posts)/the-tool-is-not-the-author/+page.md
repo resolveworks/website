@@ -3,6 +3,7 @@ title: "The tool is not the author"
 intro: "Authorship has always been about direction and selection, not manual execution of every detail."
 description: "Photography, auto-tune and machine translation settled this long ago: the human who directs the tool owns the output. LLMs are no different."
 date: "2026-04-10T15:42:11.774613+00:00"
+dateModified: "2026-04-10T15:42:11.774613+00:00"
 ---
 
 When a photographer presses the shutter button, nobody questions who owns the photo. The camera made every technical decision — metering, focus, exposure — using algorithms trained on optical models. The photographer chose what to point it at, when to shoot, and which photo to keep. That's enough. It has been enough since 1884, when the Supreme Court ruled in [*Burrow-Giles v Sarony*](https://www.law.cornell.edu/supremecourt/text/111/53) that photography produces copyrightable work, despite being a mechanical process. The human directed it. That settled it.
