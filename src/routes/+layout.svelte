@@ -1,4 +1,5 @@
 <script>
+  import '$lib/styles.css';
   import business from '$lib/data/business.json';
 
   let { children } = $props();

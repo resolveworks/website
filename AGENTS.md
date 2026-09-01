@@ -21,7 +21,7 @@ database, no CMS. Homepage is section-based; articles are markdown.
 ## Tech Stack
 
 - SvelteKit 2 + Svelte 5, mdsvex, adapter-static (`build/`, `trailingSlash = 'always'`)
-- pnpm; @resvg/resvg-js for social cards; @huggingface/transformers + umap-js for embedding data; Docker (nginx) to serve
+- pnpm; @resvg/resvg-js for social cards; @huggingface/transformers + umap-js for embedding data; nginx container to serve
 
 ## Commands
 
@@ -32,7 +32,6 @@ pnpm generate-related                 # article markdown -> src/lib/data/related
 pnpm generate-embeddings              # build/ HTML -> static/embeddings.json, then rebuild
 pnpm generate-og                      # embeddings -> static/og/ cards, then rebuild
 pnpm generate                         # all three generators, in pipeline order
-docker build -t resolve.works . && docker run --rm -p 8080:80 resolve.works
 ```
 
 ## Conventions
