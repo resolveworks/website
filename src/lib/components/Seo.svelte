@@ -43,6 +43,8 @@
     <meta name="robots" content={robots} />
   {/if}
   <link rel="canonical" href={canonical} />
+  <link rel="alternate" type="text/markdown" href={`${canonical}index.md`} title="Markdown version" />
+  <link rel="describedby" href={`${SITE_URL}/llms.txt`} />
   <meta property="og:type" content={ogType} />
   <meta property="og:url" content={canonical} />
   <meta property="og:title" content={social} />

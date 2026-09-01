@@ -125,16 +125,17 @@ function relatedArticles(vectorsBySlug) {
 async function main() {
   const { values } = parseArgs({
     options: {
-      input: { type: 'string', default: 'src/content/articles' },
+      input: { type: 'string', default: 'src/routes/articles/(posts)' },
       output: { type: 'string', default: RELATED_PATH }
     }
   });
 
-  const files = readdirSync(values.input)
-    .filter((file) => file.endsWith('.md'))
+  const files = readdirSync(values.input, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory())
+    .map((entry) => entry.name)
     .sort();
   if (files.length === 0) {
-    console.error(`No .md files found under ${values.input}`);
+    console.error(`No article directories found under ${values.input}`);
     process.exitCode = 1;
     return;
   }
@@ -144,8 +145,10 @@ async function main() {
 
   const vectorsBySlug = new Map();
   for (const file of files) {
-    const slug = file.slice(0, -'.md'.length);
-    const { meta, body } = splitFrontmatter(readFileSync(join(values.input, file), 'utf8'));
+    const slug = file;
+    const { meta, body } = splitFrontmatter(
+      readFileSync(join(values.input, file, '+page.md'), 'utf8')
+    );
     // The rendered page shows the title (h1) and intro (hero tagline)
     // alongside the body; embed the article as that whole text.
     const text = [meta.title, meta.intro, markdownToText(body)]

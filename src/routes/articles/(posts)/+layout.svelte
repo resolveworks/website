@@ -7,8 +7,7 @@
   import business from '$lib/data/business.json';
   import { SITE_URL, formatDate } from '$lib/site.js';
 
-  let { data } = $props();
-  const Article = $derived(data.content);
+  let { data, children } = $props();
 
   const articleUrl = $derived(`${SITE_URL}/articles/${data.slug}/`);
 
@@ -66,7 +65,7 @@
       <Hero title={data.title} size="medium" tagline={data.intro} date={data.date} />
 
       <section class="section section-light">
-        <Article />
+        {@render children()}
       </section>
 
       {#if data.related.length}

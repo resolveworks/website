@@ -3,14 +3,17 @@
   import Hero from '$lib/components/Hero.svelte';
   import Visualization from '$lib/components/Visualization.svelte';
   import JsonLd from '$lib/components/JsonLd.svelte';
-  import { articles } from '$lib/articles.js';
   import { SITE_URL, formatDate } from '$lib/site.js';
+
+  let { data } = $props();
+
+  const articles = $derived(data.articles);
 
   // Meta/JSON-LD snippet; the visible hero intro stays editorial.
   const description =
     'Essays on LLMs, data and the open web — notes from software engineering for journalism, accountability and open data.';
 
-  const articlesLd = {
+  const articlesLd = $derived({
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: 'Articles',
@@ -25,7 +28,7 @@
         name: article.title
       }))
     }
-  };
+  });
 </script>
 
 <Seo

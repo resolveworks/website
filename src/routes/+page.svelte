@@ -11,9 +11,10 @@
   import About from '$lib/components/About.svelte';
   import Faq from '$lib/components/Faq.svelte';
   import JsonLd from '$lib/components/JsonLd.svelte';
-  import { articles } from '$lib/articles.js';
   import talks from '$lib/data/talks.json';
   import { formatDate } from '$lib/site.js';
+
+  let { data } = $props();
 
   const description =
     'Software and data engineering for journalism, accountability and open-data teams: LLM pipelines, verification interfaces and search infrastructure.';
@@ -265,7 +266,7 @@
         <div>
           <h3>Latest articles</h3>
           <dl>
-            {#each articles.slice(0, 5) as article (article.slug)}
+            {#each data.articles.slice(0, 5) as article (article.slug)}
               <dt><a href={`/articles/${article.slug}/`}>{article.title}</a></dt>
               <dd><time datetime={article.date}>{formatDate(article.date)}</time></dd>
             {/each}

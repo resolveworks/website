@@ -1,0 +1,33 @@
+# Resolve.
+
+> Resolve. is the independent software and data engineering consultancy of Johan Schuijt: LLM extraction and search, interfaces for working with data, and full-stack product development, mostly for organizations doing public-interest work — journalism, accountability and open data.
+
+Johan Schuijt is an autodidact software and data engineer with fifteen-plus years of experience. Current work: project lead of EveryPolitician at OpenSanctions, structuring politicians' data for investigators and the accountability sector (PoliLoom). Previously full-stack developer at Follow the Money. Resolve. is registered as Resolve Services OÜ in Estonia (e-residency), VAT EE102834268. Works remotely, Europe-focused, global clients welcome.
+
+Contact: johan@resolve.works, +31 651 952 461. Every page on this site serves a markdown representation when requested with `Accept: text/markdown`, and HTML pages advertise it via `rel="alternate"`.
+
+## Pages
+
+- [Homepage](https://resolve.works/): Services, way of working, current work, selected experience and FAQ
+- [Articles](https://resolve.works/articles/): Essays on LLMs, data and the open web
+
+## Articles
+
+- [Everything in its place](https://resolve.works/articles/everything-in-its-place/): Syncthing, KeePass, Restic and GrapheneOS — an open, self-controlled setup that syncs files and secrets across every device
+- [Pi is a really nice agent](https://resolve.works/articles/pi-is-a-really-nice-agent/): How a small-core, extensible coding agent was shaped around one person's work: focused extensions, delegated contexts, deterministic code intelligence and open-weight models
+- [The tool is not the author](https://resolve.works/articles/the-tool-is-not-the-author/): Photography, auto-tune and machine translation settled it long ago — the human who directs the tool owns the output; LLMs are no different
+- [AI agents are human too](https://resolve.works/articles/ai-agents-are-human-too/): AI agents are being blocked from the web they read on our behalf; the reasons are economic, not technical, and the blocking doesn't even work
+
+## Talks
+
+- [Who is running the world?](https://opensanctions.github.io/wikimania2026/): Wikimania 2026, Paris — with Ada Homolova
+- [Text embeddings: navigating text in high dimensions](https://resolveworks.github.io/dataharvest2026/): Dataharvest 2026 — with Ada Homolova
+- [PoliLoom: Verification-First AI for Political Data in Wikidata](https://opensanctions.github.io/wikidatacon2025/): WikiDataCon 2025 — with Brenna Maeve
+- [Finding connections](https://resolveworks.github.io/nodes2025/): Road to NODES 2025 (Neo4j)
+- [Finding connections: transform your document collections into a graph visualisation](https://resolveworks.github.io/dataharvest2025/): Dataharvest 2025 — with Lasse Edfast
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/in/johanschuijt/): Johan Schuijt's profile
+- [GitHub](https://github.com/monneyboi/): Johan Schuijt's code
+- [Estonian business register](https://ariregister.rik.ee/eng/company/17154517/RESOLVE-SERVICES-OÜ): Resolve Services OÜ registration

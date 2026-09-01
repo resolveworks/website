@@ -9,8 +9,10 @@
     "build": "vite build",
     "generate-related": "node tools/generate-related.mjs && vite build",
     "generate-embeddings": "node tools/generate-embeddings.mjs && vite build",
+    "generate-index": "node tools/generate-index.mjs",
+    "generate-markdown": "node tools/generate-markdown.mjs && vite build",
     "generate-og": "node tools/generate-og.mjs && vite build",
-    "generate": "pnpm generate-related && pnpm generate-embeddings && pnpm generate-og",
+    "generate": "pnpm generate-index && pnpm generate-related && pnpm generate-embeddings && pnpm generate-markdown && pnpm generate-og",
     "preview": "vite preview"
   },
   "devDependencies": {

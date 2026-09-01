@@ -4,9 +4,7 @@ import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  // mdsvex turns `.md` files in src/content/articles/ into Svelte components.
-  // smartypants is disabled so article copy (straight quotes, em dashes) is
-  // preserved as written.
+  // Preserve article punctuation as written.
   preprocess: [
     vitePreprocess(),
     mdsvex({
