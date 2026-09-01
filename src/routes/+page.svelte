@@ -17,7 +17,7 @@
   let { data } = $props();
 
   const description =
-    'Software and data engineering for journalism, accountability and open-data teams: LLM pipelines, verification interfaces and search infrastructure.';
+    'Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data.';
 
   // The FAQ copy is repeated as plain text only because JSON-LD must be data rather
   // than rendered markup. The visible content below stays normal Svelte markup.
@@ -243,11 +243,12 @@
         </li>
         <li>
           <h3>Impact</h3>
-          <p><b>Clarity</b>: From unstructured source documents to structured, linkable records.</p>
           <p>
-            <b>Trust</b>: Every extracted fact links back to a specific passage in an archived snapshot of the source.
+            <b>Receipts</b>: Every extracted fact links to the exact sentence in the archived source page, highlighted
+            for the evaluator.
           </p>
-          <p><b>Scale</b>: Handles Wikidata-sized inputs through an incremental, parallelized pipeline.</p>
+          <p><b>Upstream</b>: Confirmed statements are pushed to Wikidata on the evaluator's behalf.</p>
+          <p><b>It learns</b>: Rejected statements feed back into improving the extraction.</p>
         </li>
       </Features>
       <p>

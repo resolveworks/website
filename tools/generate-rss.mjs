@@ -17,7 +17,7 @@ const FEED_PATH = 'static/rss.xml';
 
 // Same copy as the homepage's meta description.
 const CHANNEL_DESCRIPTION =
-  'Software and data engineering for journalism, accountability and open-data teams: LLM pipelines, verification interfaces and search infrastructure.';
+  'Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data.';
 
 const escape = (value) =>
   value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');

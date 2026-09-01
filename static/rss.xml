@@ -3,7 +3,7 @@
 <channel>
   <title>Resolve.</title>
   <link>https://resolve.works/</link>
-  <description>Software and data engineering for journalism, accountability and open-data teams: LLM pipelines, verification interfaces and search infrastructure.</description>
+  <description>Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data.</description>
   <language>en</language>
   <atom:link href="https://resolve.works/rss.xml" rel="self" type="application/rss+xml" />
   <item>
@@ -31,7 +31,7 @@
     <title>AI agents are human too</title>
     <link>https://resolve.works/articles/ai-agents-are-human-too/</link>
     <guid>https://resolve.works/articles/ai-agents-are-human-too/</guid>
-    <description>The monetization models on the web rely not on the content itself, but on the ecosystem surrounding it: the ads, recommendations, and engagement features that capture attention alongside the actual information.</description>
+    <description>More and more often, my agent can't fetch the pages I send it to read. The blocking is economic, not technical — and it doesn't even work.</description>
     <pubDate>Sat, 06 Dec 2025 01:17:21 GMT</pubDate>
   </item>
 </channel>

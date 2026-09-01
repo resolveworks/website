@@ -1,6 +1,6 @@
 ---
 title: "Software & data engineering for work that matters - Resolve."
-description: "Software and data engineering for journalism, accountability and open-data teams: LLM pipelines, verification interfaces and search infrastructure."
+description: "Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data."
 ---
 
 # Most IT work is pointless.
@@ -83,11 +83,11 @@ Fifteen years of production work keeps circling back to the same set of capabili
 
 -   **Impact**
 
-    **Clarity**: From unstructured source documents to structured, linkable records.
+    **Receipts**: Every extracted fact links to the exact sentence in the archived source page, highlighted for the evaluator.
 
-    **Trust**: Every extracted fact links back to a specific passage in an archived snapshot of the source.
+    **Upstream**: Confirmed statements are pushed to Wikidata on the evaluator's behalf.
 
-    **Scale**: Handles Wikidata-sized inputs through an incremental, parallelized pipeline.
+    **It learns**: Rejected statements feed back into improving the extraction.
 
 LLM entity reconciliation actually works well, and with human-in-the-loop verification, it's both accurate and accountable. [Read the devlog](https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121), or the [Wikimedia Deutschland interview](https://blog.wikimedia.de/2026/07/08/everypolitician-mit-wikidata/) about the project. The [Kolkhoz & Pravda projects](https://discuss.opensanctions.org/t/kolkhoz-pravda/322) ask the next question: can the same ideas work on any page — and how do you find the pages worth reading?
 
@@ -114,7 +114,7 @@ I think in public — essays on this site, talks at conferences and meetups.
 
 ## About Johan
 
-I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work. I use LLMs to accelerate development, but never at the expense of clarity, reliability, or ethics.
+I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work. I use LLMs where they earn their place, and stand behind everything I ship.
 
 I work remotely, Europe-focused but global clients welcome.
 

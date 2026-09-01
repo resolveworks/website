@@ -6,7 +6,7 @@ date: "2025-12-06T01:17:21.590384+00:00"
 
 # AI agents are human too
 
-The monetization models on the web rely not on the content itself, but on the ecosystem surrounding it: the ads, recommendations, and engagement features that capture attention alongside the actual information.
+More and more often, my agent can't fetch the pages I send it to read. The blocking is economic, not technical — and it doesn't even work.
 
 December 6, 2025
 
