@@ -1,6 +1,6 @@
 ---
 title: "Articles - Resolve."
-description: "Essays on tools, data and the open web — notes from an independent software and data engineering practice."
+description: "What I think about while the machines run. My day to day experiences from software and data engineering practice."
 ---
 
 # Articles

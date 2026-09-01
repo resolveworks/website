@@ -128,7 +128,7 @@
       </p>
       <Features columns={3}>
         <li>
-          <h3>Demos, not decks.</h3>
+          <h3>Show, don't tell.</h3>
           <p>You judge <b>working software</b> running against your data, early enough that changing course is still cheap.</p>
         </li>
         <li>
@@ -150,7 +150,7 @@
       <p>Fifteen years of production work keeps circling back to the same set of capabilities:</p>
       <Features columns={2}>
         <li>
-          <h3>LLM extraction &amp; search</h3>
+          <h3>AI agents &amp; search</h3>
           <p>
             Structured facts from unstructured documents, and agents that do the research. Underneath both is hybrid
             search, reconciling records across sources and languages over millions of entities.
@@ -167,14 +167,13 @@
           <h3>The full stack</h3>
           <p>
             Database, pipelines, API, the interface people work with, and the servers it runs on—auth, backups, deploys and
-            monitoring included. One person, end to end.
+            monitoring included.
           </p>
         </li>
         <li>
           <h3>Stay up to date</h3>
           <p>
-            New models, tools and techniques, evaluated against real problems and adopted when they earn it. Right now that
-            means coding agents and LLM tooling; next year it will mean something else.
+            I continuously experiment. The field changes, so I change with it. Curiosity drives me to explore how new technology can move us forward.
           </p>
         </li>
       </Features>
@@ -193,11 +192,11 @@
         </li>
         <li>
           <h3>Learn where it breaks</h3>
-          <p>Real users, real edge cases, honest notes.</p>
+          <p>Real users, real edge cases. What did we miss?</p>
         </li>
         <li>
           <h3>Make it boring</h3>
-          <p>Tested, monitored, documented: software your team can run without me.</p>
+          <p>Tested, monitored, documented: software you can run without me.</p>
         </li>
       </Roadmap>
     </section>
@@ -308,8 +307,7 @@
             building pipelines that turn messy inputs into something reliable and searchable.
           </p>
           <p>
-            I use LLMs where they genuinely help—extraction, matching, classification—but they're usually one piece of a
-            larger system. If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you
+            I strive for simple solutions. If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you
             that.
           </p>
         </details>
@@ -317,7 +315,7 @@
           <summary>How involved does our team need to be?</summary>
           <p>
             More at the start, less over time. Early on I need access to the people who understand the problem—what's
-            actually painful, what the data looks like, what "good enough" means. That might be a few hours in the first
+            painful, what the data looks like, what "good enough" means. That might be a few hours in the first
             week or two.
           </p>
           <p>
@@ -330,13 +328,12 @@
           <summary>What does a typical project timeline look like?</summary>
           <p>
             It depends entirely on the problem. A small integration might take a few weeks; a complex data pipeline with
-            verification workflows takes months and evolves as we learn what actually works.
+            verification workflows takes months and evolves as we learn what works.
           </p>
           <p>
             Rather than give you made-up estimates, I'd point you to the <a
               href="https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121">PoliLoom devlog</a
-            >—it shows how a real project unfolded, including the dead ends and course corrections. That's more honest than
-            a tidy timeline.
+            >—it shows how a real project unfolded, including the dead ends and course corrections. 
           </p>
           <p>
             What I can promise: I ship early and often. You'll see working pieces within the first few weeks, not a big
@@ -354,7 +351,7 @@
         <details>
           <summary>Do you also build the user interface, or just the backend?</summary>
           <p>
-            Both. I design and build the full system—data pipelines, APIs, and the interface people actually use. A clear
+            Both. I design and build the full system—data pipelines, APIs, and interfaces. A clear
             UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.
           </p>
         </details>
@@ -368,7 +365,7 @@
         <details>
           <summary>What do you need from us to figure out if we're a good fit?</summary>
           <p>
-            A conversation about the actual problem—not a polished pitch, just what's frustrating and why it matters. I
+            A conversation about the problem, and why it matters. I
             work best with organizations doing something meaningful: journalism, accountability, public interest, open
             data, or businesses that genuinely care about doing good work rather than just scaling revenue.
           </p>

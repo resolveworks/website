@@ -4,12 +4,20 @@
   "jobTitle": "Founder",
   "avatar": "/avatar.webp",
   "bio": [
-    "I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work. I use LLMs where they earn their place, and stand behind everything I ship.",
+    "I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work.",
     "I work remotely, Europe-focused but global clients welcome."
   ],
   "experience": [
-    { "company": "OpenSanctions", "role": "Project lead, EveryPolitician", "range": "2025–present" },
-    { "company": "Follow the Money", "role": "Full Stack Developer", "range": "2021–2025" },
+    {
+      "company": "OpenSanctions",
+      "role": "Project lead, EveryPolitician",
+      "range": "2025–present"
+    },
+    {
+      "company": "Follow the Money",
+      "role": "Full Stack Developer",
+      "range": "2021–2025"
+    },
     { "company": "Forest.host", "role": "Founder", "range": "2017–2021" }
   ]
 }

@@ -2,8 +2,8 @@
   "name": "Resolve.",
   "url": "https://resolve.works",
   "descriptions": {
-    "home": "Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data.",
-    "articles": "Essays on tools, data and the open web — notes from an independent software and data engineering practice."
+    "home": "Open software and data engineering: AI agents, interfaces for working with data, and full-stack product development for organizations with a mission.",
+    "articles": "What I think about while the machines run. My day to day experiences from software and data engineering practice."
   },
   "ogImage": { "width": 1200, "height": 630 }
 }

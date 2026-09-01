@@ -1,6 +1,6 @@
 ---
 title: "Software & data engineering for work that matters - Resolve."
-description: "Independent software and data engineering: LLM extraction and search, interfaces for working with data, and full-stack product development for journalism, accountability and open data."
+description: "Open software and data engineering: AI agents, interfaces for working with data, and full-stack product development for organizations with a mission."
 ---
 
 # Most IT work is pointless.
@@ -13,7 +13,7 @@ I take on the part that isn't: hard software and data problems for organizations
 
 Every engagement starts with the best plan we can make — and the near-certainty that real data will punch holes in it. What stays fixed is how I work: in the open, in small pieces, with you close enough to steer.
 
--   **Demos, not decks.**
+-   **Show, don't tell.**
 
     You judge **working software** running against your data, early enough that changing course is still cheap.
 
@@ -29,7 +29,7 @@ Every engagement starts with the best plan we can make — and the near-certaint
 
 Fifteen years of production work keeps circling back to the same set of capabilities:
 
--   **LLM extraction & search**
+-   **AI agents & search**
 
     Structured facts from unstructured documents, and agents that do the research. Underneath both is hybrid search, reconciling records across sources and languages over millions of entities.
 
@@ -39,11 +39,11 @@ Fifteen years of production work keeps circling back to the same set of capabili
 
 -   **The full stack**
 
-    Database, pipelines, API, the interface people work with, and the servers it runs on—auth, backups, deploys and monitoring included. One person, end to end.
+    Database, pipelines, API, the interface people work with, and the servers it runs on—auth, backups, deploys and monitoring included.
 
 -   **Stay up to date**
 
-    New models, tools and techniques, evaluated against real problems and adopted when they earn it. Right now that means coding agents and LLM tooling; next year it will mean something else.
+    I continuously experiment. The field changes, so I change with it. Curiosity drives me to explore how new technology can move us forward.
 
 ## From roadmap to rollout
 
@@ -57,11 +57,11 @@ Fifteen years of production work keeps circling back to the same set of capabili
 
 3.  **Learn where it breaks**
 
-    Real users, real edge cases, honest notes.
+    Real users, real edge cases. What did we miss?
 
 4.  **Make it boring**
 
-    Tested, monitored, documented: software your team can run without me.
+    Tested, monitored, documented: software you can run without me.
 
 ## Current work
 
@@ -114,7 +114,7 @@ I think in public — essays on this site, talks at conferences and meetups.
 
 ## About Johan
 
-I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work. I use LLMs where they earn their place, and stand behind everything I ship.
+I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work.
 
 I work remotely, Europe-focused but global clients welcome.
 
@@ -139,19 +139,19 @@ I work remotely, Europe-focused but global clients welcome.
 
 Data problems where information is scattered, unstructured, or trapped in formats that don't talk to each other. Think: extracting structured facts from thousands of documents, connecting data across systems, or building pipelines that turn messy inputs into something reliable and searchable.
 
-I use LLMs where they genuinely help—extraction, matching, classification—but they're usually one piece of a larger system. If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you that.
+I strive for simple solutions. If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you that.
 
 **How involved does our team need to be?**
 
-More at the start, less over time. Early on I need access to the people who understand the problem—what's actually painful, what the data looks like, what "good enough" means. That might be a few hours in the first week or two.
+More at the start, less over time. Early on I need access to the people who understand the problem—what's painful, what the data looks like, what "good enough" means. That might be a few hours in the first week or two.
 
 During prototyping I'll share work frequently and need feedback. Once we're building for real, involvement drops to occasional check-ins and testing. By handover, the goal is that your team understands what's running and can operate it without me.
 
 **What does a typical project timeline look like?**
 
-It depends entirely on the problem. A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what actually works.
+It depends entirely on the problem. A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what works.
 
-Rather than give you made-up estimates, I'd point you to the [PoliLoom devlog](https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121)—it shows how a real project unfolded, including the dead ends and course corrections. That's more honest than a tidy timeline.
+Rather than give you made-up estimates, I'd point you to the [PoliLoom devlog](https://discuss.opensanctions.org/t/poliloom-loom-for-weaving-politicians-data/121)—it shows how a real project unfolded, including the dead ends and course corrections.
 
 What I can promise: I ship early and often. You'll see working pieces within the first few weeks, not a big reveal after months of silence.
 
@@ -161,7 +161,7 @@ You do. Everything I build for you is yours—code, configurations, documentatio
 
 **Do you also build the user interface, or just the backend?**
 
-Both. I design and build the full system—data pipelines, APIs, and the interface people actually use. A clear UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.
+Both. I design and build the full system—data pipelines, APIs, and interfaces. A clear UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.
 
 **What do you charge?**
 
@@ -169,6 +169,6 @@ People hire me when the problem matters and the result has to hold up—if the d
 
 **What do you need from us to figure out if we're a good fit?**
 
-A conversation about the actual problem—not a polished pitch, just what's frustrating and why it matters. I work best with organizations doing something meaningful: journalism, accountability, public interest, open data, or businesses that genuinely care about doing good work rather than just scaling revenue.
+A conversation about the problem, and why it matters. I work best with organizations doing something meaningful: journalism, accountability, public interest, open data, or businesses that genuinely care about doing good work rather than just scaling revenue.
 
 If your goal is "add AI to make investors happy," we're probably not a match. If you're trying to solve a real problem and want to understand what you're building, let's talk.

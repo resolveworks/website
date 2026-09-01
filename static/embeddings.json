@@ -3784,1077 +3784,1059 @@
     "nodes": [
       {
         "id": 0,
-        "x": 0.375764501591216,
-        "y": 0.6297003440390841,
-        "z": 0.12215274551686585,
+        "x": 0.2378948248947294,
+        "y": 0.7453231978112661,
+        "z": 0.6009788564756031,
         "text": "Something resembling a plan.",
         "position": 0
       },
       {
         "id": 1,
-        "x": 0.6410683875077084,
-        "y": 0.9540444787393159,
-        "z": 0.33935673982636394,
+        "x": 0.4592078041993526,
+        "y": 0.873145156313654,
+        "z": 0.6334418487051943,
         "text": "Every engagement starts with the best plan we can make — and the near-certainty that real data will punch holes in it.",
-        "position": 0.008333333333333333
+        "position": 0.008403361344537815
       },
       {
         "id": 2,
-        "x": 0.6083847770470187,
-        "y": 0.8828152058622705,
-        "z": 0.10259367502732052,
+        "x": 0.37836296325717556,
+        "y": 1,
+        "z": 0.6850736968400667,
         "text": "What stays fixed is how I work: in the open, in small pieces, with you close enough to steer.",
-        "position": 0.016666666666666666
+        "position": 0.01680672268907563
       },
       {
         "id": 3,
-        "x": 0.396053703395182,
-        "y": 0.5215115897428616,
-        "z": 0.17383468813048727,
-        "text": "Demos, not decks.",
-        "position": 0.025
+        "x": 0.027813924969082814,
+        "y": 0.45591114221482565,
+        "z": 0.4446467287395059,
+        "text": "Show, don't tell.",
+        "position": 0.025210084033613446
       },
       {
         "id": 4,
-        "x": 0.6078189180422784,
-        "y": 0.9945682165246332,
-        "z": 0.3049018980845013,
+        "x": 0.5168113098412832,
+        "y": 0.9308574941662573,
+        "z": 0.6964955102088458,
         "text": "You judge working software running against your data, early enough that changing course is still cheap.",
-        "position": 0.03333333333333333
+        "position": 0.03361344537815126
       },
       {
         "id": 5,
-        "x": 0.1937439433186736,
-        "y": 0.3901405120051645,
-        "z": 0.22033611588166352,
+        "x": 0.09238596200611063,
+        "y": 0.437862252258494,
+        "z": 0.22051684825271672,
         "text": "Dead ends included.",
-        "position": 0.041666666666666664
+        "position": 0.04201680672268908
       },
       {
         "id": 6,
-        "x": 0.5068733362751653,
-        "y": 1,
-        "z": 0.4680225774007572,
+        "x": 0.4715099901566377,
+        "y": 0.7616768497050864,
+        "z": 0.9353128910765335,
         "text": "I write down what didn't work and why.",
-        "position": 0.05
+        "position": 0.05042016806722689
       },
       {
         "id": 7,
-        "x": 0.5870431219949461,
-        "y": 0.8352121135924001,
-        "z": 0.7513662776097425,
+        "x": 0.6697891348820881,
+        "y": 0.6017037063272647,
+        "z": 0.7985321607650794,
         "text": "Read the PoliLoom devlog to see what that looks like.",
-        "position": 0.058333333333333334
+        "position": 0.058823529411764705
       },
       {
         "id": 8,
-        "x": 0.19006183310488156,
-        "y": 0.448650396106995,
-        "z": 0.16108866240505532,
+        "x": 0,
+        "y": 0.43271498749271714,
+        "z": 0.4320310572184817,
         "text": "You keep the keys.",
-        "position": 0.06666666666666667
+        "position": 0.06722689075630252
       },
       {
         "id": 9,
-        "x": 0.7099113452353214,
-        "y": 0.6857320620491982,
-        "z": 0.35461454784414004,
+        "x": 0.49418202711470405,
+        "y": 0.8124955820672409,
+        "z": 0.39707090922598137,
         "text": "Code, documentation, and a team that understands what's running.",
-        "position": 0.075
+        "position": 0.07563025210084033
       },
       {
         "id": 10,
-        "x": 0.5390955468520586,
-        "y": 0.6633550105396351,
-        "z": 0.12879274625139053,
+        "x": 0.31951827695264684,
+        "y": 0.8838195680185931,
+        "z": 0.475543874297695,
         "text": "Built to hand over, not to be needed.",
-        "position": 0.08333333333333333
+        "position": 0.08403361344537816
       },
       {
         "id": 11,
-        "x": 0.6412163149376054,
-        "y": 0.9307466584620654,
-        "z": 0.22470811267434562,
+        "x": 0.49887900285366304,
+        "y": 0.9615251940318438,
+        "z": 0.700178473206197,
         "text": "Fifteen years of production work keeps circling back to the same set of capabilities:",
-        "position": 0.09166666666666666
+        "position": 0.09243697478991597
       },
       {
         "id": 12,
-        "x": 0.9268548664111342,
-        "y": 0.5124368027130377,
-        "z": 0.903037043517349,
-        "text": "LLM extraction & search",
-        "position": 0.1
+        "x": 0.8577453909956689,
+        "y": 0.5823229386973203,
+        "z": 0.26278732538809146,
+        "text": "AI agents & search",
+        "position": 0.10084033613445378
       },
       {
         "id": 13,
-        "x": 0.8095803246321865,
-        "y": 0.6811338895690189,
-        "z": 0.7800508785539235,
+        "x": 0.8310760503470739,
+        "y": 0.6791014610428834,
+        "z": 0.5140606241606098,
         "text": "Structured facts from unstructured documents, and agents that do the research.",
-        "position": 0.10833333333333334
+        "position": 0.1092436974789916
       },
       {
         "id": 14,
-        "x": 0.8731401467814596,
-        "y": 0.5671651053369676,
-        "z": 0.8436415363832953,
+        "x": 0.9071393689262595,
+        "y": 0.5648202375728952,
+        "z": 0.3943629163652877,
         "text": "Underneath both is hybrid search, reconciling records across sources and languages over millions of entities.",
-        "position": 0.11666666666666667
+        "position": 0.11764705882352941
       },
       {
         "id": 15,
-        "x": 0.8384959774700532,
-        "y": 0.7344406985710685,
-        "z": 0.6013757056414532,
+        "x": 0.7443637866006685,
+        "y": 0.7732670985303912,
+        "z": 0.4650703308393238,
         "text": "Interfaces for working with data",
-        "position": 0.125
+        "position": 0.12605042016806722
       },
       {
         "id": 16,
-        "x": 0.7529005901023038,
-        "y": 0.584612499388285,
-        "z": 0.5124786059646286,
+        "x": 0.6344911001884727,
+        "y": 0.6787063135762454,
+        "z": 0.2328700897970155,
         "text": "Review screens, research tools, search frontends: interfaces where people judge, correct and explore.",
-        "position": 0.13333333333333333
+        "position": 0.13445378151260504
       },
       {
         "id": 17,
-        "x": 0.7166499976358043,
-        "y": 0.8624292710537043,
-        "z": 0.4682116560734421,
+        "x": 0.6062837347596655,
+        "y": 0.8375640118905787,
+        "z": 0.6456363185761912,
         "text": "Built for people whose work depends on the data being right.",
-        "position": 0.14166666666666666
+        "position": 0.14285714285714285
       },
       {
         "id": 18,
-        "x": 0.4045405156902585,
-        "y": 0.43154873097028584,
-        "z": 0.27906213965842375,
+        "x": 0.27456353849373843,
+        "y": 0.5570614773028486,
+        "z": 0.22765133994902803,
         "text": "The full stack",
-        "position": 0.15
+        "position": 0.15126050420168066
       },
       {
         "id": 19,
-        "x": 0.8267820573474345,
-        "y": 0.7012448182437341,
-        "z": 0.44055014072600823,
+        "x": 0.5927532024252898,
+        "y": 0.8193722457131077,
+        "z": 0.2764857794101632,
         "text": "Database, pipelines, API, the interface people work with, and the servers it runs on—auth, backups, deploys and monitoring included.",
-        "position": 0.15833333333333333
+        "position": 0.15966386554621848
       },
       {
         "id": 20,
-        "x": 0.3032708816066201,
-        "y": 0.49529852870377833,
-        "z": 0.17865800216372002,
-        "text": "One person, end to end.",
-        "position": 0.16666666666666666
+        "x": 0.13597604476087718,
+        "y": 0.479731681445892,
+        "z": 0.44733542468896936,
+        "text": "Stay up to date",
+        "position": 0.16806722689075632
       },
       {
         "id": 21,
-        "x": 0.07896690802954234,
-        "y": 0.44411567628193976,
-        "z": 0.30361363664674634,
-        "text": "Stay up to date",
-        "position": 0.175
+        "x": 0.07240974390489312,
+        "y": 0.7698291160518951,
+        "z": 0.48901744450243745,
+        "text": "I continuously experiment.",
+        "position": 0.17647058823529413
       },
       {
         "id": 22,
-        "x": 0.4838165432014123,
-        "y": 0.868923043813108,
-        "z": 0.42072467579250955,
-        "text": "New models, tools and techniques, evaluated against real problems and adopted when they earn it.",
-        "position": 0.18333333333333332
+        "x": 0.07235378859515247,
+        "y": 0.7700874938856501,
+        "z": 0.40263716013360884,
+        "text": "The field changes, so I change with it.",
+        "position": 0.18487394957983194
       },
       {
         "id": 23,
-        "x": 0.8587526229670357,
-        "y": 0.4304048050488555,
-        "z": 0.9773450071738008,
-        "text": "Right now that means coding agents and LLM tooling; next year it will mean something else.",
-        "position": 0.19166666666666668
+        "x": 0.07127351745416811,
+        "y": 0.7739812167141179,
+        "z": 0.5220058157149876,
+        "text": "Curiosity drives me to explore how new technology can move us forward.",
+        "position": 0.19327731092436976
       },
       {
         "id": 24,
-        "x": 0.27355063107521915,
-        "y": 0.35309875422664594,
-        "z": 0.26589004048935233,
+        "x": 0.23454462153823324,
+        "y": 0.498712801899708,
+        "z": 0.41624999260903267,
         "text": "From roadmap to rollout",
-        "position": 0.2
+        "position": 0.20168067226890757
       },
       {
         "id": 25,
-        "x": 0.07658824084658808,
-        "y": 0.6656944469000808,
-        "z": 0.25651941883843415,
+        "x": 0.021217730109632994,
+        "y": 0.552781509516491,
+        "z": 0.4189709168906467,
         "text": "Find the hard part",
-        "position": 0.20833333333333334
+        "position": 0.21008403361344538
       },
       {
         "id": 26,
-        "x": 0.3471617983616603,
-        "y": 0.7253179079351679,
-        "z": 0.08204574667096912,
+        "x": 0.1557405285747473,
+        "y": 0.8081400999317548,
+        "z": 0.550104655296783,
         "text": "Every project has one.",
-        "position": 0.21666666666666667
+        "position": 0.2184873949579832
       },
       {
         "id": 27,
-        "x": 0.48761229911178083,
-        "y": 0.7417387618626569,
-        "z": 0.4928229910455676,
+        "x": 0.20466685923094025,
+        "y": 0.840290264533056,
+        "z": 0.3189393953821509,
         "text": "We go there first, with real data.",
-        "position": 0.225
+        "position": 0.226890756302521
       },
       {
         "id": 28,
-        "x": 0.16273068602626917,
-        "y": 0.7047810339671101,
-        "z": 0.2556762851466904,
+        "x": 0.07511609872748252,
+        "y": 0.6361281955906685,
+        "z": 0.3804617480719814,
         "text": "Try the smallest useful thing",
-        "position": 0.23333333333333334
+        "position": 0.23529411764705882
       },
       {
         "id": 29,
-        "x": 0.4170416978739285,
-        "y": 0.7863323571004908,
-        "z": 0.12893848908487862,
+        "x": 0.2477743685309648,
+        "y": 0.8567136195662807,
+        "z": 0.6445420420329375,
         "text": "A prototype that does something real, within weeks.",
-        "position": 0.24166666666666667
+        "position": 0.24369747899159663
       },
       {
         "id": 30,
-        "x": 0.1089302176574588,
-        "y": 0.6521246081574207,
-        "z": 0.33864893395833956,
+        "x": 0.04454060237930592,
+        "y": 0.5399897604000232,
+        "z": 0.4664675191627515,
         "text": "Learn where it breaks",
-        "position": 0.25
+        "position": 0.25210084033613445
       },
       {
         "id": 31,
-        "x": 0.5225399492066094,
-        "y": 0.6919736442068061,
-        "z": 0.4916427727526469,
-        "text": "Real users, real edge cases, honest notes.",
-        "position": 0.25833333333333336
+        "x": 0.2148255632668186,
+        "y": 0.8258908918157759,
+        "z": 0.29564649850753844,
+        "text": "Real users, real edge cases.",
+        "position": 0.2605042016806723
       },
       {
         "id": 32,
-        "x": 0.14862910532870313,
-        "y": 0.5238147056092443,
-        "z": 0.27197871327673,
-        "text": "Make it boring",
-        "position": 0.26666666666666666
+        "x": 0.3337226331541882,
+        "y": 0.7438877921379655,
+        "z": 0.8239709254704977,
+        "text": "What did we miss?",
+        "position": 0.2689075630252101
       },
       {
         "id": 33,
-        "x": 0.6769072759950215,
-        "y": 0.7278640580846749,
-        "z": 0.3484247272404721,
-        "text": "Tested, monitored, documented: software your team can run without me.",
-        "position": 0.275
+        "x": 0.039962594138330615,
+        "y": 0.4890434899871845,
+        "z": 0.25318788335400655,
+        "text": "Make it boring",
+        "position": 0.2773109243697479
       },
       {
         "id": 34,
-        "x": 0.26759898190841347,
-        "y": 0.6662964935745177,
-        "z": 0.24658298056897815,
-        "text": "Current work",
-        "position": 0.2833333333333333
+        "x": 0.4032226428343552,
+        "y": 0.7542660437908589,
+        "z": 0.2517415964193312,
+        "text": "Tested, monitored, documented: software you can run without me.",
+        "position": 0.2857142857142857
       },
       {
         "id": 35,
-        "x": 0.6427163616382133,
-        "y": 0.6713100689409969,
-        "z": 0.8273307419547791,
-        "text": "PoliLoom, part of EveryPolitician: structuring politicians' data for investigators and the accountability sector.",
-        "position": 0.2916666666666667
+        "x": 0.15522233608981909,
+        "y": 0.643673279233502,
+        "z": 0.564018039996655,
+        "text": "Current work",
+        "position": 0.29411764705882354
       },
       {
         "id": 36,
-        "x": 0.12185475057509304,
-        "y": 0.3751429311244223,
-        "z": 0.44674855914192585,
-        "text": "OpenSanctions",
-        "position": 0.3
+        "x": 0.7552144000272023,
+        "y": 0.550227245431937,
+        "z": 0.6434216203679579,
+        "text": "PoliLoom, part of EveryPolitician: structuring politicians' data for investigators and the accountability sector.",
+        "position": 0.3025210084033613
       },
       {
         "id": 37,
-        "x": 0.3990613030692,
-        "y": 0.3383620017353669,
-        "z": 0.6906171771513134,
-        "text": "Project lead, EveryPolitician (2025–present)",
-        "position": 0.30833333333333335
+        "x": 0.08270462548770352,
+        "y": 0.3460715236522395,
+        "z": 0.20499533206662013,
+        "text": "OpenSanctions",
+        "position": 0.31092436974789917
       },
       {
         "id": 38,
-        "x": 0.2267568068581142,
-        "y": 0.8322839094376697,
-        "z": 0.42663957503682937,
-        "text": "The problem",
-        "position": 0.31666666666666665
+        "x": 0.489580165180108,
+        "y": 0.3021970912339186,
+        "z": 0.307356193700126,
+        "text": "Project lead, EveryPolitician (2025–present)",
+        "position": 0.31932773109243695
       },
       {
         "id": 39,
-        "x": 0.6932395449839968,
-        "y": 0.5849925229364401,
-        "z": 0.8099969862587296,
-        "text": "Assemble and verify structured politician data from Wikipedia/Wikidata and the wider web, across languages, ensuring provenance, correctness, and scale.",
-        "position": 0.325
+        "x": 0.26514254978542107,
+        "y": 0.5551883838973093,
+        "z": 0.8550519240128364,
+        "text": "The problem",
+        "position": 0.3277310924369748
       },
       {
         "id": 40,
-        "x": 0.01982860138583501,
-        "y": 0.5455383530052833,
-        "z": 0.32805811212756053,
-        "text": "Solution highlights",
-        "position": 0.3333333333333333
+        "x": 0.7824777353659164,
+        "y": 0.5340180288277621,
+        "z": 0.5546441207947719,
+        "text": "Assemble and verify structured politician data from Wikipedia/Wikidata and the wider web, across languages, ensuring provenance, correctness, and scale.",
+        "position": 0.33613445378151263
       },
       {
         "id": 41,
-        "x": 0.8989159035111537,
-        "y": 0.5363363314512499,
-        "z": 0.8942949087509174,
-        "text": "Two-stage extraction pipeline: LLM extracts free-text positions → hybrid search maps to existing entities → LLM reconciles.",
-        "position": 0.3416666666666667
+        "x": 0.0798744351593553,
+        "y": 0.5051078732256236,
+        "z": 0.6153112057749556,
+        "text": "Solution highlights",
+        "position": 0.3445378151260504
       },
       {
         "id": 42,
-        "x": 0.8858486620802608,
-        "y": 0.4815753753389859,
-        "z": 0.8498911000784364,
-        "text": "Fast hybrid search: Meilisearch with OpenAI embeddings for combined semantic and lexical entity matching",
-        "position": 0.35
+        "x": 0.957486313439555,
+        "y": 0.634250435276744,
+        "z": 0.3792899527692798,
+        "text": "Two-stage extraction pipeline: LLM extracts free-text positions → hybrid search maps to existing entities → LLM reconciles.",
+        "position": 0.35294117647058826
       },
       {
         "id": 43,
-        "x": 0.29663052432316434,
-        "y": 0.5098012257949692,
-        "z": 0.4509946872281668,
-        "text": "js confirmation UI",
-        "position": 0.35833333333333334
+        "x": 0.9491545320065107,
+        "y": 0.6103448085558986,
+        "z": 0.3386558747339789,
+        "text": "Fast hybrid search: Meilisearch with OpenAI embeddings for combined semantic and lexical entity matching",
+        "position": 0.36134453781512604
       },
       {
         "id": 44,
-        "x": 0.8938349613523877,
-        "y": 0.6061507428342883,
-        "z": 0.9452333711471361,
-        "text": "Receipts: Every extracted fact links to the exact sentence in the archived source page, highlighted for the evaluator.",
-        "position": 0.36666666666666664
+        "x": 0.171772101586751,
+        "y": 0.5111376596039601,
+        "z": 0.23956319570294057,
+        "text": "js confirmation UI",
+        "position": 0.3697478991596639
       },
       {
         "id": 45,
-        "x": 0.7744898428800784,
-        "y": 0.6033286876020669,
-        "z": 0.8946181593523347,
-        "text": "Upstream: Confirmed statements are pushed to Wikidata on the evaluator's behalf.",
-        "position": 0.375
+        "x": 1,
+        "y": 0.6663521225122403,
+        "z": 0.36063493363125076,
+        "text": "Receipts: Every extracted fact links to the exact sentence in the archived source page, highlighted for the evaluator.",
+        "position": 0.37815126050420167
       },
       {
         "id": 46,
-        "x": 0.9397641337653682,
-        "y": 0.5766469621702323,
-        "z": 0.8982914152485988,
-        "text": "It learns: Rejected statements feed back into improving the extraction.",
-        "position": 0.38333333333333336
+        "x": 0.9069041949152292,
+        "y": 0.5598251796516848,
+        "z": 0.5722272086884127,
+        "text": "Upstream: Confirmed statements are pushed to Wikidata on the evaluator's behalf.",
+        "position": 0.3865546218487395
       },
       {
         "id": 47,
-        "x": 0.9460214145935966,
-        "y": 0.4918777383538593,
-        "z": 0.9626066772662535,
-        "text": "LLM entity reconciliation actually works well, and with human-in-the-loop verification, it's both accurate and accountable.",
-        "position": 0.39166666666666666
+        "x": 0.9671524725601103,
+        "y": 0.6371560923350899,
+        "z": 0.43596437274686795,
+        "text": "It learns: Rejected statements feed back into improving the extraction.",
+        "position": 0.3949579831932773
       },
       {
         "id": 48,
-        "x": 0.5760521444597633,
-        "y": 0.8745177529569432,
-        "z": 0.7009423646265663,
-        "text": "Read the devlog, or the Wikimedia Deutschland interview about the project.",
-        "position": 0.4
+        "x": 0.9254687948808444,
+        "y": 0.5830098854812635,
+        "z": 0.371601743698655,
+        "text": "LLM entity reconciliation actually works well, and with human-in-the-loop verification, it's both accurate and accountable.",
+        "position": 0.40336134453781514
       },
       {
         "id": 49,
-        "x": 0.5412937097392361,
-        "y": 0.9564856492970949,
-        "z": 0.6403801725186568,
-        "text": "The Kolkhoz & Pravda projects ask the next question: can the same ideas work on any page — and how do you find the pages worth reading?",
-        "position": 0.4083333333333333
+        "x": 0.6241318741638812,
+        "y": 0.6271920642474191,
+        "z": 0.8605864242625748,
+        "text": "Read the devlog, or the Wikimedia Deutschland interview about the project.",
+        "position": 0.4117647058823529
       },
       {
         "id": 50,
-        "x": 0.17439909889739338,
-        "y": 0.5894812761359296,
-        "z": 0.44648153294766485,
-        "text": "Writing & speaking",
-        "position": 0.4166666666666667
+        "x": 0.5635675384027703,
+        "y": 0.669401134762179,
+        "z": 0.935741933215918,
+        "text": "The Kolkhoz & Pravda projects ask the next question: can the same ideas work on any page — and how do you find the pages worth reading?",
+        "position": 0.42016806722689076
       },
       {
         "id": 51,
-        "x": 0.4529797123754157,
-        "y": 0.9802248464385804,
-        "z": 0.40231111542142767,
-        "text": "I think in public — essays on this site, talks at conferences and meetups.",
-        "position": 0.425
+        "x": 0.22904917175249861,
+        "y": 0.4322549171328835,
+        "z": 0.6057944912189315,
+        "text": "Writing & speaking",
+        "position": 0.42857142857142855
       },
       {
         "id": 52,
-        "x": 0,
-        "y": 0.5734482080111384,
-        "z": 0.41962003340468185,
-        "text": "Latest articles",
-        "position": 0.43333333333333335
+        "x": 0.43733983356775813,
+        "y": 0.7890258733719558,
+        "z": 1,
+        "text": "I think in public — essays on this site, talks at conferences and meetups.",
+        "position": 0.4369747899159664
       },
       {
         "id": 53,
-        "x": 0.1875480552152597,
-        "y": 0.5768855372275195,
-        "z": 0.2223849833019859,
-        "text": "Everything in its place",
-        "position": 0.44166666666666665
+        "x": 0.09666759971356671,
+        "y": 0.394510379901095,
+        "z": 0.6913460986780962,
+        "text": "Latest articles",
+        "position": 0.44537815126050423
       },
       {
         "id": 54,
-        "x": 0.22460905556155372,
-        "y": 0.00234637111649888,
-        "z": 0.6281289659139958,
-        "text": "August 26, 2026",
-        "position": 0.45
+        "x": 0.13736429121903296,
+        "y": 0.5488847861150654,
+        "z": 0.4561487322186775,
+        "text": "Everything in its place",
+        "position": 0.453781512605042
       },
       {
         "id": 55,
-        "x": 0.4509098345841793,
-        "y": 0.4906023717287802,
-        "z": 0.5851200955235789,
-        "text": "Pi is a really nice agent",
-        "position": 0.4583333333333333
+        "x": 0.3697162411830071,
+        "y": 0.026024852128332204,
+        "z": 0.06324558515175956,
+        "text": "August 26, 2026",
+        "position": 0.46218487394957986
       },
       {
         "id": 56,
-        "x": 0.22181146449810146,
-        "y": 0.025468020687469204,
-        "z": 0.6269586346326831,
-        "text": "July 30, 2026",
-        "position": 0.4666666666666667
+        "x": 0.5586273456335322,
+        "y": 0.4722703778669129,
+        "z": 0.2858442064957917,
+        "text": "Pi is a really nice agent",
+        "position": 0.47058823529411764
       },
       {
         "id": 57,
-        "x": 0.5623518230811653,
-        "y": 0.550900870796075,
-        "z": 0.4816072134881531,
-        "text": "The tool is not the author",
-        "position": 0.475
+        "x": 0.3375186859528685,
+        "y": 0,
+        "z": 0.06455981408086872,
+        "text": "July 30, 2026",
+        "position": 0.4789915966386555
       },
       {
         "id": 58,
-        "x": 0.2542501507255494,
-        "y": 0.014177889648572826,
-        "z": 0.571945192336226,
-        "text": "April 10, 2026",
-        "position": 0.48333333333333334
+        "x": 0.5086087586558745,
+        "y": 0.5906328973118835,
+        "z": 0.2847081027321304,
+        "text": "The tool is not the author",
+        "position": 0.48739495798319327
       },
       {
         "id": 59,
-        "x": 0.8074979414935143,
-        "y": 0.47858160933106536,
-        "z": 0.9035324902193322,
-        "text": "AI agents are human too",
-        "position": 0.49166666666666664
+        "x": 0.3576075189275686,
+        "y": 0.006636185846651147,
+        "z": 0,
+        "text": "April 10, 2026",
+        "position": 0.4957983193277311
       },
       {
         "id": 60,
-        "x": 0.20754624078852746,
-        "y": 0.07471911490683657,
-        "z": 0.615204147762387,
-        "text": "December 6, 2025",
-        "position": 0.5
+        "x": 0.7809167435208525,
+        "y": 0.5779410957035109,
+        "z": 0.30622800951035223,
+        "text": "AI agents are human too",
+        "position": 0.5042016806722689
       },
       {
         "id": 61,
-        "x": 0.016346744879649915,
-        "y": 0.5511319618412944,
-        "z": 0.41633479853052685,
-        "text": "All articles →",
-        "position": 0.5083333333333333
+        "x": 0.3586809151604052,
+        "y": 0.07866825007195062,
+        "z": 0.089577560433794,
+        "text": "December 6, 2025",
+        "position": 0.5126050420168067
       },
       {
         "id": 62,
-        "x": 0.10698534534513966,
-        "y": 0.5734019441292493,
-        "z": 0.4935827185656932,
-        "text": "Latest talks",
-        "position": 0.5166666666666667
+        "x": 0.08517413637908593,
+        "y": 0.41693071060777054,
+        "z": 0.5720547192376308,
+        "text": "All articles →",
+        "position": 0.5210084033613446
       },
       {
         "id": 63,
-        "x": 0.4206690968464718,
-        "y": 0.3944835967444763,
-        "z": 0.5929098235922429,
-        "text": "Who is running the world?",
-        "position": 0.525
+        "x": 0.1656070610014116,
+        "y": 0.41361077640471383,
+        "z": 0.6291025805310515,
+        "text": "Latest talks",
+        "position": 0.5294117647058824
       },
       {
         "id": 64,
-        "x": 0.28225235233200097,
-        "y": 0,
-        "z": 0.5693660297430224,
-        "text": "Wikimania 2026, Paris — with Ada Homolova · July 21, 2026",
-        "position": 0.5333333333333333
+        "x": 0.462742578574519,
+        "y": 0.36781543616303863,
+        "z": 0.282342543460885,
+        "text": "Who is running the world?",
+        "position": 0.5378151260504201
       },
       {
         "id": 65,
-        "x": 0.8479906241925298,
-        "y": 0.48301890909778034,
-        "z": 0.7982955683688973,
-        "text": "Text embeddings: navigating text in high dimensions ↗",
-        "position": 0.5416666666666666
+        "x": 0.41090260031149234,
+        "y": 0.02218749247139499,
+        "z": 0.028607603544605925,
+        "text": "Wikimania 2026, Paris — with Ada Homolova · July 21, 2026",
+        "position": 0.5462184873949579
       },
       {
         "id": 66,
-        "x": 0.2593613155653913,
-        "y": 0.0444964558771382,
-        "z": 0.49983895546401796,
-        "text": "Dataharvest 2026 — with Ada Homolova · May 31, 2026",
-        "position": 0.55
+        "x": 0.9001483621697527,
+        "y": 0.638966085298731,
+        "z": 0.2874640442394372,
+        "text": "Text embeddings: navigating text in high dimensions ↗",
+        "position": 0.5546218487394958
       },
       {
         "id": 67,
-        "x": 0.6970665543870067,
-        "y": 0.5619850959288333,
-        "z": 0.8657146543450549,
-        "text": "PoliLoom: Verification-First AI for Political Data in Wikidata ↗",
-        "position": 0.5583333333333333
+        "x": 0.43046894626849685,
+        "y": 0.06663214793226856,
+        "z": 0.0492333059763134,
+        "text": "Dataharvest 2026 — with Ada Homolova · May 31, 2026",
+        "position": 0.5630252100840336
       },
       {
         "id": 68,
-        "x": 0.2833033670984618,
-        "y": 0.1403935825116783,
-        "z": 0.6108039536323794,
-        "text": "WikiDataCon 2025 — with Brenna Maeve · November 2, 2025",
-        "position": 0.5666666666666667
+        "x": 0.8551599525910968,
+        "y": 0.5379926562829971,
+        "z": 0.5054476860554458,
+        "text": "PoliLoom: Verification-First AI for Political Data in Wikidata ↗",
+        "position": 0.5714285714285714
       },
       {
         "id": 69,
-        "x": 0.21673982370221664,
-        "y": 0.49274222714338883,
-        "z": 0.5789097467929446,
-        "text": "Finding connections ↗",
-        "position": 0.575
+        "x": 0.36387584926332867,
+        "y": 0.1670921611131026,
+        "z": 0.14910002490198357,
+        "text": "WikiDataCon 2025 — with Brenna Maeve · November 2, 2025",
+        "position": 0.5798319327731093
       },
       {
         "id": 70,
-        "x": 0.23672428861564285,
-        "y": 0.11364470505905928,
-        "z": 0.6049726516635807,
-        "text": "Road to NODES 2025 (Neo4j) · September 1, 2025",
-        "position": 0.5833333333333334
+        "x": 0.24877593088966915,
+        "y": 0.3486883765614323,
+        "z": 0.407002373109945,
+        "text": "Finding connections ↗",
+        "position": 0.5882352941176471
       },
       {
         "id": 71,
-        "x": 0.8045960866015672,
-        "y": 0.5597939379359729,
-        "z": 0.750670569844231,
-        "text": "Finding connections: transform your document collections into a graph visualisation ↗",
-        "position": 0.5916666666666667
+        "x": 0.3508249122834298,
+        "y": 0.12664376449300965,
+        "z": 0.11270060556455229,
+        "text": "Road to NODES 2025 (Neo4j) · September 1, 2025",
+        "position": 0.5966386554621849
       },
       {
         "id": 72,
-        "x": 0.27501187998407456,
-        "y": 0.10206330513880763,
-        "z": 0.519384690765801,
-        "text": "Dataharvest 2025 — with Lasse Edfast · May 23, 2025",
-        "position": 0.6
+        "x": 0.8006312687739708,
+        "y": 0.6652735706758367,
+        "z": 0.44209125634826985,
+        "text": "Finding connections: transform your document collections into a graph visualisation ↗",
+        "position": 0.6050420168067226
       },
       {
         "id": 73,
-        "x": 0.3466230622363243,
-        "y": 0.39308395600085116,
-        "z": 0.5570796769010656,
-        "text": "About Johan",
-        "position": 0.6083333333333333
+        "x": 0.4188227181303731,
+        "y": 0.14972886844276886,
+        "z": 0.10793771813687601,
+        "text": "Dataharvest 2025 — with Lasse Edfast · May 23, 2025",
+        "position": 0.6134453781512605
       },
       {
         "id": 74,
-        "x": 0.7221957637734701,
-        "y": 0.9541330169633293,
-        "z": 0.4060565040093847,
-        "text": "I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work.",
-        "position": 0.6166666666666667
+        "x": 0.3852838306626486,
+        "y": 0.3354222779033669,
+        "z": 0.2525169049099721,
+        "text": "About Johan",
+        "position": 0.6218487394957983
       },
       {
         "id": 75,
-        "x": 1,
-        "y": 0.4363620515424011,
-        "z": 1,
-        "text": "I use LLMs where they earn their place, and stand behind everything I ship.",
-        "position": 0.625
+        "x": 0.6184450978724771,
+        "y": 0.8843609960704947,
+        "z": 0.7321148544508091,
+        "text": "I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work.",
+        "position": 0.6302521008403361
       },
       {
         "id": 76,
-        "x": 0.35867469205684216,
-        "y": 0.7002486853651216,
-        "z": 0.2260538444288529,
+        "x": 0.20482233523672988,
+        "y": 0.7109682588019294,
+        "z": 0.5456870436019725,
         "text": "I work remotely, Europe-focused but global clients welcome.",
-        "position": 0.6333333333333333
+        "position": 0.6386554621848739
       },
       {
         "id": 77,
-        "x": 0.09194250761794455,
-        "y": 0.5790303947055568,
-        "z": 0.2719752935515893,
+        "x": 0.11833154158287226,
+        "y": 0.5959320659156385,
+        "z": 0.35557088884886023,
         "text": "Selected experience",
-        "position": 0.6416666666666667
+        "position": 0.6470588235294118
       },
       {
         "id": 78,
-        "x": 0.10694031407783901,
-        "y": 0.3877170579051839,
-        "z": 0.4587264008638528,
+        "x": 0.03170333632575711,
+        "y": 0.31884953510390457,
+        "z": 0.24826350468756064,
         "text": "OpenSanctions",
-        "position": 0.65
+        "position": 0.6554621848739496
       },
       {
         "id": 79,
-        "x": 0.4137096119269561,
-        "y": 0.4014281155108875,
-        "z": 0.7304988603944699,
+        "x": 0.5246481668577757,
+        "y": 0.3189149743484561,
+        "z": 0.3569695750409024,
         "text": "Project lead, EveryPolitician (2025–present)",
-        "position": 0.6583333333333333
+        "position": 0.6638655462184874
       },
       {
         "id": 80,
-        "x": 0.16272410205979035,
-        "y": 0.4205506356065531,
-        "z": 0.31317888249540843,
+        "x": 0.06377173788387726,
+        "y": 0.4026113637474474,
+        "z": 0.2543327836660275,
         "text": "Follow the Money",
-        "position": 0.6666666666666666
+        "position": 0.6722689075630253
       },
       {
         "id": 81,
-        "x": 0.34137121465556375,
-        "y": 0.3608243749139706,
-        "z": 0.38457595875526746,
+        "x": 0.2753193874512188,
+        "y": 0.4726951695589569,
+        "z": 0.23374530725599968,
         "text": "Full Stack Developer (2021–2025)",
-        "position": 0.675
+        "position": 0.680672268907563
       },
       {
         "id": 82,
-        "x": 0.3277318642705894,
-        "y": 0.3126948332238584,
-        "z": 0.610771255253958,
+        "x": 0.43329053761460357,
+        "y": 0.27243666352933765,
+        "z": 0.2493452820439842,
         "text": "Founder (2017–2021)",
-        "position": 0.6833333333333333
+        "position": 0.6890756302521008
       },
       {
         "id": 83,
-        "x": 0.14989871314190603,
-        "y": 0.5434934506709775,
-        "z": 0.4307372904961972,
+        "x": 0.14150415037763625,
+        "y": 0.3881193994921152,
+        "z": 0.4876542028907165,
         "text": "Let's get in touch",
-        "position": 0.6916666666666667
+        "position": 0.6974789915966386
       },
       {
         "id": 84,
-        "x": 0.22607128747284364,
-        "y": 0.4570660978450555,
-        "z": 0.46730034363615786,
+        "x": 0.19741886715825943,
+        "y": 0.3579249178936537,
+        "z": 0.2792129268648638,
         "text": "com/in/johanschuijt/",
-        "position": 0.7
+        "position": 0.7058823529411765
       },
       {
         "id": 85,
-        "x": 0.2050386711240333,
-        "y": 0.396360264859905,
-        "z": 0.35594426753400743,
+        "x": 0.1721651718614584,
+        "y": 0.3962738729765364,
+        "z": 0.15639656781555797,
         "text": "com/monneyboi/",
-        "position": 0.7083333333333334
+        "position": 0.7142857142857143
       },
       {
         "id": 86,
-        "x": 0.25197347991828034,
-        "y": 0.4966485937335779,
-        "z": 0.27962164585434646,
+        "x": 0.12841615440005144,
+        "y": 0.37815141699487276,
+        "z": 0.24924190878280175,
         "text": "+31 651 952 461",
-        "position": 0.7166666666666667
+        "position": 0.7226890756302521
       },
       {
         "id": 87,
-        "x": 0.11843731579143027,
-        "y": 0.7276414116827308,
-        "z": 0.42242975593890214,
+        "x": 0.1605664143223825,
+        "y": 0.5064601221184516,
+        "z": 0.7888171246473118,
         "text": "Frequently asked questions",
-        "position": 0.725
+        "position": 0.7310924369747899
       },
       {
         "id": 88,
-        "x": 0.3143494442688055,
-        "y": 0.9365712154048648,
-        "z": 0.5014148234416167,
+        "x": 0.32821435845591224,
+        "y": 0.615650341505207,
+        "z": 0.9576553601514155,
         "text": "What kinds of problems are you best at solving?",
-        "position": 0.7333333333333333
+        "position": 0.7394957983193278
       },
       {
         "id": 89,
-        "x": 0.8092519338753966,
-        "y": 0.7196526970116527,
-        "z": 0.7232079840811979,
+        "x": 0.8177357399020155,
+        "y": 0.7059628029630973,
+        "z": 0.5617735537912034,
         "text": "Data problems where information is scattered, unstructured, or trapped in formats that don't talk to each other.",
-        "position": 0.7416666666666667
+        "position": 0.7478991596638656
       },
       {
         "id": 90,
-        "x": 0.891430768750922,
-        "y": 0.6217045747600531,
-        "z": 0.8031736795452732,
+        "x": 0.8791028134010723,
+        "y": 0.6889775416743866,
+        "z": 0.44544272590328515,
         "text": "Think: extracting structured facts from thousands of documents, connecting data across systems, or building pipelines that turn messy inputs into something reliable and searchable.",
-        "position": 0.75
+        "position": 0.7563025210084033
       },
       {
         "id": 91,
-        "x": 0.9796501114277635,
-        "y": 0.46987516984906047,
-        "z": 0.9475573581551462,
-        "text": "I use LLMs where they genuinely help—extraction, matching, classification—but they're usually one piece of a larger system.",
-        "position": 0.7583333333333333
+        "x": 0.06994996088899828,
+        "y": 0.717288411885984,
+        "z": 0.43784794569332103,
+        "text": "I strive for simple solutions.",
+        "position": 0.7647058823529411
       },
       {
         "id": 92,
-        "x": 0.37067322694863747,
-        "y": 0.923993346917263,
-        "z": 0.5459845509057509,
+        "x": 0.37725754287638574,
+        "y": 0.6363122493551638,
+        "z": 0.9872505655149881,
         "text": "If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you that.",
-        "position": 0.7666666666666667
+        "position": 0.773109243697479
       },
       {
         "id": 93,
-        "x": 0.6133166188291611,
-        "y": 0.8279933412394775,
-        "z": 0.2882614333963003,
+        "x": 0.37577260320963873,
+        "y": 0.8562615801969253,
+        "z": 0.6940074576113491,
         "text": "How involved does our team need to be?",
-        "position": 0.775
+        "position": 0.7815126050420168
       },
       {
         "id": 94,
-        "x": 0.5321569816760212,
-        "y": 0.7430344897740269,
-        "z": 0.011769222952878992,
+        "x": 0.26210309491092953,
+        "y": 0.9783844890867424,
+        "z": 0.5663818420939775,
         "text": "More at the start, less over time.",
-        "position": 0.7833333333333333
+        "position": 0.7899159663865546
       },
       {
         "id": 95,
-        "x": 0.6239402581445854,
-        "y": 0.9639189032876122,
-        "z": 0.4749810916186727,
-        "text": "Early on I need access to the people who understand the problem—what's actually painful, what the data looks like, what \"good enough\" means.",
-        "position": 0.7916666666666666
+        "x": 0.5536359876014897,
+        "y": 0.8072203662648776,
+        "z": 0.7618794979932829,
+        "text": "Early on I need access to the people who understand the problem—what's painful, what the data looks like, what \"good enough\" means.",
+        "position": 0.7983193277310925
       },
       {
         "id": 96,
-        "x": 0.5150144452849581,
-        "y": 0.7702986862448465,
-        "z": 0,
+        "x": 0.21271692643959256,
+        "y": 0.9736309995777532,
+        "z": 0.5981736074772829,
         "text": "That might be a few hours in the first week or two.",
-        "position": 0.8
+        "position": 0.8067226890756303
       },
       {
         "id": 97,
-        "x": 0.4859236221106351,
-        "y": 0.9512460756373822,
-        "z": 0.29416914498653646,
+        "x": 0.39363179944489474,
+        "y": 0.8650954497018379,
+        "z": 0.911027261409956,
         "text": "During prototyping I'll share work frequently and need feedback.",
-        "position": 0.8083333333333333
+        "position": 0.8151260504201681
       },
       {
         "id": 98,
-        "x": 0.5444546693285123,
-        "y": 0.8418157536608031,
-        "z": 0.25649300893008836,
+        "x": 0.31968145238257906,
+        "y": 0.9150520805037882,
+        "z": 0.7380413328305939,
         "text": "Once we're building for real, involvement drops to occasional check-ins and testing.",
-        "position": 0.8166666666666667
+        "position": 0.8235294117647058
       },
       {
         "id": 99,
-        "x": 0.6600176166732736,
-        "y": 0.7815052790332468,
-        "z": 0.2359099239647752,
+        "x": 0.4157907400901528,
+        "y": 0.9118871531522791,
+        "z": 0.5969105457052528,
         "text": "By handover, the goal is that your team understands what's running and can operate it without me.",
-        "position": 0.825
+        "position": 0.8319327731092437
       },
       {
         "id": 100,
-        "x": 0.4489394115656737,
-        "y": 0.7641961095428836,
-        "z": 0.05273627992219046,
+        "x": 0.2077582038241747,
+        "y": 0.9076826167093335,
+        "z": 0.5947249555611714,
         "text": "What does a typical project timeline look like?",
-        "position": 0.8333333333333334
+        "position": 0.8403361344537815
       },
       {
         "id": 101,
-        "x": 0.2963061585230461,
-        "y": 0.8935210826879576,
-        "z": 0.4644491385789833,
+        "x": 0.2939849362637056,
+        "y": 0.581363619524111,
+        "z": 0.8881572765699879,
         "text": "It depends entirely on the problem.",
-        "position": 0.8416666666666667
+        "position": 0.8487394957983193
       },
       {
         "id": 102,
-        "x": 0.7818537447204055,
-        "y": 0.8005552997515383,
-        "z": 0.3457304011718482,
-        "text": "A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what actually works.",
-        "position": 0.85
+        "x": 0.6067349850683196,
+        "y": 0.8774697900774098,
+        "z": 0.34905466417340114,
+        "text": "A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what works.",
+        "position": 0.8571428571428571
       },
       {
         "id": 103,
-        "x": 0.5752231315016945,
-        "y": 0.9200627124276435,
-        "z": 0.6637474566376578,
+        "x": 0.5974206709616081,
+        "y": 0.665034853134915,
+        "z": 0.891986517037251,
         "text": "Rather than give you made-up estimates, I'd point you to the PoliLoom devlog—it shows how a real project unfolded, including the dead ends and course corrections.",
-        "position": 0.8583333333333333
+        "position": 0.865546218487395
       },
       {
         "id": 104,
-        "x": 0.4609942379402836,
-        "y": 0.6503918666386511,
-        "z": 0.049653369238553624,
-        "text": "That's more honest than a tidy timeline.",
-        "position": 0.8666666666666667
+        "x": 0.2928847968262341,
+        "y": 0.9946984392685878,
+        "z": 0.583841273433063,
+        "text": "What I can promise: I ship early and often.",
+        "position": 0.8739495798319328
       },
       {
         "id": 105,
-        "x": 0.588902363593419,
-        "y": 0.7496250738845822,
-        "z": 0.05997188819262783,
-        "text": "What I can promise: I ship early and often.",
-        "position": 0.875
+        "x": 0.30671044002993275,
+        "y": 0.9856144223642662,
+        "z": 0.6442280314891008,
+        "text": "You'll see working pieces within the first few weeks, not a big reveal after months of silence.",
+        "position": 0.8823529411764706
       },
       {
         "id": 106,
-        "x": 0.5401351682163124,
-        "y": 0.8416002546005061,
-        "z": 0.07327894286779531,
-        "text": "You'll see working pieces within the first few weeks, not a big reveal after months of silence.",
-        "position": 0.8833333333333333
+        "x": 0.4416232982346346,
+        "y": 0.5769379072638158,
+        "z": 0.25186439818547424,
+        "text": "Who owns the code?",
+        "position": 0.8907563025210085
       },
       {
         "id": 107,
-        "x": 0.559010611252517,
-        "y": 0.4450860481081658,
-        "z": 0.4366913752000185,
-        "text": "Who owns the code?",
-        "position": 0.8916666666666667
+        "x": 0.43002811611567104,
+        "y": 0.6740719245413996,
+        "z": 0.3255522541508296,
+        "text": "Everything I build for you is yours—code, configurations, documentation.",
+        "position": 0.8991596638655462
       },
       {
         "id": 108,
-        "x": 0.6339675205645735,
-        "y": 0.5556379979578698,
-        "z": 0.3158128480294607,
-        "text": "Everything I build for you is yours—code, configurations, documentation.",
-        "position": 0.9
+        "x": 0.3502737165212226,
+        "y": 0.7022765167753167,
+        "z": 0.3807846871130917,
+        "text": "I prefer to build things that could be open-sourced if you wanted, and I'll actively suggest it when it makes sense.",
+        "position": 0.907563025210084
       },
       {
         "id": 109,
-        "x": 0.6022529344440016,
-        "y": 0.6040756773296161,
-        "z": 0.2967717244977735,
-        "text": "I prefer to build things that could be open-sourced if you wanted, and I'll actively suggest it when it makes sense.",
-        "position": 0.9083333333333333
+        "x": 0.32501393334943296,
+        "y": 0.626524848767419,
+        "z": 0.2690744755390295,
+        "text": "No vendor lock-in, no proprietary dependencies that tie you to me.",
+        "position": 0.9159663865546218
       },
       {
         "id": 110,
-        "x": 0.4971252914316531,
-        "y": 0.512865897026747,
-        "z": 0.31299632085863416,
-        "text": "No vendor lock-in, no proprietary dependencies that tie you to me.",
-        "position": 0.9166666666666666
+        "x": 0.5526822171446563,
+        "y": 0.7432688100139303,
+        "z": 0.23698583603572398,
+        "text": "Do you also build the user interface, or just the backend?",
+        "position": 0.9243697478991597
       },
       {
         "id": 111,
-        "x": 0.7782620340166202,
-        "y": 0.6302540886882465,
-        "z": 0.43293034054470825,
-        "text": "Do you also build the user interface, or just the backend?",
-        "position": 0.925
+        "x": 0.6312184086005269,
+        "y": 0.8411530442855917,
+        "z": 0.3396964354083788,
+        "text": "I design and build the full system—data pipelines, APIs, and interfaces.",
+        "position": 0.9327731092436975
       },
       {
         "id": 112,
-        "x": 0.8389098439293966,
-        "y": 0.7401838544495781,
-        "z": 0.4556315839752972,
-        "text": "I design and build the full system—data pipelines, APIs, and the interface people actually use.",
-        "position": 0.9333333333333333
+        "x": 0.5357341234010061,
+        "y": 0.6706225214253778,
+        "z": 0.21199092473630815,
+        "text": "A clear UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.",
+        "position": 0.9411764705882353
       },
       {
         "id": 113,
-        "x": 0.6846601918217754,
-        "y": 0.5691019392474104,
-        "z": 0.4570983471864592,
-        "text": "A clear UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.",
-        "position": 0.9416666666666667
+        "x": 0.054140358936116795,
+        "y": 0.433714511675358,
+        "z": 0.3331224236925364,
+        "text": "What do you charge?",
+        "position": 0.9495798319327731
       },
       {
         "id": 114,
-        "x": 0.0820916583109443,
-        "y": 0.49787292951488205,
-        "z": 0.3306119987761219,
-        "text": "What do you charge?",
-        "position": 0.95
+        "x": 0.513929919722736,
+        "y": 0.7748180498685401,
+        "z": 0.7308168317102914,
+        "text": "People hire me when the problem matters and the result has to hold up—if the deciding factor is price, I'm probably not the right hire.",
+        "position": 0.957983193277311
       },
       {
         "id": 115,
-        "x": 0.5749579207115397,
-        "y": 0.9514998531261294,
-        "z": 0.45228065822482666,
-        "text": "People hire me when the problem matters and the result has to hold up—if the deciding factor is price, I'm probably not the right hire.",
-        "position": 0.9583333333333334
+        "x": 0.4165610052432531,
+        "y": 0.76854692925349,
+        "z": 0.778326950697819,
+        "text": "What do you need from us to figure out if we're a good fit?",
+        "position": 0.9663865546218487
       },
       {
         "id": 116,
-        "x": 0.643042954965604,
-        "y": 0.8873180636261889,
-        "z": 0.4664527304517914,
-        "text": "What do you need from us to figure out if we're a good fit?",
-        "position": 0.9666666666666667
+        "x": 0.32715419591736516,
+        "y": 0.5914731343331456,
+        "z": 0.8832547086068796,
+        "text": "A conversation about the problem, and why it matters.",
+        "position": 0.9747899159663865
       },
       {
         "id": 117,
-        "x": 0.35940647355560207,
-        "y": 0.9592296185877023,
-        "z": 0.4667508948606132,
-        "text": "A conversation about the actual problem—not a polished pitch, just what's frustrating and why it matters.",
-        "position": 0.975
+        "x": 0.6239875863059363,
+        "y": 0.8470955687969719,
+        "z": 0.6724514568287937,
+        "text": "I work best with organizations doing something meaningful: journalism, accountability, public interest, open data, or businesses that genuinely care about doing good work rather than just scaling revenue.",
+        "position": 0.9831932773109243
       },
       {
         "id": 118,
-        "x": 0.7481247364730769,
-        "y": 0.9448799754357604,
-        "z": 0.4466726157401834,
-        "text": "I work best with organizations doing something meaningful: journalism, accountability, public interest, open data, or businesses that genuinely care about doing good work rather than just scaling revenue.",
-        "position": 0.9833333333333333
+        "x": 0.5992283139061492,
+        "y": 0.7171064960709993,
+        "z": 0.5243341187670295,
+        "text": "If your goal is \"add AI to make investors happy,\" we're probably not a match.",
+        "position": 0.9915966386554622
       },
       {
         "id": 119,
-        "x": 0.6422241208062689,
-        "y": 0.7630877265607375,
-        "z": 0.5413372904349897,
-        "text": "If your goal is \"add AI to make investors happy,\" we're probably not a match.",
-        "position": 0.9916666666666667
-      },
-      {
-        "id": 120,
-        "x": 0.45405572489346596,
-        "y": 0.9418936309201045,
-        "z": 0.5031207701425654,
+        "x": 0.4379551483369297,
+        "y": 0.6954698356995767,
+        "z": 0.915828998792423,
         "text": "If you're trying to solve a real problem and want to understand what you're building, let's talk.",
         "position": 1
       }
     ],
     "edges": [
       {
-        "source": 36,
+        "source": 37,
         "target": 78,
         "strength": 1
       },
       {
-        "source": 37,
+        "source": 38,
         "target": 79,
         "strength": 0.9999978545397394
       },
       {
         "source": 12,
-        "target": 41,
-        "strength": 0.500895436685651
+        "target": 60,
+        "strength": 0.535373076421735
       },
       {
         "source": 14,
-        "target": 42,
+        "target": 43,
         "strength": 0.3821710755071144
       },
       {
-        "source": 54,
-        "target": 56,
+        "source": 55,
+        "target": 57,
         "strength": 0.3715075233563966
       },
       {
-        "source": 39,
-        "target": 67,
+        "source": 40,
+        "target": 68,
         "strength": 0.35786182278020057
       },
       {
-        "source": 54,
-        "target": 58,
+        "source": 55,
+        "target": 59,
         "strength": 0.350793671210402
       },
       {
-        "source": 12,
-        "target": 42,
-        "strength": 0.34836783099123075
-      },
-      {
-        "source": 41,
-        "target": 42,
+        "source": 42,
+        "target": 43,
         "strength": 0.3460946922706906
       },
       {
         "source": 14,
-        "target": 41,
+        "target": 42,
         "strength": 0.3407698996058116
       },
       {
-        "source": 42,
-        "target": 65,
+        "source": 43,
+        "target": 66,
         "strength": 0.27886451506332155
       },
       {
-        "source": 35,
-        "target": 67,
+        "source": 12,
+        "target": 43,
+        "strength": 0.2635188525997325
+      },
+      {
+        "source": 36,
+        "target": 68,
         "strength": 0.2573274077712593
       },
       {
-        "source": 41,
-        "target": 65,
+        "source": 42,
+        "target": 66,
         "strength": 0.2524112770617682
       },
       {
-        "source": 41,
+        "source": 42,
         "target": 90,
         "strength": 0.24840036383766903
       },
       {
-        "source": 12,
-        "target": 65,
-        "strength": 0.2410321936217738
-      },
-      {
-        "source": 56,
-        "target": 58,
+        "source": 57,
+        "target": 59,
         "strength": 0.237917201604744
       },
       {
         "source": 7,
-        "target": 48,
+        "target": 49,
         "strength": 0.23557755420241427
       },
       {
-        "source": 9,
-        "target": 33,
-        "strength": 0.23284224696982164
-      },
-      {
-        "source": 69,
-        "target": 71,
+        "source": 70,
+        "target": 72,
         "strength": 0.2185993926453625
-      },
-      {
-        "source": 65,
-        "target": 71,
-        "strength": 0.20626467321419936
       },
       {
         "source": 66,
         "target": 72,
+        "strength": 0.20626467321419936
+      },
+      {
+        "source": 67,
+        "target": 73,
         "strength": 0.2059485474806165
       },
       {
@@ -4870,7 +4852,7 @@
       {
         "source": 12,
         "target": 14,
-        "strength": 0.19470200306439295
+        "strength": 0.19092051743959
       },
       {
         "source": 13,
@@ -4878,13 +4860,8 @@
         "strength": 0.18829179344852986
       },
       {
-        "source": 12,
-        "target": 91,
-        "strength": 0.18761233649419548
-      },
-      {
-        "source": 35,
-        "target": 39,
+        "source": 36,
+        "target": 40,
         "strength": 0.1816950317532403
       },
       {
@@ -4893,7 +4870,7 @@
         "strength": 0.17825617245599026
       },
       {
-        "source": 37,
+        "source": 38,
         "target": 82,
         "strength": 0.17690787504760624
       },
@@ -4903,19 +4880,14 @@
         "strength": 0.17690787504760624
       },
       {
-        "source": 53,
+        "source": 54,
         "target": 80,
         "strength": 0.1731567730282681
       },
       {
-        "source": 52,
-        "target": 61,
+        "source": 53,
+        "target": 62,
         "strength": 0.1674328801485251
-      },
-      {
-        "source": 12,
-        "target": 90,
-        "strength": 0.15604085894869701
       },
       {
         "source": 18,
@@ -4923,34 +4895,24 @@
         "strength": 0.14474706902584147
       },
       {
-        "source": 19,
-        "target": 112,
-        "strength": 0.1396210947089511
-      },
-      {
-        "source": 41,
-        "target": 91,
-        "strength": 0.1265898542587387
-      },
-      {
-        "source": 21,
+        "source": 20,
         "target": 80,
         "strength": 0.12474728757743944
       },
       {
-        "source": 41,
-        "target": 46,
+        "source": 12,
+        "target": 56,
+        "strength": 0.12277797260131479
+      },
+      {
+        "source": 42,
+        "target": 47,
         "strength": 0.11712954706610537
       },
       {
         "source": 30,
-        "target": 53,
+        "target": 54,
         "strength": 0.11273894962135522
-      },
-      {
-        "source": 5,
-        "target": 20,
-        "strength": 0.11206536720522026
       },
       {
         "source": 7,
@@ -4958,33 +4920,48 @@
         "strength": 0.10532096222907811
       },
       {
-        "source": 55,
-        "target": 59,
+        "source": 56,
+        "target": 60,
         "strength": 0.10494576229982588
       },
       {
-        "source": 41,
-        "target": 47,
+        "source": 42,
+        "target": 48,
         "strength": 0.0994065605652237
       },
       {
-        "source": 48,
+        "source": 12,
+        "target": 42,
+        "strength": 0.09491968606179647
+      },
+      {
+        "source": 49,
         "target": 103,
         "strength": 0.09458307883541137
       },
       {
-        "source": 38,
+        "source": 39,
         "target": 88,
         "strength": 0.09134592704802588
       },
       {
-        "source": 71,
+        "source": 72,
         "target": 90,
         "strength": 0.09106449451026036
       },
       {
+        "source": 39,
+        "target": 116,
+        "strength": 0.08718619907909264
+      },
+      {
+        "source": 3,
+        "target": 41,
+        "strength": 0.08647789965424213
+      },
+      {
         "source": 88,
-        "target": 120,
+        "target": 119,
         "strength": 0.08320832608216744
       },
       {
@@ -4993,48 +4970,53 @@
         "strength": 0.08118997150242356
       },
       {
-        "source": 64,
+        "source": 12,
         "target": 66,
+        "strength": 0.07828253831305555
+      },
+      {
+        "source": 65,
+        "target": 67,
         "strength": 0.07825609977483
       },
       {
-        "source": 37,
-        "target": 39,
+        "source": 38,
+        "target": 40,
         "strength": 0.07595151379364055
       },
       {
-        "source": 39,
+        "source": 40,
         "target": 79,
         "strength": 0.07595151379364055
       },
       {
-        "source": 32,
+        "source": 33,
         "target": 80,
         "strength": 0.07510668247365251
       },
       {
-        "source": 21,
+        "source": 20,
         "target": 83,
         "strength": 0.07115335481169067
       },
       {
         "source": 14,
-        "target": 65,
+        "target": 66,
         "strength": 0.07008336154437211
       },
       {
         "source": 13,
-        "target": 39,
+        "target": 40,
         "strength": 0.06479858210365329
       },
       {
-        "source": 65,
+        "source": 66,
         "target": 90,
         "strength": 0.06367945357280788
       },
       {
         "source": 96,
-        "target": 106,
+        "target": 105,
         "strength": 0.060646309358479936
       },
       {
@@ -5043,49 +5025,49 @@
         "strength": 0.060188673798640874
       },
       {
-        "source": 53,
+        "source": 54,
         "target": 83,
         "strength": 0.059567623319479505
       },
       {
-        "source": 12,
-        "target": 46,
-        "strength": 0.057664108343818646
+        "source": 28,
+        "target": 91,
+        "strength": 0.05699387137736624
       },
       {
-        "source": 42,
+        "source": 43,
         "target": 90,
         "strength": 0.056428179000690366
       },
       {
-        "source": 53,
+        "source": 54,
         "target": 77,
         "strength": 0.05476398803377594
       },
       {
-        "source": 50,
-        "target": 62,
+        "source": 51,
+        "target": 63,
         "strength": 0.05366420394882472
       },
       {
         "source": 28,
-        "target": 53,
+        "target": 54,
         "strength": 0.0531888187107031
       },
       {
-        "source": 27,
-        "target": 31,
-        "strength": 0.04657460477117068
+        "source": 3,
+        "target": 80,
+        "strength": 0.044772707743881805
       },
       {
-        "source": 94,
-        "target": 104,
-        "strength": 0.04382817301210296
-      },
-      {
-        "source": 73,
+        "source": 74,
         "target": 84,
         "strength": 0.040673245331092955
+      },
+      {
+        "source": 19,
+        "target": 111,
+        "strength": 0.04054800415191968
       },
       {
         "source": 77,
@@ -5093,24 +5075,24 @@
         "strength": 0.039419064479812825
       },
       {
-        "source": 38,
+        "source": 39,
         "target": 101,
         "strength": 0.03933599320411182
       },
       {
-        "source": 21,
+        "source": 20,
         "target": 77,
         "strength": 0.03642109667317233
       },
       {
-        "source": 39,
+        "source": 40,
         "target": 90,
         "strength": 0.03464802438162353
       },
       {
-        "source": 19,
-        "target": 33,
-        "strength": 0.03135378558816172
+        "source": 12,
+        "target": 90,
+        "strength": 0.03156414445812757
       },
       {
         "source": 25,
@@ -5119,17 +5101,12 @@
       },
       {
         "source": 14,
-        "target": 39,
+        "target": 40,
         "strength": 0.03040351620588514
       },
       {
-        "source": 17,
-        "target": 95,
-        "strength": 0.03030273069447218
-      },
-      {
-        "source": 32,
-        "target": 53,
+        "source": 33,
+        "target": 54,
         "strength": 0.03024553748478896
       },
       {
@@ -5143,13 +5120,18 @@
         "strength": 0.029262052328487418
       },
       {
-        "source": 38,
-        "target": 53,
+        "source": 39,
+        "target": 54,
         "strength": 0.028641565971096992
       },
       {
-        "source": 21,
-        "target": 53,
+        "source": 9,
+        "target": 34,
+        "strength": 0.02835063951729124
+      },
+      {
+        "source": 20,
+        "target": 54,
         "strength": 0.02704207272766351
       },
       {
@@ -5158,7 +5140,7 @@
         "strength": 0.026409752844992453
       },
       {
-        "source": 53,
+        "source": 54,
         "target": 84,
         "strength": 0.026181753526536854
       },
@@ -5168,58 +5150,48 @@
         "strength": 0.023564100637764034
       },
       {
-        "source": 20,
-        "target": 53,
-        "strength": 0.02329312000408663
-      },
-      {
         "source": 94,
         "target": 96,
         "strength": 0.023278554396129296
       },
       {
         "source": 18,
-        "target": 53,
+        "target": 54,
         "strength": 0.021819284646408855
       },
       {
-        "source": 40,
-        "target": 52,
+        "source": 41,
+        "target": 53,
         "strength": 0.021658592110626783
       },
       {
         "source": 13,
-        "target": 71,
+        "target": 72,
         "strength": 0.020861880177640752
       },
       {
-        "source": 32,
+        "source": 33,
         "target": 85,
         "strength": 0.019217206433561174
       },
       {
-        "source": 42,
-        "target": 71,
+        "source": 43,
+        "target": 72,
         "strength": 0.018205938472507302
       },
       {
         "source": 14,
-        "target": 71,
+        "target": 72,
         "strength": 0.015777624075615948
       },
       {
-        "source": 46,
+        "source": 47,
         "target": 90,
         "strength": 0.015648349226093095
       },
       {
-        "source": 38,
-        "target": 117,
-        "strength": 0.015365800191702887
-      },
-      {
         "source": 7,
-        "target": 35,
+        "target": 36,
         "strength": 0.014620824776594597
       },
       {
@@ -5228,27 +5200,27 @@
         "strength": 0.014586929546247879
       },
       {
-        "source": 58,
-        "target": 60,
+        "source": 59,
+        "target": 61,
         "strength": 0.014204097877303761
       },
       {
-        "source": 21,
-        "target": 52,
+        "source": 20,
+        "target": 53,
         "strength": 0.012598241530784966
       },
       {
-        "source": 69,
+        "source": 70,
         "target": 80,
         "strength": 0.011743072390037511
       },
       {
-        "source": 67,
+        "source": 68,
         "target": 90,
         "strength": 0.011275863364968337
       },
       {
-        "source": 69,
+        "source": 70,
         "target": 83,
         "strength": 0.010452587126519197
       },
@@ -5259,45 +5231,55 @@
       },
       {
         "source": 25,
-        "target": 53,
+        "target": 54,
         "strength": 0.008018052925367026
       },
       {
-        "source": 35,
-        "target": 37,
+        "source": 36,
+        "target": 38,
         "strength": 0.007036940940617662
       },
       {
-        "source": 35,
+        "source": 36,
         "target": 79,
         "strength": 0.007036940940617662
       },
       {
-        "source": 67,
-        "target": 71,
+        "source": 68,
+        "target": 72,
         "strength": 0.006679086647766855
       },
       {
-        "source": 53,
-        "target": 55,
+        "source": 3,
+        "target": 20,
+        "strength": 0.006670649620197296
+      },
+      {
+        "source": 54,
+        "target": 56,
         "strength": 0.00367384907027371
       },
       {
-        "source": 62,
+        "source": 19,
+        "target": 34,
+        "strength": 0.0036172683444702096
+      },
+      {
+        "source": 63,
         "target": 83,
         "strength": 0.0022332940575378888
       },
       {
-        "source": 56,
-        "target": 60,
+        "source": 57,
+        "target": 61,
         "strength": 0.0022029717360052925
       },
       {
-        "source": 40,
+        "source": 41,
         "target": 77,
         "strength": 0
       }
     ],
-    "hue": 142
+    "hue": 119
   }
 }
