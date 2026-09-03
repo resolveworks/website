@@ -4,7 +4,7 @@
  *
  * Distils each article route's +page.md frontmatter into
  * src/lib/data/articles.json — slug, title, intro, date, dateModified
- * (plus optional description) — sorted newest first. The listing pages (the
+ * — sorted newest first. The listing pages (the
  * articles page, the homepage's latest-articles column) and the (posts)
  * layout read this manifest instead of globbing the route files: route
  * group directories like `(posts)` and files like `+page.md` are made of

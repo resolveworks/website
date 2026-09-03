@@ -1,6 +1,6 @@
 ---
 title: "Pi is a really nice agent - Resolve."
-description: "How I shaped pi around my work with focused extensions, delegated contexts, deterministic code intelligence, and open-weight models."
+description: "Pi starts with a small core and lets you build the rest yourself. The result is an agent environment that works the way I think."
 date: "2026-07-30T19:06:28.631064+00:00"
 ---
 

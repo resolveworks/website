@@ -18,7 +18,7 @@
     '@type': 'BlogPosting',
     '@id': `${articleUrl}#article`,
     headline: data.title,
-    description: data.description ?? data.intro,
+    description: data.intro,
     datePublished: data.date,
     dateModified: data.dateModified,
     image: `${SITE_URL}/og/articles/${data.slug}.png`,
@@ -48,7 +48,7 @@
 <Seo
   title={pageTitle(data.title)}
   socialTitle={data.title}
-  description={data.description ?? data.intro}
+  description={data.intro}
   ogType="article"
   ogImage={`${SITE_URL}/og/articles/${data.slug}.png`}
   publishedTime={data.date}

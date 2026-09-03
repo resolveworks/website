@@ -1,6 +1,6 @@
 ---
 title: "Everything in its place - Resolve."
-description: "Syncthing, KeePass, Restic and GrapheneOS: how one locked-down ecosystem pushed me toward an open, self-controlled setup that syncs files and secrets across every device."
+description: "After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself."
 date: "2026-08-26T08:58:48.861087+00:00"
 ---
 
