@@ -24,8 +24,8 @@ database, no CMS. Homepage is section-based; articles are markdown.
   markdown exclude them.
 - Markdown siblings (`static/**/index.md`) are converted from prerendered
   HTML for every page, articles included — the build is the single source
-  of truth. `static/llms.txt` is curated by hand and must be updated
-  when articles or talks change.
+  of truth. `static/llms.txt` is hand-maintained: a stable, curated
+  overview of the site rather than a list of its content.
 - After changing page content, run `pnpm generate` and commit content and
   generated files together — `static/sitemap.xml` lastmod dates come from
   git history, with uncommitted changes counting as today.
