@@ -1,5 +1,12 @@
 [
   {
+    "slug": "reasoning-matters",
+    "title": "Reasoning matters",
+    "intro": "Reasoning traces are valuable. They can tell you a lot about your prompt. Unless your provider has decided you may not look.",
+    "date": "2026-09-03T13:55:28+00:00",
+    "dateModified": "2026-09-03T13:55:28+00:00"
+  },
+  {
     "slug": "everything-in-its-place",
     "title": "Everything in its place",
     "intro": "After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.",

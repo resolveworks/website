@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://resolve.works/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://resolve.works/articles/</loc>
-    <lastmod>2026-09-01</lastmod>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://resolve.works/articles/ai-agents-are-human-too/</loc>
@@ -19,6 +19,10 @@
   <url>
     <loc>https://resolve.works/articles/pi-is-a-really-nice-agent/</loc>
     <lastmod>2026-09-03</lastmod>
+  </url>
+  <url>
+    <loc>https://resolve.works/articles/reasoning-matters/</loc>
+    <lastmod>2026-09-04</lastmod>
   </url>
   <url>
     <loc>https://resolve.works/articles/the-tool-is-not-the-author/</loc>

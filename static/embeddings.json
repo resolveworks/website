@@ -1195,125 +1195,175 @@
     "nodes": [
       {
         "id": 0,
-        "x": 0.2780952040722642,
-        "y": 0.08635017155012892,
-        "z": 0.661538527000993,
-        "text": "Everything in its place",
+        "x": 0.5182367202815148,
+        "y": 0.523659819317904,
+        "z": 0.30365049858224274,
+        "text": "Reasoning matters",
         "position": 0
       },
       {
         "id": 1,
-        "x": 0,
-        "y": 0.1729174235484648,
-        "z": 0.38049298578163493,
-        "text": "After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.",
-        "position": 0.07692307692307693
+        "x": 0.5491911958340313,
+        "y": 0.798025486128924,
+        "z": 0.48891422288150077,
+        "text": "Reasoning traces are valuable.",
+        "position": 0.05555555555555555
       },
       {
         "id": 2,
-        "x": 1,
-        "y": 0.34464206336931685,
-        "z": 0.7573640914141895,
-        "text": "August 26, 2026",
-        "position": 0.15384615384615385
+        "x": 0.5338210092767511,
+        "y": 0.7090819218846457,
+        "z": 0.8276581522429729,
+        "text": "They can tell you a lot about your prompt.",
+        "position": 0.1111111111111111
       },
       {
         "id": 3,
-        "x": 0.46333274793185025,
-        "y": 0.5671212099979159,
-        "z": 0,
-        "text": "Pi is a really nice agent",
-        "position": 0.23076923076923078
+        "x": 0.6518963112353703,
+        "y": 1,
+        "z": 0.825781063137581,
+        "text": "Unless your provider has decided you may not look.",
+        "position": 0.16666666666666666
       },
       {
         "id": 4,
-        "x": 0.21809204378592786,
-        "y": 0.3929964680011644,
-        "z": 0.2557868053992532,
-        "text": "Pi starts with a small core and lets you build the rest yourself.",
-        "position": 0.3076923076923077
+        "x": 0.06932126353033757,
+        "y": 0.20801673412372823,
+        "z": 0.2978904843065405,
+        "text": "September 3, 2026",
+        "position": 0.2222222222222222
       },
       {
         "id": 5,
-        "x": 0.3394287625324341,
-        "y": 0.9313308823043822,
-        "z": 0.1944743059561423,
-        "text": "The result is an agent environment that works the way I think.",
-        "position": 0.38461538461538464
+        "x": 0.39338259714302976,
+        "y": 0.16923162472395575,
+        "z": 0.643127562696951,
+        "text": "Everything in its place",
+        "position": 0.2777777777777778
       },
       {
         "id": 6,
-        "x": 0.7707831511211751,
-        "y": 0.36658636770125747,
-        "z": 1,
-        "text": "July 30, 2026",
-        "position": 0.46153846153846156
+        "x": 0.5546463171379871,
+        "y": 0,
+        "z": 0.6175563464348837,
+        "text": "After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.",
+        "position": 0.3333333333333333
       },
       {
         "id": 7,
-        "x": 0.36948177135836857,
-        "y": 0.8640990916780191,
-        "z": 0.8702314311262666,
-        "text": "The tool is not the author",
-        "position": 0.5384615384615384
+        "x": 0,
+        "y": 0.4537806513196031,
+        "z": 0.14780221266221286,
+        "text": "August 26, 2026",
+        "position": 0.3888888888888889
       },
       {
         "id": 8,
-        "x": 0.0797006594675241,
-        "y": 0.798974254845345,
-        "z": 0.5105179419905728,
-        "text": "Authorship has always been about direction and selection, not manual execution of every detail.",
-        "position": 0.6153846153846154
+        "x": 0.7584484512575633,
+        "y": 0.007999759950331907,
+        "z": 0.8697349434212763,
+        "text": "Pi is a really nice agent",
+        "position": 0.4444444444444444
       },
       {
         "id": 9,
-        "x": 0.847500684223421,
-        "y": 0.15222028254241882,
-        "z": 0.4851382686879988,
-        "text": "April 10, 2026",
-        "position": 0.6923076923076923
+        "x": 0.5684553316885189,
+        "y": 0.35420158538045426,
+        "z": 0.8756498601316868,
+        "text": "Pi starts with a small core and lets you build the rest yourself.",
+        "position": 0.5
       },
       {
         "id": 10,
-        "x": 0.6325352761630965,
-        "y": 0.7022914332555906,
-        "z": 0.30902290554876455,
-        "text": "AI agents are human too",
-        "position": 0.7692307692307693
+        "x": 0.9140046700102716,
+        "y": 0.15850231703899603,
+        "z": 0.6713976864554435,
+        "text": "The result is an agent environment that works the way I think.",
+        "position": 0.5555555555555556
       },
       {
         "id": 11,
-        "x": 0.4530415249210711,
-        "y": 1,
-        "z": 0.5593096046752901,
-        "text": "More and more often, my agent can't fetch the pages I send it to read.",
-        "position": 0.8461538461538461
+        "x": 0.13646351875800797,
+        "y": 0.2526117799460269,
+        "z": 0,
+        "text": "July 30, 2026",
+        "position": 0.6111111111111112
       },
       {
         "id": 12,
-        "x": 0.2794418980736787,
-        "y": 0.5497988793262132,
-        "z": 0.8637067571038468,
-        "text": "The blocking is economic, not technical — and it doesn't even work.",
-        "position": 0.9230769230769231
+        "x": 0.9227915953798089,
+        "y": 0.7547991990745961,
+        "z": 0.760033461164176,
+        "text": "The tool is not the author",
+        "position": 0.6666666666666666
       },
       {
         "id": 13,
-        "x": 0.7780160931885709,
-        "y": 0,
-        "z": 0.7955734560500437,
+        "x": 0.7620266518832425,
+        "y": 0.7120953721501274,
+        "z": 0.5664575703332871,
+        "text": "Authorship has always been about direction and selection, not manual execution of every detail.",
+        "position": 0.7222222222222222
+      },
+      {
+        "id": 14,
+        "x": 0.18132649438924742,
+        "y": 0.6104946620276079,
+        "z": 0.005779592843149165,
+        "text": "April 10, 2026",
+        "position": 0.7777777777777778
+      },
+      {
+        "id": 15,
+        "x": 0.766268270814687,
+        "y": 0.18333499631666253,
+        "z": 0.45463826801961277,
+        "text": "AI agents are human too",
+        "position": 0.8333333333333334
+      },
+      {
+        "id": 16,
+        "x": 1,
+        "y": 0.35794109635853455,
+        "z": 0.859520520252138,
+        "text": "More and more often, my agent can't fetch the pages I send it to read.",
+        "position": 0.8888888888888888
+      },
+      {
+        "id": 17,
+        "x": 0.8074130868305959,
+        "y": 0.607113619420844,
+        "z": 1,
+        "text": "The blocking is economic, not technical — and it doesn't even work.",
+        "position": 0.9444444444444444
+      },
+      {
+        "id": 18,
+        "x": 0.1564366227177197,
+        "y": 0.49998581966196,
+        "z": 0.2613085449630844,
         "text": "December 6, 2025",
         "position": 1
       }
     ],
     "edges": [
       {
-        "source": 2,
-        "target": 6,
+        "source": 7,
+        "target": 11,
         "strength": 1
+      },
+      {
+        "source": 7,
+        "target": 14,
+        "strength": 0.044553364134555365
+      },
+      {
+        "source": 4,
+        "target": 11,
+        "strength": 0
       }
     ],
-    "hue": 221
+    "hue": 2
   },
   "articles/pi-is-a-really-nice-agent": {
     "nodes": [
@@ -2554,6 +2604,688 @@
     ],
     "hue": 147
   },
+  "articles/reasoning-matters": {
+    "nodes": [
+      {
+        "id": 0,
+        "x": 0.31238976626093645,
+        "y": 1,
+        "z": 0.48077003408528557,
+        "text": "Maybe like you, I prompt a lot.",
+        "position": 0
+      },
+      {
+        "id": 1,
+        "x": 0.204367663496208,
+        "y": 0.8984307981886607,
+        "z": 0.1846214903631281,
+        "text": "I think by now, everyone does.",
+        "position": 0.015625
+      },
+      {
+        "id": 2,
+        "x": 0.8468011396791146,
+        "y": 0.3309996717581182,
+        "z": 0.45475840519548894,
+        "text": "But does the model know what we mean?",
+        "position": 0.03125
+      },
+      {
+        "id": 3,
+        "x": 0.38366058169575495,
+        "y": 0.5909680993900451,
+        "z": 0.621004110752235,
+        "text": "Prompts are almost always ambiguous.",
+        "position": 0.046875
+      },
+      {
+        "id": 4,
+        "x": 0.5830650235760005,
+        "y": 0.8005255173080695,
+        "z": 0,
+        "text": "A modern model deals with that by weighing the possibilities for a while before answering: it tries one reading, catches itself, tries the other, until it's out of reasoning budget.",
+        "position": 0.0625
+      },
+      {
+        "id": 5,
+        "x": 0.4139149611590521,
+        "y": 0.7859322733370115,
+        "z": 0.012220400393096452,
+        "text": "The answer that follows is just where that reasoning happened to stop.",
+        "position": 0.078125
+      },
+      {
+        "id": 6,
+        "x": 0.5422760928838185,
+        "y": 0.8800578751780526,
+        "z": 0.1826097155408763,
+        "text": "You have probably seen a lot of answers, but maybe never a reasoning trace.",
+        "position": 0.09375
+      },
+      {
+        "id": 7,
+        "x": 0.824709899999386,
+        "y": 0.4777845393351017,
+        "z": 0.3052687801847691,
+        "text": "Instead the model was \"Cogitating...\" or maybe even \"Flibbertigibbeting...\".",
+        "position": 0.109375
+      },
+      {
+        "id": 8,
+        "x": 0.2654579650665388,
+        "y": 0.7454604627827712,
+        "z": 0.5037058757399634,
+        "text": "There is a problem with this, though: an answer alone does not teach you much about your prompt.",
+        "position": 0.125
+      },
+      {
+        "id": 9,
+        "x": 0.3160511314469119,
+        "y": 0.6962128968615927,
+        "z": 0.15610494227964822,
+        "text": "The reasoning is different.",
+        "position": 0.140625
+      },
+      {
+        "id": 10,
+        "x": 0.2652918597927403,
+        "y": 0.40120606546564,
+        "z": 0.21309203925373818,
+        "text": "\"Inference\" — drawing a conclusion from premises, step by step — is what can be learned from.",
+        "position": 0.15625
+      },
+      {
+        "id": 11,
+        "x": 0.6320885001803425,
+        "y": 0.7119165062983581,
+        "z": 0.06453273755427551,
+        "text": "I learned prompting, and how to reason with these models, from these reasoning traces — watching where my words landed, watching a first thought march off in a direction I never intended.",
+        "position": 0.171875
+      },
+      {
+        "id": 12,
+        "x": 0.9197076502852145,
+        "y": 0.3632015925675595,
+        "z": 0.6015872228000491,
+        "text": "It's also what the labs themselves use: smaller models are trained on the thinking of the bigger ones.",
+        "position": 0.1875
+      },
+      {
+        "id": 13,
+        "x": 0.2806942667107713,
+        "y": 0,
+        "z": 0.7514825157801771,
+        "text": "It's where a remarkable share of the field's progress comes from.",
+        "position": 0.203125
+      },
+      {
+        "id": 14,
+        "x": 0.6854683919273281,
+        "y": 0.7585645720410391,
+        "z": 0.1330864104174724,
+        "text": "The thinking trace holds the teachable part — reasoning can move from one mind to another, model or human.",
+        "position": 0.21875
+      },
+      {
+        "id": 15,
+        "x": 0.7211991018468056,
+        "y": 0.24182135119419465,
+        "z": 0.5594174533178269,
+        "text": "We are, in a sense, models too.",
+        "position": 0.234375
+      },
+      {
+        "id": 16,
+        "x": 0.29120326466942437,
+        "y": 0.330904075726626,
+        "z": 0.6284874854652579,
+        "text": "The same artifact trains all of us.",
+        "position": 0.25
+      },
+      {
+        "id": 17,
+        "x": 0.7614042248718504,
+        "y": 0.9565128334582684,
+        "z": 0.3121353048312644,
+        "text": "So, if the reasoning trace is so important, why is it hidden?",
+        "position": 0.265625
+      },
+      {
+        "id": 18,
+        "x": 0.38667674663143486,
+        "y": 0.3159873407581202,
+        "z": 0.38982384108703966,
+        "text": "I think it depends on what we want our inference providers to be.",
+        "position": 0.28125
+      },
+      {
+        "id": 19,
+        "x": 0.061935651856908726,
+        "y": 0.34169796993594337,
+        "z": 0.6510620288983374,
+        "text": "Oracle or teacher",
+        "position": 0.296875
+      },
+      {
+        "id": 20,
+        "x": 0.3919462048299594,
+        "y": 0.9886408589870712,
+        "z": 0.30236257323565024,
+        "text": "In my mind, there are roughly two possibilities.",
+        "position": 0.3125
+      },
+      {
+        "id": 21,
+        "x": 0.040268894996722364,
+        "y": 0.534195815709363,
+        "z": 0.7250233844910464,
+        "text": "The oracle: you ask, it answers, and you come back tomorrow exactly as ignorant as you were today.",
+        "position": 0.328125
+      },
+      {
+        "id": 22,
+        "x": 0.09852481887320157,
+        "y": 0.4601149127383788,
+        "z": 0.2670669648542182,
+        "text": "Or the teacher: one whose reasoning you can watch and learn from.",
+        "position": 0.34375
+      },
+      {
+        "id": 23,
+        "x": 0.30381068098980585,
+        "y": 0.8815940475411548,
+        "z": 0.10275403796201887,
+        "text": "In the products most people use, the thinking has been taken away.",
+        "position": 0.359375
+      },
+      {
+        "id": 24,
+        "x": 0,
+        "y": 0.7966731306151441,
+        "z": 0.5378428277206804,
+        "text": "You now wait for some sort of spinner, and then an answer appears.",
+        "position": 0.375
+      },
+      {
+        "id": 25,
+        "x": 0.8476499589802864,
+        "y": 0.5249196567021236,
+        "z": 0.6308533902734986,
+        "text": "What happened in between is summarized by a different model, or simply withheld.",
+        "position": 0.390625
+      },
+      {
+        "id": 26,
+        "x": 0.823805500083561,
+        "y": 0.7926121304941837,
+        "z": 0.7589983133056791,
+        "text": "However, the reasoning still gets generated, billed to you as output, and handed to your application as an encrypted blob.",
+        "position": 0.40625
+      },
+      {
+        "id": 27,
+        "x": 0.27627954051540377,
+        "y": 0.6963794003876091,
+        "z": 0.7843065808241814,
+        "text": "One that you must store, pass back on every turn, and can never open.",
+        "position": 0.421875
+      },
+      {
+        "id": 28,
+        "x": 0.5293481339442133,
+        "y": 0.6460080803302956,
+        "z": 0.5174843764046381,
+        "text": "So the tokens exist, I pay for them and my infrastructure carries them.",
+        "position": 0.4375
+      },
+      {
+        "id": 29,
+        "x": 0.5802876831201746,
+        "y": 0.9285713037171182,
+        "z": 0.7422657050876605,
+        "text": "But I'm not allowed to read them?",
+        "position": 0.453125
+      },
+      {
+        "id": 30,
+        "x": 0.41971045390000367,
+        "y": 0.420529531117135,
+        "z": 0.9078462694767434,
+        "text": "The arguments providers give for this, on closer inspection, support publishing just as well.",
+        "position": 0.46875
+      },
+      {
+        "id": 31,
+        "x": 0.16522704739327018,
+        "y": 0.27707325369463065,
+        "z": 0.7537682711049709,
+        "text": "The raw reality",
+        "position": 0.484375
+      },
+      {
+        "id": 32,
+        "x": 0.7905351174698614,
+        "y": 0.6744591604854516,
+        "z": 0.17228651096583855,
+        "text": "The thinking traces are the rough scratchpad of the model — meandering, raw, unpolished.",
+        "position": 0.5
+      },
+      {
+        "id": 33,
+        "x": 0.7972582665452684,
+        "y": 0.44413359944508723,
+        "z": 0.5352356270981916,
+        "text": "Sometimes they don't even contain the real reason the model answered as it did.",
+        "position": 0.515625
+      },
+      {
+        "id": 34,
+        "x": 0.48987120193298067,
+        "y": 0.4696913370851247,
+        "z": 0.9036868857424679,
+        "text": "The providers argue that's why they can't publish these.",
+        "position": 0.53125
+      },
+      {
+        "id": 35,
+        "x": 1,
+        "y": 0.7035447847361089,
+        "z": 0.4582785737955692,
+        "text": "They want the model to be free to output anything in the thinking trace; teaching it to self-censor could lead to it hiding undesired behavior.",
+        "position": 0.546875
+      },
+      {
+        "id": 36,
+        "x": 0.9728402788573982,
+        "y": 0.7149254670504652,
+        "z": 0.6354112486400159,
+        "text": "This uncensored output is used to understand why a model behaved the way it did, to catch deception and reward hacking.",
+        "position": 0.5625
+      },
+      {
+        "id": 37,
+        "x": 0.25354150293302063,
+        "y": 0.985683071154119,
+        "z": 0.5427144659579762,
+        "text": "This, however, is just as important to me, the user.",
+        "position": 0.578125
+      },
+      {
+        "id": 38,
+        "x": 0.1592968689350368,
+        "y": 0.9608688766840596,
+        "z": 0.4907576943941377,
+        "text": "When one of my agents makes a call that I have to defend, I'm the one on the line.",
+        "position": 0.59375
+      },
+      {
+        "id": 39,
+        "x": 0.2741068177563989,
+        "y": 0.3954688359321918,
+        "z": 0.8169725403162331,
+        "text": "I need that provenance too.",
+        "position": 0.609375
+      },
+      {
+        "id": 40,
+        "x": 0.7358997240559573,
+        "y": 0.9163468025100356,
+        "z": 0.7403440056697439,
+        "text": "Instead I'm left holding an encrypted blob, hoping the one who sealed it is still around to open it.",
+        "position": 0.625
+      },
+      {
+        "id": 41,
+        "x": 0.942385573784366,
+        "y": 0.8991768515460519,
+        "z": 0.5790856046318493,
+        "text": "Another argument flowing from the lack of censoring is that the traces can contain secrets.",
+        "position": 0.640625
+      },
+      {
+        "id": 42,
+        "x": 0.34497169608639877,
+        "y": 0.7071019980896053,
+        "z": 0.24935051098296915,
+        "text": "But that points at a different problem.",
+        "position": 0.65625
+      },
+      {
+        "id": 43,
+        "x": 0.9060178167064425,
+        "y": 0.708090549089955,
+        "z": 0.6668618593534046,
+        "text": "Secrets should not end up in the model's context at all — I shouldn't be sending these in the first place.",
+        "position": 0.671875
+      },
+      {
+        "id": 44,
+        "x": 0.8658883946936565,
+        "y": 0.9446444395074212,
+        "z": 0.551513853768311,
+        "text": "Hiding the trace does nothing about that — it actually makes it harder to catch these kinds of leaks.",
+        "position": 0.6875
+      },
+      {
+        "id": 45,
+        "x": 0.8223808666080905,
+        "y": 0.6877734874873707,
+        "z": 0.45998892516929085,
+        "text": "In reality, hiding the thinking tokens is a desperate attempt at keeping them out of the training data of the competition.",
+        "position": 0.703125
+      },
+      {
+        "id": 46,
+        "x": 0.34259788037184385,
+        "y": 0.030476938747881786,
+        "z": 0.9718740445086714,
+        "text": "Open science",
+        "position": 0.71875
+      },
+      {
+        "id": 47,
+        "x": 0.6334586984604245,
+        "y": 0.057739070249619134,
+        "z": 1,
+        "text": "Let's talk about that competition, because there is a different approach: labs that do their science in the open, that publish their research and their models, freely, for anyone to learn from.",
+        "position": 0.734375
+      },
+      {
+        "id": 48,
+        "x": 0.5173223989499652,
+        "y": 0.6348245320836878,
+        "z": 0.3538923282029625,
+        "text": "Want the reasoning tokens?",
+        "position": 0.75
+      },
+      {
+        "id": 49,
+        "x": 0.9777067125758059,
+        "y": 0.6291547025067254,
+        "z": 0.544430642344678,
+        "text": "Anyone can run their models and generate some, which means there is no incentive to hide the thinking traces.",
+        "position": 0.765625
+      },
+      {
+        "id": 50,
+        "x": 0.46816506783948536,
+        "y": 0.08018552953641611,
+        "z": 0.795717692397275,
+        "text": "You can even run these yourself.",
+        "position": 0.78125
+      },
+      {
+        "id": 51,
+        "x": 0.6514091776316696,
+        "y": 0.15199117770466558,
+        "z": 0.7564486276087328,
+        "text": "But you don't have to — there are many parties out there that run these models for you.",
+        "position": 0.796875
+      },
+      {
+        "id": 52,
+        "x": 0.5700878296050785,
+        "y": 0.16398332030004328,
+        "z": 0.9792856967660967,
+        "text": "Being able to choose between many different providers leads to competition and better prices, also from the closed labs.",
+        "position": 0.8125
+      },
+      {
+        "id": 53,
+        "x": 0.7125172070266294,
+        "y": 0.2867319218151632,
+        "z": 0.8569255499735046,
+        "text": "Availability and low prices are a nice side effect, but not the main reason to choose open models.",
+        "position": 0.828125
+      },
+      {
+        "id": 54,
+        "x": 0.40491491844257643,
+        "y": 0.7613458323780942,
+        "z": 0.11668443873209432,
+        "text": "The reason is in what you get back: not just an answer, but the thinking that produced it.",
+        "position": 0.84375
+      },
+      {
+        "id": 55,
+        "x": 0.5620643577496466,
+        "y": 0.9960230756856958,
+        "z": 0.429340535288276,
+        "text": "Read a few traces and you'll see what I mean.",
+        "position": 0.859375
+      },
+      {
+        "id": 56,
+        "x": 0.13516876403763678,
+        "y": 0.07398075964507383,
+        "z": 0.7623499937619368,
+        "text": "It's the best education this technology has to offer.",
+        "position": 0.875
+      },
+      {
+        "id": 57,
+        "x": 0.06211468672749076,
+        "y": 0.35612752419612664,
+        "z": 0.4740299392414088,
+        "text": "Choose the teacher",
+        "position": 0.890625
+      },
+      {
+        "id": 58,
+        "x": 0.09197239032077956,
+        "y": 0.5490290548897822,
+        "z": 0.7880409352809193,
+        "text": "So next time, before you subscribe to one of the oracles, ask yourself what you want to gain from this relationship.",
+        "position": 0.90625
+      },
+      {
+        "id": 59,
+        "x": 0.2798009806494479,
+        "y": 0.059138589555313925,
+        "z": 0.876260932750549,
+        "text": "There is a version of this technology that shows you everything and makes you better at working with it.",
+        "position": 0.921875
+      },
+      {
+        "id": 60,
+        "x": 0.3477501465612675,
+        "y": 0.26239887833876036,
+        "z": 0.902729839976695,
+        "text": "A version that does not make you dependent on a single provider.",
+        "position": 0.9375
+      },
+      {
+        "id": 61,
+        "x": 0.39080396854665195,
+        "y": 0.12527708265073678,
+        "z": 0.9149755933790849,
+        "text": "A whole ecosystem of competition with the option to run things yourself.",
+        "position": 0.953125
+      },
+      {
+        "id": 62,
+        "x": 0.16496517433631344,
+        "y": 0.6280347493041287,
+        "z": 0.19056308713926917,
+        "text": "The person who watches reasoning learns to steer.",
+        "position": 0.96875
+      },
+      {
+        "id": 63,
+        "x": 0.018293673801627903,
+        "y": 0.7220626576941462,
+        "z": 0.4371600734979402,
+        "text": "The person who watches spinners learns to wait.",
+        "position": 0.984375
+      },
+      {
+        "id": 64,
+        "x": 0.08809484767981349,
+        "y": 0.8923999816146837,
+        "z": 0.5505807343993911,
+        "text": "I'm thankful that I'm very bad at waiting.",
+        "position": 1
+      }
+    ],
+    "edges": [
+      {
+        "source": 19,
+        "target": 57,
+        "strength": 1
+      },
+      {
+        "source": 22,
+        "target": 62,
+        "strength": 0.801050263576799
+      },
+      {
+        "source": 11,
+        "target": 14,
+        "strength": 0.621726637856552
+      },
+      {
+        "source": 60,
+        "target": 61,
+        "strength": 0.5298805825989108
+      },
+      {
+        "source": 6,
+        "target": 54,
+        "strength": 0.48624132705858336
+      },
+      {
+        "source": 24,
+        "target": 63,
+        "strength": 0.436937333786917
+      },
+      {
+        "source": 36,
+        "target": 49,
+        "strength": 0.3993583094243874
+      },
+      {
+        "source": 41,
+        "target": 44,
+        "strength": 0.39792542278286663
+      },
+      {
+        "source": 45,
+        "target": 48,
+        "strength": 0.3948539805165459
+      },
+      {
+        "source": 25,
+        "target": 33,
+        "strength": 0.3809038102722413
+      },
+      {
+        "source": 15,
+        "target": 16,
+        "strength": 0.3700198330118986
+      },
+      {
+        "source": 5,
+        "target": 6,
+        "strength": 0.35737440378768354
+      },
+      {
+        "source": 6,
+        "target": 11,
+        "strength": 0.3078043249582928
+      },
+      {
+        "source": 41,
+        "target": 49,
+        "strength": 0.2950570928895718
+      },
+      {
+        "source": 5,
+        "target": 54,
+        "strength": 0.2762657984156438
+      },
+      {
+        "source": 62,
+        "target": 63,
+        "strength": 0.26406247580175146
+      },
+      {
+        "source": 6,
+        "target": 33,
+        "strength": 0.20738904527302546
+      },
+      {
+        "source": 35,
+        "target": 49,
+        "strength": 0.18476657599094307
+      },
+      {
+        "source": 33,
+        "target": 36,
+        "strength": 0.16455286835786023
+      },
+      {
+        "source": 6,
+        "target": 14,
+        "strength": 0.14510552932117388
+      },
+      {
+        "source": 45,
+        "target": 49,
+        "strength": 0.13275231339716564
+      },
+      {
+        "source": 56,
+        "target": 59,
+        "strength": 0.09817272749980369
+      },
+      {
+        "source": 50,
+        "target": 61,
+        "strength": 0.08905586471652908
+      },
+      {
+        "source": 9,
+        "target": 54,
+        "strength": 0.0722107621789425
+      },
+      {
+        "source": 6,
+        "target": 48,
+        "strength": 0.05264632941417703
+      },
+      {
+        "source": 14,
+        "target": 62,
+        "strength": 0.04400559936297071
+      },
+      {
+        "source": 6,
+        "target": 62,
+        "strength": 0.036982673508908645
+      },
+      {
+        "source": 6,
+        "target": 17,
+        "strength": 0.026900906574849316
+      },
+      {
+        "source": 14,
+        "target": 35,
+        "strength": 0.02585200617333052
+      },
+      {
+        "source": 35,
+        "target": 36,
+        "strength": 0.023615412316657397
+      },
+      {
+        "source": 36,
+        "target": 41,
+        "strength": 0
+      }
+    ],
+    "hue": 1
+  },
   "articles/the-tool-is-not-the-author": {
     "nodes": [
       {
@@ -3753,969 +4485,985 @@
     "nodes": [
       {
         "id": 0,
-        "x": 0.3496802531051848,
-        "y": 0.2930291994776667,
-        "z": 0.7825682280168674,
+        "x": 0.2900581744853017,
+        "y": 0.19143972646887847,
+        "z": 0.4791712478189775,
         "text": "Something resembling a plan.",
         "position": 0
       },
       {
         "id": 1,
-        "x": 0.5434508701191754,
-        "y": 0.12747886605953693,
-        "z": 0.34318432947934424,
+        "x": 0.4205003477954279,
+        "y": 0.1259412327102653,
+        "z": 0.849908526801828,
         "text": "Every engagement starts with the best plan we can make — and the near-certainty that real data will punch holes in it.",
-        "position": 0.008333333333333333
+        "position": 0.00819672131147541
       },
       {
         "id": 2,
-        "x": 0.3901745869192286,
-        "y": 0,
-        "z": 0.6305408287264386,
+        "x": 0.3534649442619036,
+        "y": 0.01923939288437912,
+        "z": 0.712519900736677,
         "text": "What stays fixed is how I work: in the open, in small pieces, with you close enough to steer.",
-        "position": 0.016666666666666666
+        "position": 0.01639344262295082
       },
       {
         "id": 3,
-        "x": 0.06883507064859601,
-        "y": 0.5723204809065765,
-        "z": 0.9100754353675098,
+        "x": 0,
+        "y": 0.5182849189362206,
+        "z": 0.40009132780372886,
         "text": "Show, don't tell.",
-        "position": 0.025
+        "position": 0.02459016393442623
       },
       {
         "id": 4,
-        "x": 0.561694487640068,
-        "y": 0.0858225309335952,
-        "z": 0.3331832793662681,
+        "x": 0.46704037994157455,
+        "y": 0.11022464708881742,
+        "z": 0.8734885194182292,
         "text": "You judge working software running against your data, early enough that changing course is still cheap.",
-        "position": 0.03333333333333333
+        "position": 0.03278688524590164
       },
       {
         "id": 5,
-        "x": 0.23486926633235808,
-        "y": 0.6479421017463041,
-        "z": 0.7553997717937911,
+        "x": 0.11856084885751561,
+        "y": 0.4832105586800863,
+        "z": 0.24319683856385574,
         "text": "Dead ends included.",
-        "position": 0.041666666666666664
+        "position": 0.040983606557377046
       },
       {
         "id": 6,
-        "x": 0.22478131741443816,
-        "y": 0.11215958884193132,
-        "z": 0.3838190585644678,
+        "x": 0.20647936326024682,
+        "y": 0.3121052987480484,
+        "z": 0.9291056074754198,
         "text": "I write down what didn't work and why.",
-        "position": 0.05
+        "position": 0.04918032786885246
       },
       {
         "id": 7,
-        "x": 0.537001033616702,
-        "y": 0.5106144508363437,
-        "z": 0.3135608601543039,
+        "x": 0.6523936086532178,
+        "y": 0.611108744300507,
+        "z": 0.714627080477727,
         "text": "Read the PoliLoom devlog to see what that looks like.",
-        "position": 0.058333333333333334
+        "position": 0.05737704918032787
       },
       {
         "id": 8,
-        "x": 0.10842253995689084,
-        "y": 0.5601064437554792,
-        "z": 0.9774479262301228,
+        "x": 0.04508509228672624,
+        "y": 0.5005056678594498,
+        "z": 0.2917681447448178,
         "text": "You keep the keys.",
-        "position": 0.06666666666666667
+        "position": 0.06557377049180328
       },
       {
         "id": 9,
-        "x": 0.6217016374534192,
-        "y": 0.24858389858793373,
-        "z": 0.4599224621371924,
+        "x": 0.5941883072155631,
+        "y": 0.24533822030876687,
+        "z": 0.6722753530441181,
         "text": "Code, documentation, and a team that understands what's running.",
-        "position": 0.075
+        "position": 0.07377049180327869
       },
       {
         "id": 10,
-        "x": 0.4503675212092205,
-        "y": 0.13855062566180407,
-        "z": 0.6208164914272588,
+        "x": 0.44194402072526895,
+        "y": 0.08082741877906276,
+        "z": 0.5939659070894902,
         "text": "Built to hand over, not to be needed.",
-        "position": 0.08333333333333333
+        "position": 0.08196721311475409
       },
       {
         "id": 11,
-        "x": 0.52706053515483,
-        "y": 0.05170177092945068,
-        "z": 0.40022857225068725,
+        "x": 0.45144895549073166,
+        "y": 0.05364602237563579,
+        "z": 0.792073845107532,
         "text": "Fifteen years of production work keeps circling back to the same set of capabilities:",
-        "position": 0.09166666666666666
+        "position": 0.09016393442622951
       },
       {
         "id": 12,
-        "x": 0.8090708158570173,
-        "y": 0.5806924342260317,
-        "z": 0.31953886018878835,
+        "x": 0.8692893789195832,
+        "y": 0.49691710681466134,
+        "z": 0.7820295864905393,
         "text": "AI agents & search",
-        "position": 0.1
+        "position": 0.09836065573770492
       },
       {
         "id": 13,
-        "x": 0.795399661990669,
-        "y": 0.48560470124465915,
-        "z": 0.021461513159960095,
+        "x": 0.7406934784237456,
+        "y": 0.4932960906168652,
+        "z": 0.9641844043304162,
         "text": "Structured facts from unstructured documents, and agents that do the research.",
-        "position": 0.10833333333333334
+        "position": 0.10655737704918032
       },
       {
         "id": 14,
-        "x": 0.9598369726803984,
-        "y": 0.5247075959774491,
-        "z": 0.1601831512377692,
+        "x": 0.895486842972189,
+        "y": 0.49014660571297525,
+        "z": 0.9542717712752303,
         "text": "Underneath both is hybrid search, reconciling records across sources and languages over millions of entities.",
-        "position": 0.11666666666666667
+        "position": 0.11475409836065574
       },
       {
         "id": 15,
-        "x": 0.747736019563875,
-        "y": 0.32892059884206704,
-        "z": 0.17144888476310863,
+        "x": 0.7619755385154957,
+        "y": 0.2926813029812445,
+        "z": 0.8598328334170317,
         "text": "Interfaces for working with data",
-        "position": 0.125
+        "position": 0.12295081967213115
       },
       {
         "id": 16,
-        "x": 0.8558550065141484,
-        "y": 0.3206343980193753,
-        "z": 0.4369940161198293,
+        "x": 0.8009280320830986,
+        "y": 0.3077794454138087,
+        "z": 0.6353549172841358,
         "text": "Review screens, research tools, search frontends: interfaces where people judge, correct and explore.",
-        "position": 0.13333333333333333
+        "position": 0.13114754098360656
       },
       {
         "id": 17,
-        "x": 0.5365858260886214,
-        "y": 0.1936764103345802,
-        "z": 0.17971436376539088,
+        "x": 0.5147927196610794,
+        "y": 0.20332752114498728,
+        "z": 0.8840941404587523,
         "text": "Built for people whose work depends on the data being right.",
-        "position": 0.14166666666666666
+        "position": 0.13934426229508196
       },
       {
         "id": 18,
-        "x": 0.5131531079199964,
-        "y": 0.47761210645236823,
-        "z": 0.7062359113112054,
+        "x": 0.43642037020682867,
+        "y": 0.4417942587573701,
+        "z": 0.3637167711136826,
         "text": "The full stack",
-        "position": 0.15
+        "position": 0.14754098360655737
       },
       {
         "id": 19,
-        "x": 0.7178008136006019,
-        "y": 0.31455560683192135,
-        "z": 0.35024751350959643,
+        "x": 0.7486880828757952,
+        "y": 0.24984226692334693,
+        "z": 0.696843940082175,
         "text": "Database, pipelines, API, the interface people work with, and the servers it runs on—auth, backups, deploys and monitoring included.",
-        "position": 0.15833333333333333
+        "position": 0.1557377049180328
       },
       {
         "id": 20,
-        "x": 0.1497016394829679,
-        "y": 0.6499909202677788,
-        "z": 0.8192842623225478,
+        "x": 0.105662728780141,
+        "y": 0.5439066070689962,
+        "z": 0.3883881812368564,
         "text": "Stay up to date",
-        "position": 0.16666666666666666
+        "position": 0.16393442622950818
       },
       {
         "id": 21,
-        "x": 0.25892950123662906,
-        "y": 0.2743624866626111,
-        "z": 0.9590983243933989,
+        "x": 0.1287626908249442,
+        "y": 0.18612855832119055,
+        "z": 0.3799041101796822,
         "text": "I continuously experiment.",
-        "position": 0.175
+        "position": 0.1721311475409836
       },
       {
         "id": 22,
-        "x": 0.22461733321020694,
-        "y": 0.3053407065262534,
-        "z": 1,
+        "x": 0.10174245371339476,
+        "y": 0.19461437667591006,
+        "z": 0.40236859974289396,
         "text": "The field changes, so I change with it.",
-        "position": 0.18333333333333332
+        "position": 0.18032786885245902
       },
       {
         "id": 23,
-        "x": 0.20175422961462303,
-        "y": 0.24859793236562808,
-        "z": 0.8973657040016438,
+        "x": 0.09738463477852574,
+        "y": 0.2434344412993567,
+        "z": 0.4817197110239428,
         "text": "Curiosity drives me to explore how new technology can move us forward.",
-        "position": 0.19166666666666668
+        "position": 0.1885245901639344
       },
       {
         "id": 24,
-        "x": 0.37975293522158365,
-        "y": 0.6270250148474752,
-        "z": 0.7348008899800405,
+        "x": 0.2609259774024516,
+        "y": 0.4966878432280965,
+        "z": 0.2621829492858089,
         "text": "From roadmap to rollout",
-        "position": 0.2
+        "position": 0.19672131147540983
       },
       {
         "id": 25,
-        "x": 0.185903185018229,
-        "y": 0.47331418049938073,
-        "z": 0.6802077687279336,
+        "x": 0.039330390114858706,
+        "y": 0.43953865486596905,
+        "z": 0.5022965173324728,
         "text": "Find the hard part",
-        "position": 0.20833333333333334
+        "position": 0.20491803278688525
       },
       {
         "id": 26,
-        "x": 0.35406525008439416,
-        "y": 0.22044656825314998,
-        "z": 0.9078734966697563,
+        "x": 0.17227035057295795,
+        "y": 0.157240212080691,
+        "z": 0.42495451194147404,
         "text": "Every project has one.",
-        "position": 0.21666666666666667
+        "position": 0.21311475409836064
       },
       {
         "id": 27,
-        "x": 0.37451304856063244,
-        "y": 0.26358541597699986,
-        "z": 0.5912131759392313,
+        "x": 0.2564340836606675,
+        "y": 0.24784707752955618,
+        "z": 0.6169768295541928,
         "text": "We go there first, with real data.",
-        "position": 0.225
+        "position": 0.22131147540983606
       },
       {
         "id": 28,
-        "x": 0.15583938561051752,
-        "y": 0.3937650611559992,
-        "z": 0.7183321335002393,
+        "x": 0.050015526924897434,
+        "y": 0.3633790734835326,
+        "z": 0.5323712268214912,
         "text": "Try the smallest useful thing",
-        "position": 0.23333333333333334
+        "position": 0.22950819672131148
       },
       {
         "id": 29,
-        "x": 0.3574567544006538,
-        "y": 0.13345323586639368,
-        "z": 0.7953007986082589,
+        "x": 0.3245996640003035,
+        "y": 0.09830919299433957,
+        "z": 0.4366693834611791,
         "text": "A prototype that does something real, within weeks.",
-        "position": 0.24166666666666667
+        "position": 0.23770491803278687
       },
       {
         "id": 30,
-        "x": 0.12952552266706696,
-        "y": 0.5066430178334859,
-        "z": 0.6960789375381301,
+        "x": 0.07043922930647725,
+        "y": 0.46940721193101514,
+        "z": 0.4665021314908895,
         "text": "Learn where it breaks",
-        "position": 0.25
+        "position": 0.2459016393442623
       },
       {
         "id": 31,
-        "x": 0.40085472543261097,
-        "y": 0.32524450493386753,
-        "z": 0.5755723317913684,
+        "x": 0.3099077391910016,
+        "y": 0.33989647401639145,
+        "z": 0.6101947316884433,
         "text": "Real users, real edge cases.",
-        "position": 0.25833333333333336
+        "position": 0.2540983606557377
       },
       {
         "id": 32,
-        "x": 0.23210676486780427,
-        "y": 0.17674840700894903,
-        "z": 0.2914351873634302,
+        "x": 0.17385423110239626,
+        "y": 0.2689551019521589,
+        "z": 0.9319596304529403,
         "text": "What did we miss?",
-        "position": 0.26666666666666666
+        "position": 0.26229508196721313
       },
       {
         "id": 33,
-        "x": 0.14269838149877898,
-        "y": 0.44969959719109476,
-        "z": 0.8568510950688291,
+        "x": 0.02904351290561593,
+        "y": 0.41913562890973566,
+        "z": 0.38223888199612094,
         "text": "Make it boring",
-        "position": 0.275
+        "position": 0.27049180327868855
       },
       {
         "id": 34,
-        "x": 0.5551834844173645,
-        "y": 0.39075091411907503,
-        "z": 0.5159772403963213,
+        "x": 0.5635300334817226,
+        "y": 0.33202986693540426,
+        "z": 0.5974910672057079,
         "text": "Tested, monitored, documented: software you can run without me.",
-        "position": 0.2833333333333333
+        "position": 0.2786885245901639
       },
       {
         "id": 35,
-        "x": 0.3596112461939502,
-        "y": 0.42790311040111967,
-        "z": 0.9223075963901097,
+        "x": 0.2642706426265741,
+        "y": 0.35917510479942205,
+        "z": 0.34561846555255415,
         "text": "Current work",
-        "position": 0.2916666666666667
+        "position": 0.28688524590163933
       },
       {
         "id": 36,
-        "x": 0.6848666287129581,
-        "y": 0.626119504212066,
-        "z": 0.20530033337566675,
+        "x": 0.7776923891196067,
+        "y": 0.6480112681712743,
+        "z": 0.696246370949833,
         "text": "PoliLoom, part of EveryPolitician: structuring politicians' data for investigators and the accountability sector.",
-        "position": 0.3
+        "position": 0.29508196721311475
       },
       {
         "id": 37,
-        "x": 0.21310834433713696,
-        "y": 0.6674001165980821,
-        "z": 0.9680609479998259,
+        "x": 0.12141620727390229,
+        "y": 0.6312903376000542,
+        "z": 0.2818522115859788,
         "text": "OpenSanctions",
-        "position": 0.30833333333333335
+        "position": 0.30327868852459017
       },
       {
         "id": 38,
-        "x": 0.6110298781874226,
-        "y": 0.7236266086514997,
-        "z": 0.5606698303637137,
+        "x": 0.6383157797415652,
+        "y": 0.6985861689465733,
+        "z": 0.44060351823269656,
         "text": "Project lead, EveryPolitician (2025–present)",
-        "position": 0.31666666666666665
+        "position": 0.3114754098360656
       },
       {
         "id": 39,
-        "x": 0.06792241505174536,
-        "y": 0.35493241797475095,
-        "z": 0.44254276859296743,
+        "x": 0.023395349428391707,
+        "y": 0.5425002696593334,
+        "z": 0.7638509442130692,
         "text": "The problem",
-        "position": 0.325
+        "position": 0.319672131147541
       },
       {
         "id": 40,
-        "x": 0.6666697674454879,
-        "y": 0.6016623010783234,
-        "z": 0.16214285015879668,
+        "x": 0.8349017609568067,
+        "y": 0.6336062720512811,
+        "z": 0.6804054369192687,
         "text": "Assemble and verify structured politician data from Wikipedia/Wikidata and the wider web, across languages, ensuring provenance, correctness, and scale.",
-        "position": 0.3333333333333333
+        "position": 0.32786885245901637
       },
       {
         "id": 41,
-        "x": 0.15469228406572533,
-        "y": 0.5689487930937601,
-        "z": 0.607594523780782,
+        "x": 0.1464730748995346,
+        "y": 0.510327131018356,
+        "z": 0.5448041190471239,
         "text": "Solution highlights",
-        "position": 0.3416666666666667
+        "position": 0.3360655737704918
       },
       {
         "id": 42,
         "x": 1,
-        "y": 0.49528861494976284,
-        "z": 0.10622759061147048,
+        "y": 0.5369388484145498,
+        "z": 0.9274173004473958,
         "text": "Two-stage extraction pipeline: LLM extracts free-text positions → hybrid search maps to existing entities → LLM reconciles.",
-        "position": 0.35
+        "position": 0.3442622950819672
       },
       {
         "id": 43,
-        "x": 0.9269377100990517,
-        "y": 0.5404085431905511,
-        "z": 0.20851601528521563,
+        "x": 0.9466482961802045,
+        "y": 0.48465883680482597,
+        "z": 0.8809038602457634,
         "text": "Fast hybrid search: Meilisearch with OpenAI embeddings for combined semantic and lexical entity matching",
-        "position": 0.35833333333333334
+        "position": 0.3524590163934426
       },
       {
         "id": 44,
-        "x": 0.5885127237195833,
-        "y": 0.5684959017016354,
-        "z": 0.2413119805811439,
+        "x": 0.823078136446755,
+        "y": 0.5724807695488143,
+        "z": 0.6317287549381527,
         "text": "Source verification: web sources archived as MHTML via Playwright and reviewed through a FastAPI + Next.js confirmation UI",
-        "position": 0.36666666666666664
+        "position": 0.36065573770491804
       },
       {
         "id": 45,
-        "x": 0.9771115994320293,
-        "y": 0.5574108096123483,
-        "z": 0,
+        "x": 0.9284939907777824,
+        "y": 0.5952550980085216,
+        "z": 0.9770386038861666,
         "text": "Receipts: Every extracted fact links to the exact sentence in the archived source page, highlighted for the evaluator.",
-        "position": 0.375
+        "position": 0.36885245901639346
       },
       {
         "id": 46,
-        "x": 0.8710286560268296,
-        "y": 0.5877103198258637,
-        "z": 0.047526291264065004,
+        "x": 0.8983450740215903,
+        "y": 0.6481811143235781,
+        "z": 0.8323371941429624,
         "text": "Upstream: Confirmed statements are pushed to Wikidata on the evaluator's behalf.",
-        "position": 0.38333333333333336
+        "position": 0.3770491803278688
       },
       {
         "id": 47,
-        "x": 0.971999775538316,
-        "y": 0.5133179287799708,
-        "z": 0.06996272860865603,
+        "x": 0.9458598058715105,
+        "y": 0.5789746870399789,
+        "z": 0.9292734655073257,
         "text": "It learns: Rejected statements feed back into improving the extraction.",
-        "position": 0.39166666666666666
+        "position": 0.38524590163934425
       },
       {
         "id": 48,
-        "x": 0.9249024100744269,
-        "y": 0.4810242079646152,
-        "z": 0.10379203805360679,
+        "x": 0.9788000675479748,
+        "y": 0.5159577469204812,
+        "z": 0.8723841164333095,
         "text": "LLM entity reconciliation actually works well, and with human-in-the-loop verification, it's both accurate and accountable.",
-        "position": 0.4
+        "position": 0.39344262295081966
       },
       {
         "id": 49,
-        "x": 0.4777380241721176,
-        "y": 0.4422541185958079,
-        "z": 0.2883896803263954,
+        "x": 0.5803992766273001,
+        "y": 0.5648782917290873,
+        "z": 0.7502612543006734,
         "text": "Read the devlog, or the Wikimedia Deutschland interview about the project.",
-        "position": 0.4083333333333333
+        "position": 0.4016393442622951
       },
       {
         "id": 50,
-        "x": 0.23665888373599095,
-        "y": 0.24312342482339883,
-        "z": 0.3477836592522376,
+        "x": 0.32376680977449085,
+        "y": 0.4445107600735275,
+        "z": 0.9097458522832117,
         "text": "The Kolkhoz & Pravda projects ask the next question: can the same ideas work on any page — and how do you find the pages worth reading?",
-        "position": 0.4166666666666667
+        "position": 0.4098360655737705
       },
       {
         "id": 51,
-        "x": 0.047901064868376114,
-        "y": 0.4987648629955677,
-        "z": 0.9130696456621132,
+        "x": 0.20716617786085917,
+        "y": 0.589719026050628,
+        "z": 0.5388213137824901,
         "text": "Writing & speaking",
-        "position": 0.425
+        "position": 0.4180327868852459
       },
       {
         "id": 52,
-        "x": 0.16745059348080216,
-        "y": 0.1135883639046112,
-        "z": 0.48888478049407313,
+        "x": 0.25213376507280705,
+        "y": 0.38319628118877574,
+        "z": 0.8410731787709257,
         "text": "I think in public — essays on this site, talks at conferences and meetups.",
-        "position": 0.43333333333333335
+        "position": 0.4262295081967213
       },
       {
         "id": 53,
-        "x": 0.018668954542722542,
-        "y": 0.6118643843067972,
-        "z": 0.6655618428131804,
+        "x": 0.016950678967631937,
+        "y": 0.6132764658895264,
+        "z": 0.5331526145043356,
         "text": "Latest articles",
-        "position": 0.44166666666666665
+        "position": 0.4344262295081967
       },
       {
         "id": 54,
-        "x": 0.250294869159659,
-        "y": 0.5141784260290375,
-        "z": 0.749142282255587,
-        "text": "Everything in its place",
-        "position": 0.45
+        "x": 0.05737243986481786,
+        "y": 0.5727969281062991,
+        "z": 0.6054204559924221,
+        "text": "Reasoning matters",
+        "position": 0.4426229508196721
       },
       {
         "id": 55,
-        "x": 0.4005475252520458,
-        "y": 0.9761686109948551,
-        "z": 0.5296777144547625,
-        "text": "August 26, 2026",
-        "position": 0.4583333333333333
+        "x": 0.33793486144197427,
+        "y": 0.9843893573270853,
+        "z": 0.09435008579895729,
+        "text": "September 3, 2026",
+        "position": 0.45081967213114754
       },
       {
         "id": 56,
-        "x": 0.662708437027125,
-        "y": 0.5693721844998457,
-        "z": 0.5450772361349744,
-        "text": "Pi is a really nice agent",
-        "position": 0.4666666666666667
+        "x": 0.16861955553419977,
+        "y": 0.43780137188678214,
+        "z": 0.4083347051501706,
+        "text": "Everything in its place",
+        "position": 0.45901639344262296
       },
       {
         "id": 57,
-        "x": 0.37355176424085834,
-        "y": 0.9842491082160667,
-        "z": 0.5524376688060548,
-        "text": "July 30, 2026",
-        "position": 0.475
+        "x": 0.40269085545102395,
+        "y": 0.9841357506410457,
+        "z": 0.018631560541729694,
+        "text": "August 26, 2026",
+        "position": 0.4672131147540984
       },
       {
         "id": 58,
-        "x": 0.7151454428740722,
-        "y": 0.38081336558994183,
-        "z": 0.5744899106993037,
-        "text": "The tool is not the author",
-        "position": 0.48333333333333334
+        "x": 0.625813844350502,
+        "y": 0.5190078278830782,
+        "z": 0.4899162913662908,
+        "text": "Pi is a really nice agent",
+        "position": 0.47540983606557374
       },
       {
         "id": 59,
-        "x": 0.33640621674197413,
+        "x": 0.43390908623432345,
         "y": 1,
-        "z": 0.5731596455439656,
-        "text": "April 10, 2026",
-        "position": 0.49166666666666664
+        "z": 0.01280762318929546,
+        "text": "July 30, 2026",
+        "position": 0.48360655737704916
       },
       {
         "id": 60,
-        "x": 0.795766521956516,
-        "y": 0.48942641987545166,
-        "z": 0.18301721282675795,
-        "text": "AI agents are human too",
-        "position": 0.5
+        "x": 0.666015508387044,
+        "y": 0.3854803480723678,
+        "z": 0.480604054049132,
+        "text": "The tool is not the author",
+        "position": 0.4918032786885246
       },
       {
         "id": 61,
-        "x": 0.35942698709915505,
-        "y": 0.9441123675623356,
-        "z": 0.46859533858249997,
-        "text": "December 6, 2025",
-        "position": 0.5083333333333333
+        "x": 0.4030764901958981,
+        "y": 0.9885808315524326,
+        "z": 0,
+        "text": "April 10, 2026",
+        "position": 0.5
       },
       {
         "id": 62,
-        "x": 0.07317927364059194,
-        "y": 0.6129068454395616,
-        "z": 0.6596558437542134,
-        "text": "All articles →",
-        "position": 0.5166666666666667
+        "x": 0.8212908575465196,
+        "y": 0.43074395591843884,
+        "z": 0.8267212021868201,
+        "text": "AI agents are human too",
+        "position": 0.5081967213114754
       },
       {
         "id": 63,
-        "x": 0,
-        "y": 0.5462204735163949,
-        "z": 0.8123409973866743,
-        "text": "Latest talks",
-        "position": 0.525
+        "x": 0.41079680685083386,
+        "y": 0.9294713299340708,
+        "z": 0.06967582368991777,
+        "text": "December 6, 2025",
+        "position": 0.5163934426229508
       },
       {
         "id": 64,
-        "x": 0.667423356222796,
-        "y": 0.6588127767521067,
-        "z": 0.6894605357094301,
-        "text": "Who is running the world?",
-        "position": 0.5333333333333333
+        "x": 0.03989367045182662,
+        "y": 0.6072815524872145,
+        "z": 0.49811980122857785,
+        "text": "All articles →",
+        "position": 0.5245901639344263
       },
       {
         "id": 65,
-        "x": 0.43684014636581986,
-        "y": 0.9703890507054022,
-        "z": 0.5730716813368577,
-        "text": "Wikimania 2026, Paris — with Ada Homolova · July 21, 2026",
-        "position": 0.5416666666666666
+        "x": 0.11901324020594838,
+        "y": 0.6184093875783258,
+        "z": 0.5792076237644507,
+        "text": "Latest talks",
+        "position": 0.5327868852459017
       },
       {
         "id": 66,
-        "x": 0.9358121655697537,
-        "y": 0.5297638335515292,
-        "z": 0.22928911373686908,
-        "text": "Text embeddings: navigating text in high dimensions ↗",
-        "position": 0.55
+        "x": 0.6716244417226757,
+        "y": 0.5565224573139282,
+        "z": 0.37553375231287367,
+        "text": "Who is running the world?",
+        "position": 0.5409836065573771
       },
       {
         "id": 67,
-        "x": 0.4691120440288433,
-        "y": 0.9384878306413946,
-        "z": 0.5755001660319132,
-        "text": "Dataharvest 2026 — with Ada Homolova · May 31, 2026",
-        "position": 0.5583333333333333
+        "x": 0.4430468173970905,
+        "y": 0.9617102069357488,
+        "z": 0.07440452818935718,
+        "text": "Wikimania 2026, Paris — with Ada Homolova · July 21, 2026",
+        "position": 0.5491803278688525
       },
       {
         "id": 68,
-        "x": 0.733061426188957,
-        "y": 0.6158450497025552,
-        "z": 0.1714768552359232,
-        "text": "PoliLoom: Verification-First AI for Political Data in Wikidata ↗",
-        "position": 0.5666666666666667
+        "x": 0.8485615424903243,
+        "y": 0.5426354246629297,
+        "z": 0.8992436022634949,
+        "text": "Text embeddings: navigating text in high dimensions ↗",
+        "position": 0.5573770491803278
       },
       {
         "id": 69,
-        "x": 0.4432578515631168,
-        "y": 0.8709660662267079,
-        "z": 0.4744409141021871,
-        "text": "WikiDataCon 2025 — with Brenna Maeve · November 2, 2025",
-        "position": 0.575
+        "x": 0.3676442002998062,
+        "y": 0.9115237805628739,
+        "z": 0.024763495148283615,
+        "text": "Dataharvest 2026 — with Ada Homolova · May 31, 2026",
+        "position": 0.5655737704918032
       },
       {
         "id": 70,
-        "x": 0.29011309498690036,
-        "y": 0.6233272053136361,
-        "z": 0.5142898309236406,
-        "text": "Finding connections ↗",
-        "position": 0.5833333333333334
+        "x": 0.8396334818179607,
+        "y": 0.6231839439361493,
+        "z": 0.7150353462443874,
+        "text": "PoliLoom: Verification-First AI for Political Data in Wikidata ↗",
+        "position": 0.5737704918032787
       },
       {
         "id": 71,
-        "x": 0.4010846690136963,
-        "y": 0.8959353263307633,
-        "z": 0.48021271723301207,
-        "text": "Road to NODES 2025 (Neo4j) · September 1, 2025",
-        "position": 0.5916666666666667
+        "x": 0.45351355222292417,
+        "y": 0.8464487608365757,
+        "z": 0.18785826532163494,
+        "text": "WikiDataCon 2025 — with Brenna Maeve · November 2, 2025",
+        "position": 0.5819672131147541
       },
       {
         "id": 72,
-        "x": 0.7804665531489545,
-        "y": 0.500277254586349,
-        "z": 0.2744812868687357,
-        "text": "Finding connections: transform your document collections into a graph visualisation ↗",
-        "position": 0.6
+        "x": 0.31638630951371727,
+        "y": 0.6460680180464713,
+        "z": 0.47757014599401254,
+        "text": "Finding connections ↗",
+        "position": 0.5901639344262295
       },
       {
         "id": 73,
-        "x": 0.4645849359825823,
-        "y": 0.9093840710151656,
-        "z": 0.5438010770267167,
-        "text": "Dataharvest 2025 — with Lasse Edfast · May 23, 2025",
-        "position": 0.6083333333333333
+        "x": 0.39588416535167753,
+        "y": 0.8700906683048504,
+        "z": 0.1346740454853694,
+        "text": "Road to NODES 2025 (Neo4j) · September 1, 2025",
+        "position": 0.5983606557377049
       },
       {
         "id": 74,
-        "x": 0.6089008564284392,
-        "y": 0.6893865789382656,
-        "z": 0.7323652026373121,
-        "text": "About Johan",
-        "position": 0.6166666666666667
+        "x": 0.7412375837069076,
+        "y": 0.5115784337954974,
+        "z": 0.8971990021135746,
+        "text": "Finding connections: transform your document collections into a graph visualisation ↗",
+        "position": 0.6065573770491803
       },
       {
         "id": 75,
-        "x": 0.6302504817696037,
-        "y": 0.13561148891855127,
-        "z": 0.17888197093733335,
-        "text": "I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work.",
-        "position": 0.625
+        "x": 0.4344647380232362,
+        "y": 0.9077156333771866,
+        "z": 0.10112387016680821,
+        "text": "Dataharvest 2025 — with Lasse Edfast · May 23, 2025",
+        "position": 0.6147540983606558
       },
       {
         "id": 76,
-        "x": 0.4244793888305822,
-        "y": 0.3707021217842246,
-        "z": 0.906656585014302,
-        "text": "I work remotely, Europe-focused but global clients welcome.",
-        "position": 0.6333333333333333
+        "x": 0.6046580019735693,
+        "y": 0.5858253343108457,
+        "z": 0.2991289416703988,
+        "text": "About Johan",
+        "position": 0.6229508196721312
       },
       {
         "id": 77,
-        "x": 0.24908785617030957,
-        "y": 0.478550142484638,
-        "z": 0.8231634522740249,
-        "text": "Selected experience",
-        "position": 0.6416666666666667
+        "x": 0.5769092945389158,
+        "y": 0.13489324643983128,
+        "z": 0.9142236825479387,
+        "text": "I am an autodidact software and data engineer with fifteen-plus years of experience, most of it for organizations doing public-interest work.",
+        "position": 0.6311475409836066
       },
       {
         "id": 78,
-        "x": 0.24359907259024913,
-        "y": 0.6686468846359861,
-        "z": 0.9362078709938908,
-        "text": "OpenSanctions",
-        "position": 0.65
+        "x": 0.32345963157504554,
+        "y": 0.29639562585917417,
+        "z": 0.3595321314327963,
+        "text": "I work remotely, Europe-focused but global clients welcome.",
+        "position": 0.639344262295082
       },
       {
         "id": 79,
-        "x": 0.6036710605651823,
-        "y": 0.7262519137499021,
-        "z": 0.5713447826260603,
-        "text": "Project lead, EveryPolitician (2025–present)",
-        "position": 0.6583333333333333
+        "x": 0.14214898309410443,
+        "y": 0.3642664334172891,
+        "z": 0.37193596164820114,
+        "text": "Selected experience",
+        "position": 0.6475409836065574
       },
       {
         "id": 80,
-        "x": 0.2433282879725442,
-        "y": 0.626932321144224,
-        "z": 0.8662664024956702,
-        "text": "Follow the Money",
-        "position": 0.6666666666666666
+        "x": 0.11480264572409604,
+        "y": 0.6312024755252993,
+        "z": 0.2842301208207621,
+        "text": "OpenSanctions",
+        "position": 0.6557377049180327
       },
       {
         "id": 81,
-        "x": 0.46257505404257504,
-        "y": 0.5699495460969934,
-        "z": 0.7828414784213299,
-        "text": "Full Stack Developer (2021–2025)",
-        "position": 0.675
+        "x": 0.6527494131860262,
+        "y": 0.6780774241480321,
+        "z": 0.439667038552262,
+        "text": "Project lead, EveryPolitician (2025–present)",
+        "position": 0.6639344262295082
       },
       {
         "id": 82,
-        "x": 0.36644875627752027,
-        "y": 0.5938532129667438,
-        "z": 0.6027884912425937,
-        "text": "Forest.host",
-        "position": 0.6833333333333333
+        "x": 0.1674214685941851,
+        "y": 0.5357461725277183,
+        "z": 0.26049870072190545,
+        "text": "Follow the Money",
+        "position": 0.6721311475409836
       },
       {
         "id": 83,
-        "x": 0.5428869827146684,
-        "y": 0.7412406596096971,
-        "z": 0.6642082053799861,
-        "text": "Founder (2017–2021)",
-        "position": 0.6916666666666667
+        "x": 0.40210615013256285,
+        "y": 0.5422538494494283,
+        "z": 0.3242073838807058,
+        "text": "Full Stack Developer (2021–2025)",
+        "position": 0.680327868852459
       },
       {
         "id": 84,
-        "x": 0.07959800019582483,
-        "y": 0.6022579698534636,
-        "z": 0.770713226337352,
-        "text": "Let's get in touch",
-        "position": 0.7
+        "x": 0.3022619368570625,
+        "y": 0.4790990246235409,
+        "z": 0.39555851103223144,
+        "text": "Forest.host",
+        "position": 0.6885245901639344
       },
       {
         "id": 85,
-        "x": 0.5989578825111406,
-        "y": 0.6399686004780483,
-        "z": 0.7157807058313101,
-        "text": "https://www.linkedin.com/in/johanschuijt/",
-        "position": 0.7083333333333334
+        "x": 0.5559500641262433,
+        "y": 0.7059356489689362,
+        "z": 0.34473879299794663,
+        "text": "Founder (2017–2021)",
+        "position": 0.6967213114754098
       },
       {
         "id": 86,
-        "x": 0.5477799589125185,
-        "y": 0.4480877882014053,
-        "z": 0.5416683340122421,
-        "text": "https://github.com/monneyboi/",
-        "position": 0.7166666666666667
+        "x": 0.1564899516094753,
+        "y": 0.5944243227650673,
+        "z": 0.434775024304029,
+        "text": "Let's get in touch",
+        "position": 0.7049180327868853
       },
       {
         "id": 87,
-        "x": 0.5742797877416183,
-        "y": 0.6264373128448775,
-        "z": 0.7694803166097339,
-        "text": "johan@resolve.works",
-        "position": 0.725
+        "x": 0.5648369482099168,
+        "y": 0.633077827831273,
+        "z": 0.32635129267293617,
+        "text": "https://www.linkedin.com/in/johanschuijt/",
+        "position": 0.7131147540983607
       },
       {
         "id": 88,
-        "x": 0.2755923555810693,
-        "y": 0.5896905402496876,
-        "z": 0.8225018552801915,
-        "text": "+31 651 952 461",
-        "position": 0.7333333333333333
+        "x": 0.5399747643647761,
+        "y": 0.39360322766397676,
+        "z": 0.5172243275301338,
+        "text": "https://github.com/monneyboi/",
+        "position": 0.7213114754098361
       },
       {
         "id": 89,
-        "x": 0.02277293190394614,
-        "y": 0.45302320877215235,
-        "z": 0.561295160950144,
-        "text": "Frequently asked questions",
-        "position": 0.7416666666666667
+        "x": 0.5041291024298429,
+        "y": 0.5603621220900993,
+        "z": 0.30489959597036553,
+        "text": "johan@resolve.works",
+        "position": 0.7295081967213115
       },
       {
         "id": 90,
-        "x": 0.04062802352418447,
-        "y": 0.2763228881702333,
-        "z": 0.4207089444844265,
-        "text": "What kinds of problems are you best at solving?",
-        "position": 0.75
+        "x": 0.21637936738911653,
+        "y": 0.5908296246056226,
+        "z": 0.1853648209605719,
+        "text": "+31 651 952 461",
+        "position": 0.7377049180327869
       },
       {
         "id": 91,
-        "x": 0.7570987422066301,
-        "y": 0.4065082696467466,
-        "z": 0.0645124437392581,
-        "text": "Data problems where information is scattered, unstructured, or trapped in formats that don't talk to each other.",
-        "position": 0.7583333333333333
+        "x": 0.008512544658845609,
+        "y": 0.5512393640450685,
+        "z": 0.6770217258265078,
+        "text": "Frequently asked questions",
+        "position": 0.7459016393442623
       },
       {
         "id": 92,
-        "x": 0.8489899047817221,
-        "y": 0.4127034295131589,
-        "z": 0.11561398242112314,
-        "text": "Think: extracting structured facts from thousands of documents, connecting data across systems, or building pipelines that turn messy inputs into something reliable and searchable.",
-        "position": 0.7666666666666667
+        "x": 0.07153471588516892,
+        "y": 0.513337622515243,
+        "z": 0.8633591566390462,
+        "text": "What kinds of problems are you best at solving?",
+        "position": 0.7540983606557377
       },
       {
         "id": 93,
-        "x": 0.18096149223132205,
-        "y": 0.3273880725349714,
-        "z": 0.7765353337669719,
-        "text": "I strive for simple solutions.",
-        "position": 0.775
+        "x": 0.667998419502539,
+        "y": 0.47021890071881894,
+        "z": 1,
+        "text": "Data problems where information is scattered, unstructured, or trapped in formats that don't talk to each other.",
+        "position": 0.7622950819672131
       },
       {
         "id": 94,
-        "x": 0.06253009727617231,
-        "y": 0.2303414014271486,
-        "z": 0.34710673358171723,
-        "text": "If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you that.",
-        "position": 0.7833333333333333
+        "x": 0.8524360109745277,
+        "y": 0.4709801820065432,
+        "z": 0.9837861015705255,
+        "text": "Think: extracting structured facts from thousands of documents, connecting data across systems, or building pipelines that turn messy inputs into something reliable and searchable.",
+        "position": 0.7704918032786885
       },
       {
         "id": 95,
-        "x": 0.42158636217074846,
-        "y": 0.0897995176862692,
-        "z": 0.42813053912195925,
-        "text": "How involved does our team need to be?",
-        "position": 0.7916666666666666
+        "x": 0.10171992903435272,
+        "y": 0.30865906460885884,
+        "z": 0.49928462599361007,
+        "text": "I strive for simple solutions.",
+        "position": 0.7786885245901639
       },
       {
         "id": 96,
-        "x": 0.3657647057543687,
-        "y": 0.06063699350647352,
-        "z": 0.7173653691222308,
-        "text": "More at the start, less over time.",
-        "position": 0.8
+        "x": 0.10931915365115989,
+        "y": 0.4780599372446905,
+        "z": 0.9190581152108375,
+        "text": "If your problem is better solved with a spreadsheet or a well-written SQL query, I'll tell you that.",
+        "position": 0.7868852459016393
       },
       {
         "id": 97,
-        "x": 0.44839848423125866,
-        "y": 0.1724042804569362,
-        "z": 0.2062641681842136,
-        "text": "Early on I need access to the people who understand the problem—what's painful, what the data looks like, what \"good enough\" means.",
-        "position": 0.8083333333333333
+        "x": 0.2920093367379524,
+        "y": 0.12953687145341763,
+        "z": 0.8399332185852689,
+        "text": "How involved does our team need to be?",
+        "position": 0.7950819672131147
       },
       {
         "id": 98,
-        "x": 0.4274591197617877,
-        "y": 0.04205372334792268,
-        "z": 0.7658783804293963,
-        "text": "That might be a few hours in the first week or two.",
-        "position": 0.8166666666666667
+        "x": 0.3301137903875835,
+        "y": 0,
+        "z": 0.6028539865712675,
+        "text": "More at the start, less over time.",
+        "position": 0.8032786885245902
       },
       {
         "id": 99,
-        "x": 0.25892717180236813,
-        "y": 0.05889844989675304,
-        "z": 0.5141603766791502,
-        "text": "During prototyping I'll share work frequently and need feedback.",
-        "position": 0.825
+        "x": 0.4080470566751378,
+        "y": 0.2616572722029665,
+        "z": 0.9654386673974356,
+        "text": "Early on I need access to the people who understand the problem—what's painful, what the data looks like, what \"good enough\" means.",
+        "position": 0.8114754098360656
       },
       {
         "id": 100,
-        "x": 0.3783451910384556,
-        "y": 0.08452046038601027,
-        "z": 0.5063489847255521,
-        "text": "Once we're building for real, involvement drops to occasional check-ins and testing.",
-        "position": 0.8333333333333334
+        "x": 0.27063319130968777,
+        "y": 0.01994570214592745,
+        "z": 0.5218744826344687,
+        "text": "That might be a few hours in the first week or two.",
+        "position": 0.819672131147541
       },
       {
         "id": 101,
-        "x": 0.5097395949504255,
-        "y": 0.09667460526493901,
-        "z": 0.5344115451195988,
-        "text": "By handover, the goal is that your team understands what's running and can operate it without me.",
-        "position": 0.8416666666666667
+        "x": 0.24557584765612295,
+        "y": 0.22994010063812167,
+        "z": 0.8208070224746108,
+        "text": "During prototyping I'll share work frequently and need feedback.",
+        "position": 0.8278688524590164
       },
       {
         "id": 102,
-        "x": 0.44994499576143404,
-        "y": 0.10802133749606564,
-        "z": 0.8126388759326683,
-        "text": "What does a typical project timeline look like?",
-        "position": 0.85
+        "x": 0.2790131754653841,
+        "y": 0.1134575072556102,
+        "z": 0.7493879617411571,
+        "text": "Once we're building for real, involvement drops to occasional check-ins and testing.",
+        "position": 0.8360655737704918
       },
       {
         "id": 103,
-        "x": 0.10022921994604432,
-        "y": 0.29462762185834307,
-        "z": 0.39013390047618235,
-        "text": "It depends entirely on the problem.",
-        "position": 0.8583333333333333
+        "x": 0.4584255966905964,
+        "y": 0.10363082533868183,
+        "z": 0.6955967656610506,
+        "text": "By handover, the goal is that your team understands what's running and can operate it without me.",
+        "position": 0.8442622950819673
       },
       {
         "id": 104,
-        "x": 0.7400901836488278,
-        "y": 0.2632281372053651,
-        "z": 0.31372170064674715,
-        "text": "A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what works.",
-        "position": 0.8666666666666667
+        "x": 0.2631910475019786,
+        "y": 0.08462446437614422,
+        "z": 0.4925663641610019,
+        "text": "What does a typical project timeline look like?",
+        "position": 0.8524590163934426
       },
       {
         "id": 105,
-        "x": 0.31340353875223775,
-        "y": 0.030976740892660087,
-        "z": 0.7124820824844973,
-        "text": "What I can promise: I ship early and often.",
-        "position": 0.875
+        "x": 0.07126135378767344,
+        "y": 0.5277981333493956,
+        "z": 0.8652644956723926,
+        "text": "It depends entirely on the problem.",
+        "position": 0.860655737704918
       },
       {
         "id": 106,
-        "x": 0.4327251380172757,
-        "y": 0.02388558635377323,
-        "z": 0.6442796604918896,
-        "text": "You'll see working pieces within the first few weeks, not a big reveal after months of silence.",
-        "position": 0.8833333333333333
+        "x": 0.716249792094955,
+        "y": 0.15718899208367593,
+        "z": 0.7257092247199374,
+        "text": "A small integration might take a few weeks; a complex data pipeline with verification workflows takes months and evolves as we learn what works.",
+        "position": 0.8688524590163934
       },
       {
         "id": 107,
-        "x": 0.6709638462663483,
-        "y": 0.382649634786241,
-        "z": 0.685904040807511,
-        "text": "Who owns the code?",
-        "position": 0.8916666666666667
+        "x": 0.3451285788079434,
+        "y": 0.014386718962501793,
+        "z": 0.6023317165455675,
+        "text": "What I can promise: I ship early and often.",
+        "position": 0.8770491803278688
       },
       {
         "id": 108,
-        "x": 0.6308331326410213,
-        "y": 0.2819582333181148,
-        "z": 0.6280103685271331,
-        "text": "Everything I build for you is yours—code, configurations, documentation.",
-        "position": 0.9
+        "x": 0.33468962458563906,
+        "y": 0.045649751025771075,
+        "z": 0.6374515903350216,
+        "text": "You'll see working pieces within the first few weeks, not a big reveal after months of silence.",
+        "position": 0.8852459016393442
       },
       {
         "id": 109,
-        "x": 0.5606278823942022,
-        "y": 0.23305684328315135,
-        "z": 0.7039758215804036,
-        "text": "I prefer to build things that could be open-sourced if you wanted, and I'll actively suggest it when it makes sense.",
-        "position": 0.9083333333333333
+        "x": 0.6459560518435931,
+        "y": 0.39846271677251766,
+        "z": 0.4079388139190325,
+        "text": "Who owns the code?",
+        "position": 0.8934426229508197
       },
       {
         "id": 110,
-        "x": 0.5562120078331672,
-        "y": 0.34972009859138237,
-        "z": 0.726852592426549,
-        "text": "No vendor lock-in, no proprietary dependencies that tie you to me.",
-        "position": 0.9166666666666666
+        "x": 0.5772690256275603,
+        "y": 0.27298820388062656,
+        "z": 0.48901735268113966,
+        "text": "Everything I build for you is yours—code, configurations, documentation.",
+        "position": 0.9016393442622951
       },
       {
         "id": 111,
-        "x": 0.771281019119011,
-        "y": 0.2831025319518038,
-        "z": 0.5306761301218602,
-        "text": "Do you also build the user interface, or just the backend?",
-        "position": 0.925
+        "x": 0.46848292909156797,
+        "y": 0.2413961641860365,
+        "z": 0.5059954651010031,
+        "text": "I prefer to build things that could be open-sourced if you wanted, and I'll actively suggest it when it makes sense.",
+        "position": 0.9098360655737705
       },
       {
         "id": 112,
-        "x": 0.7733933694679456,
-        "y": 0.30335550527161914,
-        "z": 0.2752490557706451,
-        "text": "I design and build the full system—data pipelines, APIs, and interfaces.",
-        "position": 0.9333333333333333
+        "x": 0.5051408315210899,
+        "y": 0.3467641316092781,
+        "z": 0.4316978973705572,
+        "text": "No vendor lock-in, no proprietary dependencies that tie you to me.",
+        "position": 0.9180327868852459
       },
       {
         "id": 113,
-        "x": 0.7951282008038325,
-        "y": 0.2848310293755633,
-        "z": 0.5344067179092128,
-        "text": "A clear UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.",
-        "position": 0.9416666666666667
+        "x": 0.7336540469401946,
+        "y": 0.24020973198929887,
+        "z": 0.5703044482993693,
+        "text": "Do you also build the user interface, or just the backend?",
+        "position": 0.9262295081967213
       },
       {
         "id": 114,
-        "x": 0.16566180137375064,
-        "y": 0.5912424562574721,
-        "z": 0.8941179432676372,
-        "text": "What do you charge?",
-        "position": 0.95
+        "x": 0.774919648039621,
+        "y": 0.21122292879843138,
+        "z": 0.7706368500872077,
+        "text": "I design and build the full system—data pipelines, APIs, and interfaces.",
+        "position": 0.9344262295081968
       },
       {
         "id": 115,
-        "x": 0.403689179817391,
-        "y": 0.18814192212721176,
-        "z": 0.20324232390728744,
-        "text": "People hire me when the problem matters and the result has to hold up—if the deciding factor is price, I'm probably not the right hire.",
-        "position": 0.9583333333333334
+        "x": 0.7264791557776797,
+        "y": 0.24973848889896896,
+        "z": 0.5528884550736696,
+        "text": "A clear UI isn't optional; it's what makes the difference between a tool that gets used and one that gets abandoned.",
+        "position": 0.9426229508196722
       },
       {
         "id": 116,
-        "x": 0.33531894097815185,
-        "y": 0.12763438670188576,
-        "z": 0.23765051435953496,
-        "text": "What do you need from us to figure out if we're a good fit?",
-        "position": 0.9666666666666667
+        "x": 0.04768733800833611,
+        "y": 0.5607236830467065,
+        "z": 0.29029965786502204,
+        "text": "What do you charge?",
+        "position": 0.9508196721311475
       },
       {
         "id": 117,
-        "x": 0.11692171482437946,
-        "y": 0.2953625804639452,
-        "z": 0.2952991934257539,
-        "text": "A conversation about the problem, and why it matters.",
-        "position": 0.975
+        "x": 0.39536936378286064,
+        "y": 0.24780875287696796,
+        "z": 0.97099798381027,
+        "text": "People hire me when the problem matters and the result has to hold up—if the deciding factor is price, I'm probably not the right hire.",
+        "position": 0.9590163934426229
       },
       {
         "id": 118,
-        "x": 0.5989266833858601,
-        "y": 0.16315620921564258,
-        "z": 0.1990936409516077,
-        "text": "I work best with organizations doing something meaningful: journalism, accountability, public interest, open data, or businesses that genuinely care about doing good work rather than just scaling revenue.",
-        "position": 0.9833333333333333
+        "x": 0.24654792432745276,
+        "y": 0.2629198516702942,
+        "z": 0.973376625647543,
+        "text": "What do you need from us to figure out if we're a good fit?",
+        "position": 0.9672131147540983
       },
       {
         "id": 119,
-        "x": 0.5363945813568258,
-        "y": 0.27556090841332287,
-        "z": 0.14910646491384114,
-        "text": "If your goal is \"add AI to make investors happy,\" we're probably not a match.",
-        "position": 0.9916666666666667
+        "x": 0.029778254016885546,
+        "y": 0.5098548740682105,
+        "z": 0.8105744446394089,
+        "text": "A conversation about the problem, and why it matters.",
+        "position": 0.9754098360655737
       },
       {
         "id": 120,
-        "x": 0.154387112696087,
-        "y": 0.2045186363271218,
-        "z": 0.4047780338309401,
+        "x": 0.5503127536983916,
+        "y": 0.17098173189873495,
+        "z": 0.9412306161943363,
+        "text": "I work best with organizations doing something meaningful: journalism, accountability, public interest, open data, or businesses that genuinely care about doing good work rather than just scaling revenue.",
+        "position": 0.9836065573770492
+      },
+      {
+        "id": 121,
+        "x": 0.5797551676231848,
+        "y": 0.28266297809106,
+        "z": 0.91146334847198,
+        "text": "If your goal is \"add AI to make investors happy,\" we're probably not a match.",
+        "position": 0.9918032786885246
+      },
+      {
+        "id": 122,
+        "x": 0.2122579962687604,
+        "y": 0.41194501356438834,
+        "z": 0.9063818928644302,
         "text": "If you're trying to solve a real problem and want to understand what you're building, let's talk.",
         "position": 1
       }
@@ -4723,550 +5471,570 @@
     "edges": [
       {
         "source": 37,
-        "target": 78,
+        "target": 80,
         "strength": 1
       },
       {
         "source": 38,
-        "target": 79,
-        "strength": 0.9999978666721431
+        "target": 81,
+        "strength": 0.999997858460168
       },
       {
         "source": 12,
-        "target": 60,
-        "strength": 0.53800050397858
+        "target": 62,
+        "strength": 0.5362220954878277
       },
       {
         "source": 14,
         "target": 43,
-        "strength": 0.38566484794958683
+        "strength": 0.3833000426630387
+      },
+      {
+        "source": 57,
+        "target": 59,
+        "strength": 0.37265597616549506
+      },
+      {
+        "source": 40,
+        "target": 70,
+        "strength": 0.3590352105626539
+      },
+      {
+        "source": 57,
+        "target": 61,
+        "strength": 0.35197997472188497
+      },
+      {
+        "source": 55,
+        "target": 59,
+        "strength": 0.3510158335688531
+      },
+      {
+        "source": 42,
+        "target": 43,
+        "strength": 0.3472895822899899
+      },
+      {
+        "source": 14,
+        "target": 42,
+        "strength": 0.3419745196908175
       },
       {
         "source": 55,
         "target": 57,
-        "strength": 0.3750615973211288
+        "strength": 0.3068567504131622
       },
       {
-        "source": 40,
+        "source": 76,
+        "target": 89,
+        "strength": 0.29216812113320373
+      },
+      {
+        "source": 43,
         "target": 68,
-        "strength": 0.3614930620745918
+        "strength": 0.2801822556953797
       },
       {
         "source": 55,
-        "target": 59,
-        "strength": 0.354464880328469
-      },
-      {
-        "source": 42,
-        "target": 43,
-        "strength": 0.34979247373342537
-      },
-      {
-        "source": 14,
-        "target": 42,
-        "strength": 0.34449779233905653
-      },
-      {
-        "source": 74,
-        "target": 87,
-        "strength": 0.29488238201358336
-      },
-      {
-        "source": 43,
-        "target": 66,
-        "strength": 0.28294247772366277
+        "target": 61,
+        "strength": 0.26765612751294093
       },
       {
         "source": 12,
         "target": 43,
-        "strength": 0.2676835937362851
+        "strength": 0.264864634568511
       },
       {
         "source": 36,
+        "target": 70,
+        "strength": 0.25868450345097294
+      },
+      {
+        "source": 42,
         "target": 68,
-        "strength": 0.2615271610259942
+        "strength": 0.2537773560536662
       },
       {
         "source": 42,
-        "target": 66,
-        "strength": 0.25663883063681103
-      },
-      {
-        "source": 42,
-        "target": 92,
-        "strength": 0.2526505988015818
-      },
-      {
-        "source": 57,
-        "target": 59,
-        "strength": 0.24222671800056675
-      },
-      {
-        "source": 7,
-        "target": 49,
-        "strength": 0.23990030111447755
-      },
-      {
-        "source": 70,
-        "target": 72,
-        "strength": 0.22301814968356312
-      },
-      {
-        "source": 66,
-        "target": 72,
-        "strength": 0.210753182090046
-      },
-      {
-        "source": 67,
-        "target": 73,
-        "strength": 0.2104388440218387
-      },
-      {
-        "source": 14,
-        "target": 92,
-        "strength": 0.2101389445092569
-      },
-      {
-        "source": 4,
-        "target": 17,
-        "strength": 0.1998472905185723
-      },
-      {
-        "source": 12,
-        "target": 14,
-        "strength": 0.195495796271444
-      },
-      {
-        "source": 13,
-        "target": 92,
-        "strength": 0.19288193750128038
-      },
-      {
-        "source": 36,
-        "target": 40,
-        "strength": 0.18632247995817092
-      },
-      {
-        "source": 38,
-        "target": 83,
-        "strength": 0.18156239423531687
-      },
-      {
-        "source": 79,
-        "target": 83,
-        "strength": 0.18156239423531687
-      },
-      {
-        "source": 54,
-        "target": 80,
-        "strength": 0.17783250439356466
-      },
-      {
-        "source": 53,
-        "target": 62,
-        "strength": 0.1721409796636672
-      },
-      {
-        "source": 18,
-        "target": 81,
-        "strength": 0.14958345496234307
-      },
-      {
-        "source": 20,
-        "target": 80,
-        "strength": 0.12969677065541474
-      },
-      {
-        "source": 12,
-        "target": 56,
-        "strength": 0.1277385919957061
-      },
-      {
-        "source": 42,
-        "target": 47,
-        "strength": 0.12212210784863171
-      },
-      {
-        "source": 30,
-        "target": 54,
-        "strength": 0.11775633887621482
-      },
-      {
-        "source": 56,
-        "target": 60,
-        "strength": 0.1100072213967139
-      },
-      {
-        "source": 42,
-        "target": 48,
-        "strength": 0.10449934339851583
-      },
-      {
-        "source": 12,
-        "target": 42,
-        "strength": 0.10003784180637755
-      },
-      {
-        "source": 39,
-        "target": 90,
-        "strength": 0.09648429210988455
-      },
-      {
-        "source": 72,
-        "target": 92,
-        "strength": 0.09620445105028698
-      },
-      {
-        "source": 39,
-        "target": 117,
-        "strength": 0.09234808706512966
-      },
-      {
-        "source": 3,
-        "target": 41,
-        "strength": 0.09164379301606113
-      },
-      {
-        "source": 90,
-        "target": 120,
-        "strength": 0.08839270861727032
-      },
-      {
-        "source": 29,
-        "target": 98,
-        "strength": 0.08638576766892227
-      },
-      {
-        "source": 12,
-        "target": 66,
-        "strength": 0.08349477577835503
-      },
-      {
-        "source": 65,
-        "target": 67,
-        "strength": 0.08346848674791814
-      },
-      {
-        "source": 38,
-        "target": 40,
-        "strength": 0.08117693301347725
-      },
-      {
-        "source": 40,
-        "target": 79,
-        "strength": 0.08117693301347725
-      },
-      {
-        "source": 33,
-        "target": 80,
-        "strength": 0.08033687914606111
-      },
-      {
-        "source": 20,
-        "target": 84,
-        "strength": 0.07640590723128732
-      },
-      {
-        "source": 14,
-        "target": 66,
-        "strength": 0.07534196468908504
-      },
-      {
-        "source": 13,
-        "target": 40,
-        "strength": 0.07008707024734014
-      },
-      {
-        "source": 66,
-        "target": 92,
-        "strength": 0.06897427029753982
-      },
-      {
-        "source": 98,
-        "target": 106,
-        "strength": 0.06595827826765963
-      },
-      {
-        "source": 25,
-        "target": 30,
-        "strength": 0.06550323059978268
-      },
-      {
-        "source": 54,
-        "target": 84,
-        "strength": 0.06488569211069407
-      },
-      {
-        "source": 28,
-        "target": 93,
-        "strength": 0.06232649452700048
-      },
-      {
-        "source": 43,
-        "target": 92,
-        "strength": 0.0617640010948191
-      },
-      {
-        "source": 54,
-        "target": 77,
-        "strength": 0.06010922099280388
-      },
-      {
-        "source": 51,
-        "target": 63,
-        "strength": 0.059015656097625664
-      },
-      {
-        "source": 28,
-        "target": 54,
-        "strength": 0.05854295912445679
-      },
-      {
-        "source": 3,
-        "target": 80,
-        "strength": 0.05017444058233915
-      },
-      {
-        "source": 19,
-        "target": 112,
-        "strength": 0.04597362734643202
-      },
-      {
-        "source": 77,
-        "target": 80,
-        "strength": 0.04485107173657809
-      },
-      {
-        "source": 39,
-        "target": 103,
-        "strength": 0.04476847022220146
-      },
-      {
-        "source": 20,
-        "target": 77,
-        "strength": 0.04187005719465381
-      },
-      {
-        "source": 40,
-        "target": 92,
-        "strength": 0.04010701148306128
-      },
-      {
-        "source": 12,
-        "target": 92,
-        "strength": 0.03704057065033216
-      },
-      {
-        "source": 25,
-        "target": 28,
-        "strength": 0.03619054018393107
-      },
-      {
-        "source": 14,
-        "target": 40,
-        "strength": 0.035886505656692366
-      },
-      {
-        "source": 33,
-        "target": 54,
-        "strength": 0.03572942029244689
-      },
-      {
-        "source": 5,
-        "target": 80,
-        "strength": 0.03564948197572991
-      },
-      {
-        "source": 0,
-        "target": 24,
-        "strength": 0.034751496664912375
-      },
-      {
-        "source": 39,
-        "target": 54,
-        "strength": 0.034134519107531854
-      },
-      {
-        "source": 9,
-        "target": 34,
-        "strength": 0.03384523781921901
-      },
-      {
-        "source": 20,
-        "target": 54,
-        "strength": 0.03254407086862032
-      },
-      {
-        "source": 9,
-        "target": 19,
-        "strength": 0.03191532670358456
-      },
-      {
-        "source": 15,
-        "target": 17,
-        "strength": 0.029085766428715305
-      },
-      {
-        "source": 96,
-        "target": 98,
-        "strength": 0.02880183492791015
-      },
-      {
-        "source": 18,
-        "target": 54,
-        "strength": 0.027350817230231285
-      },
-      {
-        "source": 41,
-        "target": 53,
-        "strength": 0.0271910333977018
-      },
-      {
-        "source": 13,
-        "target": 72,
-        "strength": 0.02639882680605818
-      },
-      {
-        "source": 43,
-        "target": 72,
-        "strength": 0.02375790423578609
-      },
-      {
-        "source": 14,
-        "target": 72,
-        "strength": 0.021343321759795787
-      },
-      {
-        "source": 47,
-        "target": 92,
-        "strength": 0.021214777949058693
-      },
-      {
-        "source": 7,
-        "target": 36,
-        "strength": 0.020193064066957263
-      },
-      {
-        "source": 0,
-        "target": 29,
-        "strength": 0.020159360511388176
+        "target": 94,
+        "strength": 0.24977377202558837
       },
       {
         "source": 59,
         "target": 61,
-        "strength": 0.019778693724472142
+        "strength": 0.2393097658168992
+      },
+      {
+        "source": 7,
+        "target": 49,
+        "strength": 0.23697439368393441
+      },
+      {
+        "source": 72,
+        "target": 74,
+        "strength": 0.22002725655129207
+      },
+      {
+        "source": 68,
+        "target": 74,
+        "strength": 0.20771507651989363
+      },
+      {
+        "source": 69,
+        "target": 75,
+        "strength": 0.20739952844714243
+      },
+      {
+        "source": 14,
+        "target": 94,
+        "strength": 0.2070984745094062
+      },
+      {
+        "source": 4,
+        "target": 17,
+        "strength": 0.19676720410139095
+      },
+      {
+        "source": 12,
+        "target": 14,
+        "strength": 0.19239895932881146
+      },
+      {
+        "source": 13,
+        "target": 94,
+        "strength": 0.18977503884067948
+      },
+      {
+        "source": 36,
+        "target": 40,
+        "strength": 0.18319033149732164
+      },
+      {
+        "source": 38,
+        "target": 85,
+        "strength": 0.17841192242792905
+      },
+      {
+        "source": 81,
+        "target": 85,
+        "strength": 0.17841192242792905
+      },
+      {
+        "source": 56,
+        "target": 82,
+        "strength": 0.17466767484808132
+      },
+      {
+        "source": 53,
+        "target": 64,
+        "strength": 0.16895424131526926
+      },
+      {
+        "source": 18,
+        "target": 83,
+        "strength": 0.14630988428229832
+      },
+      {
+        "source": 20,
+        "target": 82,
+        "strength": 0.12634664870523027
+      },
+      {
+        "source": 12,
+        "target": 58,
+        "strength": 0.12438093228501577
+      },
+      {
+        "source": 42,
+        "target": 47,
+        "strength": 0.11874282819423723
+      },
+      {
+        "source": 30,
+        "target": 56,
+        "strength": 0.11436025374762379
+      },
+      {
+        "source": 39,
+        "target": 54,
+        "strength": 0.11194576106771341
+      },
+      {
+        "source": 58,
+        "target": 62,
+        "strength": 0.10658130702276641
+      },
+      {
+        "source": 42,
+        "target": 48,
+        "strength": 0.10105222714646592
+      },
+      {
+        "source": 12,
+        "target": 42,
+        "strength": 0.09657355156954782
+      },
+      {
+        "source": 39,
+        "target": 92,
+        "strength": 0.09300632293399323
+      },
+      {
+        "source": 74,
+        "target": 94,
+        "strength": 0.0927254046617131
+      },
+      {
+        "source": 39,
+        "target": 119,
+        "strength": 0.08885419609227876
+      },
+      {
+        "source": 3,
+        "target": 41,
+        "strength": 0.08814719095255398
+      },
+      {
+        "source": 92,
+        "target": 122,
+        "strength": 0.0848835919165206
+      },
+      {
+        "source": 29,
+        "target": 100,
+        "strength": 0.08286892550341834
+      },
+      {
+        "source": 12,
+        "target": 68,
+        "strength": 0.07996680510606882
+      },
+      {
+        "source": 67,
+        "target": 69,
+        "strength": 0.07994041487934202
+      },
+      {
+        "source": 38,
+        "target": 40,
+        "strength": 0.07764004009930814
+      },
+      {
+        "source": 40,
+        "target": 81,
+        "strength": 0.07764004009930814
+      },
+      {
+        "source": 33,
+        "target": 82,
+        "strength": 0.07679675255102573
+      },
+      {
+        "source": 20,
+        "target": 86,
+        "strength": 0.07285064885820816
+      },
+      {
+        "source": 14,
+        "target": 68,
+        "strength": 0.07178261080406911
+      },
+      {
+        "source": 13,
+        "target": 40,
+        "strength": 0.06650748831235083
+      },
+      {
+        "source": 68,
+        "target": 94,
+        "strength": 0.06539040478021703
+      },
+      {
+        "source": 100,
+        "target": 108,
+        "strength": 0.06236280307136496
+      },
+      {
+        "source": 25,
+        "target": 30,
+        "strength": 0.06190600375517839
+      },
+      {
+        "source": 56,
+        "target": 86,
+        "strength": 0.061286088129963404
+      },
+      {
+        "source": 28,
+        "target": 95,
+        "strength": 0.05871703923960921
+      },
+      {
+        "source": 43,
+        "target": 94,
+        "strength": 0.05815238056026978
+      },
+      {
+        "source": 56,
+        "target": 79,
+        "strength": 0.05649123059203371
+      },
+      {
+        "source": 51,
+        "target": 65,
+        "strength": 0.05539345615742629
+      },
+      {
+        "source": 28,
+        "target": 56,
+        "strength": 0.05491893959718454
+      },
+      {
+        "source": 3,
+        "target": 54,
+        "strength": 0.05374277130120425
+      },
+      {
+        "source": 55,
+        "target": 63,
+        "strength": 0.05152533600674411
+      },
+      {
+        "source": 3,
+        "target": 82,
+        "strength": 0.046518207503843396
+      },
+      {
+        "source": 54,
+        "target": 65,
+        "strength": 0.04447357717133281
+      },
+      {
+        "source": 19,
+        "target": 114,
+        "strength": 0.042301223769935434
+      },
+      {
+        "source": 79,
+        "target": 82,
+        "strength": 0.0411743470245714
+      },
+      {
+        "source": 39,
+        "target": 105,
+        "strength": 0.041091427546136844
+      },
+      {
+        "source": 20,
+        "target": 79,
+        "strength": 0.038181857445080916
+      },
+      {
+        "source": 40,
+        "target": 94,
+        "strength": 0.03641202511252867
+      },
+      {
+        "source": 12,
+        "target": 94,
+        "strength": 0.03333378040455665
+      },
+      {
+        "source": 25,
+        "target": 28,
+        "strength": 0.03248047785363629
+      },
+      {
+        "source": 14,
+        "target": 40,
+        "strength": 0.032175272984028426
+      },
+      {
+        "source": 33,
+        "target": 56,
+        "strength": 0.03201758293958751
+      },
+      {
+        "source": 5,
+        "target": 82,
+        "strength": 0.03193733691045437
+      },
+      {
+        "source": 0,
+        "target": 24,
+        "strength": 0.031035894919023366
+      },
+      {
+        "source": 39,
+        "target": 56,
+        "strength": 0.030416542384751964
+      },
+      {
+        "source": 9,
+        "target": 34,
+        "strength": 0.03012614754479289
+      },
+      {
+        "source": 20,
+        "target": 56,
+        "strength": 0.02881997191697105
+      },
+      {
+        "source": 9,
+        "target": 19,
+        "strength": 0.028188807480979933
+      },
+      {
+        "source": 15,
+        "target": 17,
+        "strength": 0.025348355172545148
+      },
+      {
+        "source": 98,
+        "target": 100,
+        "strength": 0.025063330713422562
+      },
+      {
+        "source": 18,
+        "target": 56,
+        "strength": 0.023606727507066726
+      },
+      {
+        "source": 41,
+        "target": 53,
+        "strength": 0.023446328606930234
+      },
+      {
+        "source": 13,
+        "target": 74,
+        "strength": 0.022651072516442695
+      },
+      {
+        "source": 41,
+        "target": 54,
+        "strength": 0.02067568733707844
+      },
+      {
+        "source": 43,
+        "target": 74,
+        "strength": 0.019999984049534708
+      },
+      {
+        "source": 14,
+        "target": 74,
+        "strength": 0.017576106944407574
+      },
+      {
+        "source": 47,
+        "target": 94,
+        "strength": 0.01744706832056696
+      },
+      {
+        "source": 7,
+        "target": 36,
+        "strength": 0.016421421480402383
+      },
+      {
+        "source": 0,
+        "target": 29,
+        "strength": 0.016387588187268844
+      },
+      {
+        "source": 61,
+        "target": 63,
+        "strength": 0.016005456071814944
       },
       {
         "source": 20,
         "target": 53,
-        "strength": 0.01818191836530699
+        "strength": 0.014402534128333106
+      },
+      {
+        "source": 72,
+        "target": 82,
+        "strength": 0.013548927649731092
       },
       {
         "source": 70,
-        "target": 80,
-        "strength": 0.017331585136669103
+        "target": 94,
+        "strength": 0.013082572362037014
       },
       {
-        "source": 68,
-        "target": 92,
-        "strength": 0.016867018140731216
-      },
-      {
-        "source": 70,
-        "target": 84,
-        "strength": 0.016048397462616673
+        "source": 72,
+        "target": 86,
+        "strength": 0.012260800507401281
       },
       {
         "source": 29,
-        "target": 96,
-        "strength": 0.015527321364030088
+        "target": 98,
+        "strength": 0.011737718592431704
       },
       {
         "source": 25,
-        "target": 54,
-        "strength": 0.013627630354854023
+        "target": 56,
+        "strength": 0.009830714963545838
       },
       {
         "source": 36,
         "target": 38,
-        "strength": 0.012652066478779096
+        "strength": 0.008851395778005373
       },
       {
         "source": 36,
-        "target": 79,
-        "strength": 0.012652066478779096
+        "target": 81,
+        "strength": 0.008851395778005373
       },
       {
-        "source": 68,
-        "target": 72,
-        "strength": 0.01229623582292102
+        "source": 70,
+        "target": 74,
+        "strength": 0.008494195397147384
       },
       {
         "source": 3,
         "target": 20,
-        "strength": 0.012287846506057857
+        "strength": 0.008485773786672497
       },
       {
         "source": 54,
-        "target": 56,
-        "strength": 0.00930799262010845
+        "target": 119,
+        "strength": 0.006874274629954841
+      },
+      {
+        "source": 56,
+        "target": 58,
+        "strength": 0.005494449330954918
       },
       {
         "source": 19,
         "target": 34,
-        "strength": 0.009251731853718874
+        "strength": 0.005437971995877488
       },
       {
-        "source": 63,
-        "target": 84,
-        "strength": 0.007875583829094916
+        "source": 65,
+        "target": 86,
+        "strength": 0.004056526663891511
       },
       {
-        "source": 57,
-        "target": 61,
-        "strength": 0.007845432977830484
+        "source": 59,
+        "target": 63,
+        "strength": 0.004026259750747457
       },
       {
         "source": 41,
-        "target": 77,
-        "strength": 0.005654918868261374
+        "target": 79,
+        "strength": 0.0018273135348121762
       },
       {
         "source": 24,
-        "target": 80,
-        "strength": 0.004035528142652467
+        "target": 82,
+        "strength": 0.00020168916990047828
       },
       {
         "source": 25,
         "target": 39,
-        "strength": 0.003834612372538296
-      },
-      {
-        "source": 2,
-        "target": 4,
-        "strength": 0.00275815208846675
-      },
-      {
-        "source": 90,
-        "target": 103,
-        "strength": 0.0019350333487133597
-      },
-      {
-        "source": 0,
-        "target": 54,
-        "strength": 0.0014877306186095603
-      },
-      {
-        "source": 17,
-        "target": 97,
-        "strength": 0.00002963934852841488
-      },
-      {
-        "source": 20,
-        "target": 24,
         "strength": 0
       }
     ],
-    "hue": 87
+    "hue": 171
   }
 }

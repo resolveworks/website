@@ -7,6 +7,12 @@ description: "What I think about while the machines run. My day to day experienc
 
 What I think about while the machines run.
 
+-   **[Reasoning matters](https://resolve.works/articles/reasoning-matters/)**
+
+    Reasoning traces are valuable. They can tell you a lot about your prompt. Unless your provider has decided you may not look.
+
+    September 3, 2026
+
 -   **[Everything in its place](https://resolve.works/articles/everything-in-its-place/)**
 
     After years of backups inside backups and secrets scattered across machines, my devices now form one synced, encrypted whole that basically maintains itself.

@@ -97,6 +97,7 @@ I think in public — essays on this site, talks at conferences and meetups.
 
 ### Latest articles
 
+- **[Reasoning matters](https://resolve.works/articles/reasoning-matters/)** — September 3, 2026
 - **[Everything in its place](https://resolve.works/articles/everything-in-its-place/)** — August 26, 2026
 - **[Pi is a really nice agent](https://resolve.works/articles/pi-is-a-really-nice-agent/)** — July 30, 2026
 - **[The tool is not the author](https://resolve.works/articles/the-tool-is-not-the-author/)** — April 10, 2026

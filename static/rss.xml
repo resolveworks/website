@@ -7,6 +7,15 @@
   <language>en</language>
   <atom:link href="https://resolve.works/rss.xml" rel="self" type="application/rss+xml" />
   <item>
+    <title>Reasoning matters</title>
+    <link>https://resolve.works/articles/reasoning-matters/</link>
+    <guid>https://resolve.works/articles/reasoning-matters/</guid>
+    <description>Reasoning traces are valuable. They can tell you a lot about your prompt. Unless your provider has decided you may not look.</description>
+    <enclosure url="https://resolve.works/og/articles/reasoning-matters.png" length="82018" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/reasoning-matters.png" fileSize="82018" medium="image" type="image/png" width="1200" height="630"/>
+    <pubDate>Thu, 03 Sep 2026 13:55:28 GMT</pubDate>
+  </item>
+  <item>
     <title>Everything in its place</title>
     <link>https://resolve.works/articles/everything-in-its-place/</link>
     <guid>https://resolve.works/articles/everything-in-its-place/</guid>
