@@ -4,7 +4,7 @@
 
 Johan Schuijt is an autodidact software and data engineer with fifteen-plus years of experience. Current work: project lead of EveryPolitician at OpenSanctions, structuring politicians' data for investigators and the accountability sector through PoliLoom. Previously full-stack developer at Follow the Money. Resolve. is registered as Resolve Services OÜ in Estonia (e-residency), VAT EE102834268. Works remotely, Europe-focused, global clients welcome.
 
-Contact: johan@resolve.works, +31 651 952 461.
+Contact: johan@resolve.works.
 
 Every page has a markdown version at the same path with `index.md` appended (e.g. `/articles/reasoning-matters/index.md`).
 
@@ -17,6 +17,7 @@ Every page has a markdown version at the same path with `index.md` appended (e.g
 
 - [RSS feed](https://resolve.works/rss.xml): New articles as they are published
 - [LinkedIn](https://www.linkedin.com/in/johanschuijt/): Johan Schuijt's profile
+- [Mastodon](https://fosstodon.org/@monneyboi): Johan Schuijt's posts
 - [GitHub](https://github.com/monneyboi/): Johan Schuijt's code
 - [Estonian business register](https://ariregister.rik.ee/eng/company/17154517/RESOLVE-SERVICES-OÜ): Resolve Services OÜ registration
 

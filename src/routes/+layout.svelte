@@ -24,12 +24,12 @@
       <dl>
         <dt>LinkedIn</dt>
         <dd><a target="_blank" href={business.linkedin}>{business.linkedin}</a></dd>
+        <dt>Mastodon</dt>
+        <dd><a target="_blank" rel="me" href={business.mastodon}>{business.mastodon}</a></dd>
         <dt>GitHub</dt>
         <dd><a target="_blank" href={business.github}>{business.github}</a></dd>
         <dt>Email</dt>
         <dd><a href={`mailto:${business.email}`}>{business.email}</a></dd>
-        <dt>Phone</dt>
-        <dd><a href={`tel:${business.phone.href}`}>{business.phone.display}</a></dd>
       </dl>
     </address>
     <address>

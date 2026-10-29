@@ -37,7 +37,6 @@
       'Software and data engineering for organizations doing public-interest work: LLM-assisted data pipelines with human verification, entity resolution, search infrastructure, and full product development.',
     url: `${SITE_URL}/`,
     '@id': `${SITE_URL}/#organization`,
-    telephone: business.phone.href,
     email: business.email,
     address: {
       '@type': 'PostalAddress',

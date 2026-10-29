@@ -101,6 +101,10 @@
               <dd>
                 <a href={business.linkedin} target="_blank" rel="noopener noreferrer">{business.linkedin}</a>
               </dd>
+              <dt>Mastodon</dt>
+              <dd>
+                <a href={business.mastodon} target="_blank" rel="me noopener noreferrer">{business.mastodon}</a>
+              </dd>
               <dt>GitHub</dt>
               <dd>
                 <a href={business.github} target="_blank" rel="noopener noreferrer">{business.github}</a>
