@@ -19,7 +19,7 @@ I think we shouldn't even be talking about sovereignty. That instead we should b
 
 Keeping control of your own data and using services that are like utilities, services you can freely replace and interchange, that *does* make sense to me. You can switch from one PostgreSQL database provider to another extremely painlessly. Switching email host is also quite easy. Basically, anything that offers an open protocol as a service is easy to interchange.
 
-It's the applications that are the problem – having your data stored in a proprietary format in somebody else's database. Locking you into a certain way of life because of economic incentives. Constraining you, only allowed to move and change within the confines of the platform.
+It's the applications that are the problem — having your data stored in a proprietary format in somebody else's database. Locking you into a certain way of life because of economic incentives. Constraining you, only allowed to move and change within the confines of the platform.
 
 The sovereignty movement seems to me to have the wrong values. Instead of making it about region, and being against "big tech", we should instead be directing our attention to "small tech", and to working together on open technology that keeps us in control of our own fate. Collaboration regardless of country or origin, it's the control that matters.
 
