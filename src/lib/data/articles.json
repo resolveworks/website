@@ -1,5 +1,12 @@
 [
   {
+    "slug": "build-your-own",
+    "title": "Build your own",
+    "intro": "Digital sovereignty is the wrong frame. What matters is control of your data, open protocols, and small tech — and with open source and coding agents, building your own beats subscribing.",
+    "date": "2026-10-29T11:25:07+01:00",
+    "dateModified": "2026-10-29T11:25:07+01:00"
+  },
+  {
     "slug": "reasoning-matters",
     "title": "Reasoning matters",
     "intro": "Reasoning traces are valuable. They can tell you a lot about your prompt. Unless your provider has decided you may not look.",
