@@ -7,12 +7,21 @@
   <language>en</language>
   <atom:link href="https://resolve.works/rss.xml" rel="self" type="application/rss+xml" />
   <item>
+    <title>Build your own</title>
+    <link>https://resolve.works/articles/build-your-own/</link>
+    <guid>https://resolve.works/articles/build-your-own/</guid>
+    <description>Digital sovereignty is the wrong frame. What matters is control of your data, open protocols, and small tech — and with open source and coding agents, building your own is easier than ever.</description>
+    <enclosure url="https://resolve.works/og/articles/build-your-own.png" length="130760" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/build-your-own.png" fileSize="130760" medium="image" type="image/png" width="1200" height="630"/>
+    <pubDate>Thu, 29 Oct 2026 10:25:07 GMT</pubDate>
+  </item>
+  <item>
     <title>Reasoning matters</title>
     <link>https://resolve.works/articles/reasoning-matters/</link>
     <guid>https://resolve.works/articles/reasoning-matters/</guid>
     <description>Reasoning traces are valuable. They can tell you a lot about your prompt. Unless your provider has decided you may not look.</description>
-    <enclosure url="https://resolve.works/og/articles/reasoning-matters.png" length="82018" type="image/png"/>
-    <media:content url="https://resolve.works/og/articles/reasoning-matters.png" fileSize="82018" medium="image" type="image/png" width="1200" height="630"/>
+    <enclosure url="https://resolve.works/og/articles/reasoning-matters.png" length="158322" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/reasoning-matters.png" fileSize="158322" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Thu, 03 Sep 2026 13:55:28 GMT</pubDate>
   </item>
   <item>
@@ -29,8 +38,8 @@
     <link>https://resolve.works/articles/pi-is-a-really-nice-agent/</link>
     <guid>https://resolve.works/articles/pi-is-a-really-nice-agent/</guid>
     <description>Pi starts with a small core and lets you build the rest yourself. The result is an agent environment that works the way I think.</description>
-    <enclosure url="https://resolve.works/og/articles/pi-is-a-really-nice-agent.png" length="291574" type="image/png"/>
-    <media:content url="https://resolve.works/og/articles/pi-is-a-really-nice-agent.png" fileSize="291574" medium="image" type="image/png" width="1200" height="630"/>
+    <enclosure url="https://resolve.works/og/articles/pi-is-a-really-nice-agent.png" length="176993" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/pi-is-a-really-nice-agent.png" fileSize="176993" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Thu, 30 Jul 2026 19:06:28 GMT</pubDate>
   </item>
   <item>
@@ -38,8 +47,8 @@
     <link>https://resolve.works/articles/the-tool-is-not-the-author/</link>
     <guid>https://resolve.works/articles/the-tool-is-not-the-author/</guid>
     <description>Authorship has always been about direction and selection, not manual execution of every detail.</description>
-    <enclosure url="https://resolve.works/og/articles/the-tool-is-not-the-author.png" length="144548" type="image/png"/>
-    <media:content url="https://resolve.works/og/articles/the-tool-is-not-the-author.png" fileSize="144548" medium="image" type="image/png" width="1200" height="630"/>
+    <enclosure url="https://resolve.works/og/articles/the-tool-is-not-the-author.png" length="317321" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/the-tool-is-not-the-author.png" fileSize="317321" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Fri, 10 Apr 2026 15:42:11 GMT</pubDate>
   </item>
   <item>
@@ -47,8 +56,8 @@
     <link>https://resolve.works/articles/ai-agents-are-human-too/</link>
     <guid>https://resolve.works/articles/ai-agents-are-human-too/</guid>
     <description>More and more often, my agent can't fetch the pages I send it to read. The blocking is economic, not technical — and it doesn't even work.</description>
-    <enclosure url="https://resolve.works/og/articles/ai-agents-are-human-too.png" length="166930" type="image/png"/>
-    <media:content url="https://resolve.works/og/articles/ai-agents-are-human-too.png" fileSize="166930" medium="image" type="image/png" width="1200" height="630"/>
+    <enclosure url="https://resolve.works/og/articles/ai-agents-are-human-too.png" length="73695" type="image/png"/>
+    <media:content url="https://resolve.works/og/articles/ai-agents-are-human-too.png" fileSize="73695" medium="image" type="image/png" width="1200" height="630"/>
     <pubDate>Sat, 06 Dec 2025 01:17:21 GMT</pubDate>
   </item>
 </channel>

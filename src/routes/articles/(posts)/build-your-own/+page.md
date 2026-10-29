@@ -1,8 +1,8 @@
 ---
-title: Build your own
-intro: Digital sovereignty is the wrong frame. What matters is control of your data, open protocols, and small tech — and with open source and coding agents, building your own is easier than ever.
-date: 2026-10-29T11:25:07+01:00
-dateModified: 2026-10-29T11:25:07+01:00
+title: "Build your own"
+intro: "Digital sovereignty is the wrong frame. What matters is control of your data, open protocols, and small tech — and with open source and coding agents, building your own is easier than ever."
+date: "2026-10-29T11:25:07+01:00"
+dateModified: "2026-10-29T11:25:07+01:00"
 ---
 
 Lately in Europe, there has been more of a digital sovereignty movement. Now, I think it makes sense to try and keep control of your own application logic or platform, but I don't think it makes sense to tie this to the continent, or sovereignity. 

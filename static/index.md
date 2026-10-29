@@ -97,11 +97,11 @@ I think in public — essays on this site, talks at conferences and meetups.
 
 ### Latest articles
 
+- **[Build your own](https://resolve.works/articles/build-your-own/)** — October 29, 2026
 - **[Reasoning matters](https://resolve.works/articles/reasoning-matters/)** — September 3, 2026
 - **[Everything in its place](https://resolve.works/articles/everything-in-its-place/)** — August 26, 2026
 - **[Pi is a really nice agent](https://resolve.works/articles/pi-is-a-really-nice-agent/)** — July 30, 2026
 - **[The tool is not the author](https://resolve.works/articles/the-tool-is-not-the-author/)** — April 10, 2026
-- **[AI agents are human too](https://resolve.works/articles/ai-agents-are-human-too/)** — December 6, 2025
 
 [All articles](https://resolve.works/articles/)
 
@@ -130,9 +130,9 @@ I work remotely, Europe-focused but global clients welcome.
 ### Let's get in touch
 
 - **LinkedIn** — [https://www.linkedin.com/in/johanschuijt/](https://www.linkedin.com/in/johanschuijt/)
+- **Mastodon** — [https://fosstodon.org/@monneyboi](https://fosstodon.org/@monneyboi)
 - **GitHub** — [https://github.com/monneyboi/](https://github.com/monneyboi/)
 - **Email** — [johan@resolve.works](mailto:johan@resolve.works?subject=Up%20for%20a%20coffee%3F&body=Hi%20Johan%2C%0D%0A%0D%0AWe're%20curious%20about%20how%20you%20could%20help%20us%20with%20our%20current%20challenge.%0D%0A%0D%0A...%0D%0A%0D%0ABest%20regards%2C%0D%0A...)
-- **Phone** — [+31 651 952 461](tel:+31651952461)
 
 ## Frequently asked questions
 

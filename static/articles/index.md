@@ -7,6 +7,12 @@ description: "What I think about while the machines run. My day to day experienc
 
 What I think about while the machines run.
 
+-   **[Build your own](https://resolve.works/articles/build-your-own/)**
+
+    Digital sovereignty is the wrong frame. What matters is control of your data, open protocols, and small tech — and with open source and coding agents, building your own is easier than ever.
+
+    October 29, 2026
+
 -   **[Reasoning matters](https://resolve.works/articles/reasoning-matters/)**
 
     Reasoning traces are valuable. They can tell you a lot about your prompt. Unless your provider has decided you may not look.

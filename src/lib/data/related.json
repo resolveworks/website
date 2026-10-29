@@ -4,10 +4,15 @@
     "reasoning-matters",
     "the-tool-is-not-the-author"
   ],
-  "everything-in-its-place": [
+  "build-your-own": [
+    "everything-in-its-place",
     "pi-is-a-really-nice-agent",
-    "reasoning-matters",
     "ai-agents-are-human-too"
+  ],
+  "everything-in-its-place": [
+    "build-your-own",
+    "pi-is-a-really-nice-agent",
+    "reasoning-matters"
   ],
   "pi-is-a-really-nice-agent": [
     "reasoning-matters",
