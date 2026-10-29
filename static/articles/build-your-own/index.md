@@ -10,11 +10,11 @@ Digital sovereignty is the wrong frame. What matters is control of your data, op
 
 October 29, 2026
 
-Lately in Europe, there has been more of a digital sovereignty movement. Now, I think it makes sense to try and keep control of your own application logic or platform, but I don't think it makes sense to tie this to the continent, or sovereignity.
+Lately in Europe, there has been more of a digital sovereignty movement. Now, I think it makes sense to try and keep control of your own application logic or platform, but I don't think it makes sense to tie this to the continent, or sovereignty.
 
-[ASML sells zero lithography machines in Europe](https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand). We don't have any production; we basically don't produce computers, laptops or phones. I bet most people posting about digital sovereignity are doing so from their Macbook, Windows machine or Android device.
+[ASML sells zero lithography machines in Europe](https://www.tomshardware.com/tech-industry/semiconductors/asml-says-its-sells-absolutely-nothing-in-europe-calls-on-eu-to-help-create-demand). We don't have any production; we basically don't produce computers, laptops or phones. I bet most people posting about digital sovereignty are doing so from their MacBook, Windows machine or Android device.
 
-Even if you run linux, like I do, you're probably using hardware that is designed in America and produced in Asia. And that's only the hardware that's in front of us, same goes for the networks and datacenters that connect us.
+Even if you run Linux, like I do, you're probably using hardware that is designed in America and produced in Asia. And that's only the hardware that's in front of us, same goes for the networks and datacenters that connect us.
 
 To claim that we are sovereign because we're not using Google Workspace sounds completely nonsensical to me.
 
@@ -28,7 +28,7 @@ It's the applications that are the problem — having your data stored in a prop
 
 The sovereignty movement seems to me to have the wrong values. Instead of making it about region, and being against "big tech", we should instead be directing our attention to "small tech", and to working together on open technology that keeps us in control of our own fate. Collaboration regardless of country or origin, it's the control that matters.
 
-Here's my example: [an AI chat agent for android](https://usepathfinder.eu/) that allows you to use any provider, and keeps your data in your hands. Built by me, licensed under the GPL, for the general public. Hosted by an American company. Built with Chinese models. Made by an European. But it's not about that, it's about these things being replaceable. It's about it being software that keeps you in control.
+Here's my example: [an AI chat agent for Android](https://usepathfinder.eu/) that allows you to use any provider, and keeps your data in your hands. Built by me, licensed under the GPL, for the general public. Hosted by an American company. Built with Chinese models. Made by a European. But it's not about that, it's about these things being replaceable. It's about it being software that keeps you in control.
 
 There's a whole ecosystem out there of software like this. Just install Linux and take a look around. Small tech everywhere, all made by people that collaborate regardless of nationality or politics. The more attention this ecosystem gets, the better the software that rolls out. Let's make "small tech" a term, a counterweight to big tech. We should give attention to everybody that builds their own stuff and focus on what we are *for*, not on what we're *against.*
 

@@ -625,497 +625,497 @@
     "nodes": [
       {
         "id": 0,
-        "x": 0.04657692922437656,
-        "y": 0.3718978633833472,
-        "z": 0.8739560929290202,
+        "x": 0.44575103876519384,
+        "y": 0.6629983699734298,
+        "z": 0,
         "text": "Lately in Europe, there has been more of a digital sovereignty movement.",
         "position": 0
       },
       {
         "id": 1,
-        "x": 0.12465660201074982,
-        "y": 0.6063976645676389,
-        "z": 0.9558204501694055,
-        "text": "Now, I think it makes sense to try and keep control of your own application logic or platform, but I don't think it makes sense to tie this to the continent, or sovereignity.",
+        "x": 0.23014145340795827,
+        "y": 0.4609273604894774,
+        "z": 0.11090439915501449,
+        "text": "Now, I think it makes sense to try and keep control of your own application logic or platform, but I don't think it makes sense to tie this to the continent, or sovereignty.",
         "position": 0.01639344262295082
       },
       {
         "id": 2,
-        "x": 0.05066388761363985,
-        "y": 0.19990163646980538,
-        "z": 0.4854816322086476,
+        "x": 0.4055442802020623,
+        "y": 1,
+        "z": 0.2241832562707693,
         "text": "ASML sells zero lithography machines in Europe.",
         "position": 0.03278688524590164
       },
       {
         "id": 3,
-        "x": 0.1780132659509128,
-        "y": 0.17960726551579392,
-        "z": 0.6835599475918718,
+        "x": 0.5964737041491068,
+        "y": 0.8684801390265774,
+        "z": 0.23873793886467887,
         "text": "We don't have any production; we basically don't produce computers, laptops or phones.",
         "position": 0.04918032786885246
       },
       {
         "id": 4,
-        "x": 0.04396202523723908,
-        "y": 0.2777012070644875,
-        "z": 0.7631653999860961,
-        "text": "I bet most people posting about digital sovereignity are doing so from their Macbook, Windows machine or Android device.",
+        "x": 0.5308144565503728,
+        "y": 0.7741569019667519,
+        "z": 0.07928578681334641,
+        "text": "I bet most people posting about digital sovereignty are doing so from their MacBook, Windows machine or Android device.",
         "position": 0.06557377049180328
       },
       {
         "id": 5,
-        "x": 0.12323761659476416,
-        "y": 0.2054769520381869,
-        "z": 0.5181384141406464,
-        "text": "Even if you run linux, like I do, you're probably using hardware that is designed in America and produced in Asia.",
+        "x": 0.4941220695780597,
+        "y": 0.9951571724947552,
+        "z": 0.26346336725445496,
+        "text": "Even if you run Linux, like I do, you're probably using hardware that is designed in America and produced in Asia.",
         "position": 0.08196721311475409
       },
       {
         "id": 6,
-        "x": 0.2968182813127632,
-        "y": 0.2090702154224519,
-        "z": 0.4912302400246766,
+        "x": 0.5190988714256272,
+        "y": 0.957250960275416,
+        "z": 0.5591972443823827,
         "text": "And that's only the hardware that's in front of us, same goes for the networks and datacenters that connect us.",
         "position": 0.09836065573770492
       },
       {
         "id": 7,
-        "x": 0,
-        "y": 0.4754190697715009,
-        "z": 0.8090838388593309,
+        "x": 0.4481694289014295,
+        "y": 0.36802092034814254,
+        "z": 0.04756970115787098,
         "text": "To claim that we are sovereign because we're not using Google Workspace sounds completely nonsensical to me.",
         "position": 0.11475409836065574
       },
       {
         "id": 8,
-        "x": 0.6738541927846963,
-        "y": 0.7536518113540375,
-        "z": 0.19279401638342344,
+        "x": 0.3200136882597331,
+        "y": 0.7262477233627089,
+        "z": 0.7430457389001686,
         "text": "It's about the data",
         "position": 0.13114754098360656
       },
       {
         "id": 9,
-        "x": 0.033520447749361894,
-        "y": 0.5384750268089806,
-        "z": 0.9466667979926393,
+        "x": 0.3166035077099124,
+        "y": 0.4075974021977004,
+        "z": 0.011364777156180625,
         "text": "I think we shouldn't even be talking about sovereignty.",
         "position": 0.14754098360655737
       },
       {
         "id": 10,
-        "x": 0.2873012114322164,
-        "y": 0.5568934863887813,
-        "z": 1,
+        "x": 0.37358736708126256,
+        "y": 0.22890029688404753,
+        "z": 0.1620946175235169,
         "text": "That instead we should be thinking about whose gardens we live in.",
         "position": 0.16393442622950818
       },
       {
         "id": 11,
-        "x": 0.7784814755583502,
-        "y": 0.8576578994710197,
-        "z": 0.5866809819002278,
+        "x": 0.38843624325144327,
+        "y": 0.6013157418671705,
+        "z": 0.8266981430535097,
         "text": "Keeping control of your own data and using services that are like utilities, services you can freely replace and interchange, that does make sense to me.",
         "position": 0.18032786885245902
       },
       {
         "id": 12,
-        "x": 0.8931079929648581,
-        "y": 0.4960281978561218,
-        "z": 0.03049362852813376,
+        "x": 0.8300805454555322,
+        "y": 0.5538893469669723,
+        "z": 0.8171870708393859,
         "text": "You can switch from one PostgreSQL database provider to another extremely painlessly.",
         "position": 0.19672131147540983
       },
       {
         "id": 13,
-        "x": 0.7989577156575992,
-        "y": 0.4672876023981501,
-        "z": 0.02569220397366223,
+        "x": 0.8669770113294099,
+        "y": 0.4785018556163385,
+        "z": 0.7149414628140552,
         "text": "Switching email host is also quite easy.",
         "position": 0.21311475409836064
       },
       {
         "id": 14,
-        "x": 0.739917854092679,
-        "y": 0.18287027790264077,
-        "z": 0.5091907444696673,
+        "x": 0.8689850627839952,
+        "y": 0.4438835680096601,
+        "z": 0.47175453088646935,
         "text": "Basically, anything that offers an open protocol as a service is easy to interchange.",
         "position": 0.22950819672131148
       },
       {
         "id": 15,
-        "x": 1,
-        "y": 0.7514366553812322,
-        "z": 0.3811376588170121,
+        "x": 0.47946985093067396,
+        "y": 0.7475593178078969,
+        "z": 0.9692646590014696,
         "text": "It's the applications that are the problem — having your data stored in a proprietary format in somebody else's database.",
         "position": 0.2459016393442623
       },
       {
         "id": 16,
-        "x": 0.25774576885367656,
-        "y": 0.7186308455286877,
-        "z": 0.09232300425127304,
+        "x": 0.08182417385854544,
+        "y": 0.3628239760204766,
+        "z": 0.45875584313932466,
         "text": "Locking you into a certain way of life because of economic incentives.",
         "position": 0.26229508196721313
       },
       {
         "id": 17,
-        "x": 0.17436565225585243,
-        "y": 0.8857717039069062,
-        "z": 0.26854023178047476,
+        "x": 0,
+        "y": 0.19208689708251947,
+        "z": 0.49483910440249734,
         "text": "Constraining you, only allowed to move and change within the confines of the platform.",
         "position": 0.2786885245901639
       },
       {
         "id": 18,
-        "x": 0.11146126430806795,
-        "y": 0.5084229211669492,
-        "z": 0.9535056583830808,
+        "x": 0.36621041574445706,
+        "y": 0.46884937325373977,
+        "z": 0.013266740135219418,
         "text": "The sovereignty movement seems to me to have the wrong values.",
         "position": 0.29508196721311475
       },
       {
         "id": 19,
-        "x": 0.4279625976024172,
-        "y": 0.27355988166001716,
-        "z": 0.8322360896388398,
+        "x": 0.6637024764280622,
+        "y": 0.474825835739663,
+        "z": 0.20767326182973284,
         "text": "Instead of making it about region, and being against \"big tech\", we should instead be directing our attention to \"small tech\", and to working together on open technology that keeps us in control of our own fate.",
         "position": 0.3114754098360656
       },
       {
         "id": 20,
-        "x": 0.1495862338024962,
-        "y": 0.5259368918834045,
-        "z": 0.5317758027923674,
+        "x": 0.2776747566332969,
+        "y": 0.5654547126699094,
+        "z": 0.24067439475647942,
         "text": "Collaboration regardless of country or origin, it's the control that matters.",
         "position": 0.32786885245901637
       },
       {
         "id": 21,
-        "x": 0.9791148881329073,
-        "y": 0.5650707158910203,
-        "z": 0.23695907496573454,
-        "text": "Here's my example: an AI chat agent for android that allows you to use any provider, and keeps your data in your hands.",
+        "x": 0.6604132568887233,
+        "y": 0.7018770162964434,
+        "z": 0.845401348041759,
+        "text": "Here's my example: an AI chat agent for Android that allows you to use any provider, and keeps your data in your hands.",
         "position": 0.3442622950819672
       },
       {
         "id": 22,
-        "x": 0.693916018875491,
-        "y": 0.3286762744681851,
-        "z": 0.7062817212361058,
+        "x": 0.6541199253722854,
+        "y": 0.2715355991492677,
+        "z": 0.45590332271689016,
         "text": "Built by me, licensed under the GPL, for the general public.",
         "position": 0.36065573770491804
       },
       {
         "id": 23,
-        "x": 0.05632420259578897,
-        "y": 0.3700980449677505,
-        "z": 0.2987876931223323,
+        "x": 0.25131614551629206,
+        "y": 0.8463691330427281,
+        "z": 0.21480477299819312,
         "text": "Hosted by an American company.",
         "position": 0.3770491803278688
       },
       {
         "id": 24,
-        "x": 0.15641209367966524,
-        "y": 0.3900637621114772,
-        "z": 0.27428624341682206,
+        "x": 0.23769517084276887,
+        "y": 0.8764276408630893,
+        "z": 0.3366106544087104,
         "text": "Built with Chinese models.",
         "position": 0.39344262295081966
       },
       {
         "id": 25,
-        "x": 0.04966178499922069,
-        "y": 0.3249167024401583,
-        "z": 0.332084709875325,
-        "text": "Made by an European.",
+        "x": 0.2725474566955227,
+        "y": 0.9175651501775095,
+        "z": 0.24964484629895206,
+        "text": "Made by a European.",
         "position": 0.4098360655737705
       },
       {
         "id": 26,
-        "x": 0.48184979280087714,
-        "y": 1,
-        "z": 0.4377692165736717,
+        "x": 0.013945757280748629,
+        "y": 0.4677042868557825,
+        "z": 0.6670154281214438,
         "text": "But it's not about that, it's about these things being replaceable.",
         "position": 0.4262295081967213
       },
       {
         "id": 27,
-        "x": 0.4494706873533497,
-        "y": 0.52591772977668,
-        "z": 0,
+        "x": 0.42297968551511267,
+        "y": 0.6769465831479441,
+        "z": 0.5382072996948833,
         "text": "It's about it being software that keeps you in control.",
         "position": 0.4426229508196721
       },
       {
         "id": 28,
-        "x": 0.6247363187854926,
-        "y": 0.20939550325945053,
-        "z": 0.12638076274086624,
+        "x": 0.8103539256140203,
+        "y": 0.7264675036290664,
+        "z": 0.544738550875097,
         "text": "There's a whole ecosystem out there of software like this.",
         "position": 0.45901639344262296
       },
       {
         "id": 29,
-        "x": 0.6081718662483067,
-        "y": 0.3656584178899476,
-        "z": 0.3531493593715246,
+        "x": 0.5921942973109203,
+        "y": 0.42183029715337067,
+        "z": 0.5502128559986548,
         "text": "Just install Linux and take a look around.",
         "position": 0.47540983606557374
       },
       {
         "id": 30,
-        "x": 0.41814502488819094,
-        "y": 0.361323181458482,
-        "z": 0.7212768300007281,
+        "x": 0.6022578873815935,
+        "y": 0.6298224263413447,
+        "z": 0.27698352859967623,
         "text": "Small tech everywhere, all made by people that collaborate regardless of nationality or politics.",
         "position": 0.4918032786885246
       },
       {
         "id": 31,
-        "x": 0.6799631225120086,
-        "y": 0.21611028925756054,
-        "z": 0.18769807466347205,
+        "x": 0.9335289284384928,
+        "y": 0.7554085613316351,
+        "z": 0.493037196165415,
         "text": "The more attention this ecosystem gets, the better the software that rolls out.",
         "position": 0.5081967213114754
       },
       {
         "id": 32,
-        "x": 0.4948993807484728,
-        "y": 0.2780741335494684,
-        "z": 0.6387394609960635,
+        "x": 0.5666720671288183,
+        "y": 0.5164701181427758,
+        "z": 0.3521529747111225,
         "text": "Let's make \"small tech\" a term, a counterweight to big tech.",
         "position": 0.5245901639344263
       },
       {
         "id": 33,
-        "x": 0.4535629959740067,
-        "y": 0.6510070815782807,
-        "z": 0.9530421070345529,
+        "x": 0.3660455239164816,
+        "y": 0.1287599178824272,
+        "z": 0.3461907719782601,
         "text": "We should give attention to everybody that builds their own stuff and focus on what we are for, not on what we're against.",
         "position": 0.5409836065573771
       },
       {
         "id": 34,
-        "x": 0.38182946909683285,
-        "y": 0.8768775903297503,
-        "z": 0.3168186665345616,
+        "x": 0.0763369412020042,
+        "y": 0.27213736261084315,
+        "z": 0.7180249281650862,
         "text": "You can do it",
         "position": 0.5573770491803278
       },
       {
         "id": 35,
-        "x": 0.6224072827741488,
-        "y": 0.8242662347622883,
-        "z": 0.8299324135283602,
+        "x": 0.341351185509652,
+        "y": 0.07841394064943243,
+        "z": 0.5566320625007289,
         "text": "Software has become so easy to make these days that by now it's probably also more worthwhile to build your own stuff than to subscribe to a service.",
         "position": 0.5737704918032787
       },
       {
         "id": 36,
-        "x": 0.42508976246656943,
-        "y": 0.8934792958716716,
-        "z": 0.7834183527005008,
+        "x": 0.17136821416687884,
+        "y": 0,
+        "z": 0.6322559260482052,
         "text": "When you build your own, it can grow with you.",
         "position": 0.5901639344262295
       },
       {
         "id": 37,
-        "x": 0.39299363853401714,
-        "y": 0.9679517903538324,
-        "z": 0.5086062939352309,
+        "x": 0.006322005788615228,
+        "y": 0.2256734260102896,
+        "z": 0.6301243286599507,
         "text": "It can change and adapt, like you do, to the ever-changing world.",
         "position": 0.6065573770491803
       },
       {
         "id": 38,
-        "x": 0.9648405356037956,
-        "y": 0.8597555126576768,
-        "z": 0.4743995319904759,
+        "x": 0.38891913515911747,
+        "y": 0.6878742689894518,
+        "z": 0.9473048409725681,
         "text": "Another big bonus is that you can keep all your state, all your data, in one location instead of spread across many other people's silos.",
         "position": 0.6229508196721312
       },
       {
         "id": 39,
-        "x": 0.8062861070498758,
-        "y": 0.6199132027330746,
-        "z": 0.8494939535618355,
+        "x": 0.4684352131959956,
+        "y": 0.07406966572893262,
+        "z": 0.6825684380292075,
         "text": "Building your own applications doesn't mean you have to do everything yourself.",
         "position": 0.639344262295082
       },
       {
         "id": 40,
-        "x": 0.4919451936179019,
-        "y": 0.8382051731899286,
-        "z": 0.2801767822549715,
+        "x": 0.05052182526072055,
+        "y": 0.30892487273915015,
+        "z": 0.8265854334609533,
         "text": "The building blocks are already out there.",
         "position": 0.6557377049180327
       },
       {
         "id": 41,
-        "x": 0.870199640751268,
-        "y": 0.3253646752558265,
-        "z": 0.6507001648251993,
+        "x": 0.7796782463098634,
+        "y": 0.1522408692122944,
+        "z": 0.5303384394243721,
         "text": "A technique that works especially well is taking open source projects as examples and taking from them what you like.",
         "position": 0.6721311475409836
       },
       {
         "id": 42,
-        "x": 0.72654229198887,
-        "y": 0.6903020102091042,
-        "z": 0.6868625283423361,
+        "x": 0.390012434092333,
+        "y": 0.13570668717791978,
+        "z": 0.769705125830845,
         "text": "You can string together your own platform or application from the bits and pieces that you find in the wild.",
         "position": 0.6885245901639344
       },
       {
         "id": 43,
-        "x": 0.9300896535828408,
-        "y": 0.48248554276341027,
-        "z": 0.6213300806216223,
+        "x": 0.6664799060227108,
+        "y": 0.04967072940039047,
+        "z": 0.6426147980853736,
         "text": "If you git clone these projects locally, your coding agent can quickly re-implement or port the parts you like.",
         "position": 0.7049180327868853
       },
       {
         "id": 44,
-        "x": 0.4335514294631517,
-        "y": 0.7960878944627982,
-        "z": 0.6927720369488471,
+        "x": 0.23909610671793918,
+        "y": 0.0972670126581703,
+        "z": 0.7250882270890595,
         "text": "It can build your own custom, little Frankenstein.",
         "position": 0.7213114754098361
       },
       {
         "id": 45,
-        "x": 0.9028746271934716,
-        "y": 0.48742472861549413,
-        "z": 0.4903184687090953,
+        "x": 0.6907212009818193,
+        "y": 0.06436875717296725,
+        "z": 0.736041588024375,
         "text": "And if something doesn't work, you just point your agent at the upstream project and tell it that things are not working as expected.",
         "position": 0.7377049180327869
       },
       {
         "id": 46,
-        "x": 0.7585119930535723,
-        "y": 0.5089224144156649,
-        "z": 0.3332777813902905,
+        "x": 0.6543524435845971,
+        "y": 0.23772569072285424,
+        "z": 0.7509007194905672,
         "text": "You can even do this in an automated fashion, with work triggering when issues are reported.",
         "position": 0.7540983606557377
       },
       {
         "id": 47,
-        "x": 0.6076227589402341,
-        "y": 0.41373675006031974,
-        "z": 0.04582906468381587,
+        "x": 0.6496117200142681,
+        "y": 0.6918347880414694,
+        "z": 0.6569623829292354,
         "text": "Yes, you will be maintaining software.",
         "position": 0.7704918032786885
       },
       {
         "id": 48,
-        "x": 0.4021796824701874,
-        "y": 0.5999288525791177,
-        "z": 0.2522766345156079,
+        "x": 0.25275577458455567,
+        "y": 0.6115676248489821,
+        "z": 0.5280354999219193,
         "text": "But this gives you a freedom that you did not have before, and maintenance load is decreasing as fast as the models get better.",
         "position": 0.7868852459016393
       },
       {
         "id": 49,
-        "x": 0.5736342951889926,
-        "y": 0.8481696601172289,
-        "z": 0.41661568562594253,
+        "x": 0.10501764019405398,
+        "y": 0.338902790846936,
+        "z": 0.7873913264983023,
         "text": "They can do a big part of it for you.",
         "position": 0.8032786885245902
       },
       {
         "id": 50,
-        "x": 0.9199739752776385,
-        "y": 0.7708440173045553,
-        "z": 0.5341180422252926,
+        "x": 0.5167437040033188,
+        "y": 0.7866199222146779,
+        "z": 1,
         "text": "You'll still have to store your data somewhere, of course, and run your application.",
         "position": 0.819672131147541
       },
       {
         "id": 51,
-        "x": 0.34572622698440125,
-        "y": 0.5432821589769452,
-        "z": 0.3751496158869775,
+        "x": 0.1870208946573727,
+        "y": 0.688218516068211,
+        "z": 0.5293956076203382,
         "text": "But this too, is made easy by the models.",
         "position": 0.8360655737704918
       },
       {
         "id": 52,
-        "x": 0.9480794603230392,
-        "y": 0.470531731469444,
-        "z": 0.19844820742355535,
+        "x": 0.7779401345391599,
+        "y": 0.7198071796974868,
+        "z": 0.7959334218945813,
         "text": "There are many database-as-a-service providers, and running in the cloud or setting up your own server are also things that your agent is very capable at helping you with.",
         "position": 0.8524590163934426
       },
       {
         "id": 53,
-        "x": 0.538170569101133,
-        "y": 0,
-        "z": 0.35340569484101386,
+        "x": 0.9348382043746796,
+        "y": 0.5850604171364908,
+        "z": 0.28855452539168114,
         "text": "What I'm saying is that together we can create a beautiful open ecosystem where sharing openly and keeping each other in control is the norm.",
         "position": 0.8688524590163934
       },
       {
         "id": 54,
-        "x": 0.556216506499625,
-        "y": 0.4936972362510025,
-        "z": 0.6533390651047744,
+        "x": 0.4718188756073016,
+        "y": 0.4414298191945115,
+        "z": 0.4604683059123857,
         "text": "Small Tech, made by you and me.",
         "position": 0.8852459016393442
       },
       {
         "id": 55,
-        "x": 0.5805303026632831,
-        "y": 0.056216362265727515,
-        "z": 0.2339750460160506,
+        "x": 1,
+        "y": 0.6771073809728366,
+        "z": 0.35202030165365117,
         "text": "Small communities are an important part of that ecosystem.",
         "position": 0.9016393442622951
       },
       {
         "id": 56,
-        "x": 0.21256842080617835,
-        "y": 0.824098004763119,
-        "z": 0.31848390663935694,
+        "x": 0.0033216844995550728,
+        "y": 0.28261975412030316,
+        "z": 0.3927289926202271,
         "text": "I am now to be found on Mastodon, in a community where you have to be invited.",
         "position": 0.9180327868852459
       },
       {
         "id": 57,
-        "x": 0.6367594378278209,
-        "y": 0.09404644609308865,
-        "z": 0.35657621352992175,
+        "x": 0.9571723654136435,
+        "y": 0.5850177146668575,
+        "z": 0.40237566637153904,
         "text": "I like these small communities, and I think depending on each other for the software that we use, and sharing open software in small groups, might become more important than we currently realize.",
         "position": 0.9344262295081968
       },
       {
         "id": 58,
-        "x": 0.7765460412092443,
-        "y": 0.31919459856031296,
-        "z": 0.44393614656138697,
+        "x": 0.7671886412344162,
+        "y": 0.412284672366195,
+        "z": 0.5766542448323178,
         "text": "So go and use open-source software.",
         "position": 0.9508196721311475
       },
       {
         "id": 59,
-        "x": 0.7171970499904408,
-        "y": 0.54191510557384,
-        "z": 0.7775682752420694,
+        "x": 0.4790644312165883,
+        "y": 0.2734686015031191,
+        "z": 0.6473531726497798,
         "text": "Build your own application layer on top.",
         "position": 0.9672131147540983
       },
       {
         "id": 60,
-        "x": 0.5584630233749489,
-        "y": 0.8929901035185651,
-        "z": 0.6086700326734452,
+        "x": 0.2030072617165449,
+        "y": 0.2517863939900864,
+        "z": 0.6029290297955255,
         "text": "Adapt it to your liking, build something new, change it, use it, and then drop all those subscriptions.",
         "position": 0.9836065573770492
       },
       {
         "id": 61,
-        "x": 0.2753233086605349,
-        "y": 0.8667861906156656,
-        "z": 0.5487527190500646,
+        "x": 0.08602364222418431,
+        "y": 0.11063410122209062,
+        "z": 0.553900706147582,
         "text": "You will have a freedom that you have never had before.",
         "position": 1
       }
@@ -1129,140 +1129,140 @@
       {
         "source": 28,
         "target": 31,
-        "strength": 0.9561728167420452
+        "strength": 0.9551896162779159
       },
       {
         "source": 39,
         "target": 59,
-        "strength": 0.7151491050069814
+        "strength": 0.7087588806907985
       },
       {
         "source": 32,
         "target": 54,
-        "strength": 0.6804811492954757
+        "strength": 0.6733131987461158
       },
       {
         "source": 30,
         "target": 32,
-        "strength": 0.6406312147659216
-      },
-      {
-        "source": 19,
-        "target": 32,
-        "strength": 0.5009933615310016
-      },
-      {
-        "source": 27,
-        "target": 47,
-        "strength": 0.4898522408170576
-      },
-      {
-        "source": 39,
-        "target": 42,
-        "strength": 0.46919070337948815
-      },
-      {
-        "source": 7,
-        "target": 9,
-        "strength": 0.42119587890299554
+        "strength": 0.6325692876656532
       },
       {
         "source": 1,
         "target": 9,
-        "strength": 0.3758384592064722
+        "strength": 0.5958693099036723
+      },
+      {
+        "source": 19,
+        "target": 32,
+        "strength": 0.48979885798148887
+      },
+      {
+        "source": 27,
+        "target": 47,
+        "strength": 0.4784078020847976
+      },
+      {
+        "source": 39,
+        "target": 42,
+        "strength": 0.45728275246852673
+      },
+      {
+        "source": 7,
+        "target": 9,
+        "strength": 0.40821123243021
       },
       {
         "source": 20,
         "target": 30,
-        "strength": 0.35760196235279074
+        "strength": 0.3431906768943338
       },
       {
         "source": 9,
         "target": 18,
-        "strength": 0.34619068912566
+        "strength": 0.331523407997411
       },
       {
         "source": 23,
         "target": 25,
-        "strength": 0.21442509382958155
+        "strength": 0.246538315706227
       },
       {
         "source": 33,
         "target": 36,
-        "strength": 0.19763627989904986
+        "strength": 0.17963639208146845
       },
       {
         "source": 34,
         "target": 49,
-        "strength": 0.1733619572553416
+        "strength": 0.1548175095661105
       },
       {
         "source": 42,
         "target": 59,
-        "strength": 0.15079067451701583
+        "strength": 0.1317398722319692
       },
       {
         "source": 19,
         "target": 30,
-        "strength": 0.14139098071773398
+        "strength": 0.12212930968367985
       },
       {
         "source": 36,
         "target": 44,
-        "strength": 0.11153231348759955
+        "strength": 0.09160080576095757
       },
       {
         "source": 33,
         "target": 35,
-        "strength": 0.08530202711684949
+        "strength": 0.06478208025684648
       },
       {
         "source": 22,
         "target": 58,
-        "strength": 0.07800977405484988
+        "strength": 0.05732623587863319
       },
       {
         "source": 28,
         "target": 47,
-        "strength": 0.07590551770787593
+        "strength": 0.055174773536128686
       },
       {
         "source": 28,
         "target": 58,
-        "strength": 0.0668242587910591
+        "strength": 0.04588978950356941
+      },
+      {
+        "source": 1,
+        "target": 20,
+        "strength": 0.039580175478388734
       },
       {
         "source": 35,
         "target": 60,
-        "strength": 0.0557113330937476
+        "strength": 0.03452756113857054
       },
       {
         "source": 45,
         "target": 46,
-        "strength": 0.045272038575379654
+        "strength": 0.023854075909035252
       },
       {
         "source": 27,
         "target": 28,
-        "strength": 0.03112977632240302
+        "strength": 0.009394552135300462
       },
       {
         "source": 54,
         "target": 59,
-        "strength": 0.02632341995816862
+        "strength": 0.004480372008350759
       },
       {
         "source": 36,
         "target": 39,
-        "strength": 0.02194135337530592
-      },
-      {
-        "source": 35,
-        "target": 39,
         "strength": 0
       }
     ],
-    "hue": 11
+    "hue": 10
   },
   "articles/everything-in-its-place": {
     "nodes": [
