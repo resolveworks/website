@@ -11,6 +11,7 @@
     "generate-index": "node tools/generate-index.mjs",
     "generate-markdown": "node tools/generate-markdown.mjs",
     "generate-og": "node tools/generate-og.mjs",
+    "generate-icons": "node tools/generate-icons.mjs",
     "generate-sitemap": "node tools/generate-sitemap.mjs",
     "generate-rss": "node tools/generate-rss.mjs",
     "generate": "pnpm generate-index && pnpm generate-related && pnpm generate-embeddings && pnpm generate-markdown && pnpm generate-og && pnpm generate-sitemap && pnpm generate-rss && vite build",
