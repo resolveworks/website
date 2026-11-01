@@ -1,7 +1,7 @@
 <script>
   import business from '$lib/data/business.json';
-  import author from '$lib/data/author.json';
-  import { SITE_NAME, SITE_URL, SITE_DESCRIPTIONS, pageTitle, mailtoHref } from '$lib/site.js';
+  import { SITE_URL, SITE_DESCRIPTIONS, pageTitle, mailtoHref } from '$lib/site.js';
+  import { organization, person, website } from '$lib/schema.js';
   import Seo from '$lib/components/Seo.svelte';
   import Hero from '$lib/components/Hero.svelte';
   import Features from '$lib/components/Features.svelte';
@@ -27,41 +27,6 @@
         text: paragraphs.join('\n\n')
       }
     }))
-  };
-
-  const professionalService = {
-    '@context': 'https://schema.org',
-    '@type': 'ProfessionalService',
-    name: SITE_NAME,
-    description:
-      'Software and data engineering for organizations doing public-interest work: LLM-assisted data pipelines with human verification, entity resolution, search infrastructure, and full product development.',
-    url: `${SITE_URL}/`,
-    '@id': `${SITE_URL}/#organization`,
-    email: business.email,
-    address: {
-      '@type': 'PostalAddress',
-      addressCountry: 'Estonia'
-    },
-    priceRange: '€€€',
-    openingHours: 'Mo-Fr 09:00-18:00',
-    founder: {
-      '@type': 'Person',
-      '@id': `${SITE_URL}/#person`,
-      name: author.name,
-      jobTitle: author.jobTitle,
-      url: business.linkedin,
-      sameAs: [business.linkedin, business.github]
-    },
-    sameAs: [business.linkedin, business.github],
-    knowsAbout: [
-      'AI',
-      'Machine Learning',
-      'LLM',
-      'Entity Resolution',
-      'Data Engineering',
-      'Software Engineering',
-      'Open Data'
-    ]
   };
 </script>
 
@@ -281,6 +246,8 @@
     </section>
   </main>
 
+  <JsonLd data={{ '@context': 'https://schema.org', ...website }} />
+  <JsonLd data={{ '@context': 'https://schema.org', ...organization }} />
+  <JsonLd data={{ '@context': 'https://schema.org', ...person }} />
   <JsonLd data={faqPage} />
-  <JsonLd data={professionalService} />
 </div>

@@ -3,7 +3,20 @@
   "linkedin": "https://www.linkedin.com/in/johanschuijt/",
   "mastodon": "https://fosstodon.org/@monneyboi",
   "github": "https://github.com/monneyboi/",
-  "address": "Harju maakond, Tallinn, Lasnamäe linnaosa, Sepapaja tn 6, 15551",
+  "githubOrg": "https://github.com/resolveworks/",
+  "bluesky": "https://bsky.app/profile/resolve.works",
+  "devto": "https://dev.to/johanschuijt",
+  "medium": "https://medium.com/@johanschuijt",
+  "legalName": "Resolve Services OÜ",
+  "registryCode": "17154517",
+  "foundingDate": "2025-01-13",
+  "postalAddress": {
+    "streetAddress": "Lasnamäe linnaosa, Sepapaja tn 6",
+    "addressLocality": "Tallinn",
+    "addressRegion": "Harju maakond",
+    "postalCode": "15551",
+    "addressCountry": "EE"
+  },
   "vat": "EE102834268",
   "register": {
     "url": "https://ariregister.rik.ee/eng/company/17154517/RESOLVE-SERVICES-OÜ",

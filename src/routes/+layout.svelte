@@ -1,6 +1,6 @@
 <script>
   import '$lib/styles.css';
-  import { SITE_NAME } from '$lib/site.js';
+  import { SITE_NAME, formatAddress } from '$lib/site.js';
   import business from '$lib/data/business.json';
 
   let { children } = $props();
@@ -35,7 +35,7 @@
     <address>
       <dl>
         <dt>Address</dt>
-        <dd>{business.address}</dd>
+        <dd>{formatAddress(business.postalAddress)}</dd>
         <dt>VAT</dt>
         <dd>{business.vat}</dd>
         <dt>Register</dt>

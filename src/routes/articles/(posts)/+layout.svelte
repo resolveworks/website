@@ -5,7 +5,8 @@
   import JsonLd from '$lib/components/JsonLd.svelte';
   import author from '$lib/data/author.json';
   import business from '$lib/data/business.json';
-  import { SITE_NAME, SITE_URL, pageTitle, formatDate } from '$lib/site.js';
+  import { SITE_URL, pageTitle, formatDate } from '$lib/site.js';
+  import { organization, person } from '$lib/schema.js';
 
   let { data, children } = $props();
 
@@ -24,23 +25,12 @@
     image: `${SITE_URL}/og/articles/${data.slug}.png`,
     url: articleUrl,
     mainEntityOfPage: { '@type': 'WebPage', '@id': articleUrl },
-    author: {
-      '@type': 'Person',
-      '@id': `${SITE_URL}/#person`,
-      name: author.name,
-      url: business.linkedin,
-      sameAs: [business.linkedin, business.github]
-    },
+    author: person,
     publisher: {
       '@type': 'Organization',
-      '@id': `${SITE_URL}/#organization`,
-      name: SITE_NAME,
-      logo: {
-        '@type': 'ImageObject',
-        url: `${SITE_URL}/apple-touch-icon.png`,
-        width: 180,
-        height: 180
-      }
+      '@id': organization['@id'],
+      name: organization.name,
+      logo: organization.logo
     }
   });
 </script>

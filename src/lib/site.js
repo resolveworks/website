@@ -21,6 +21,11 @@ export function mailtoHref(subject, body) {
   return `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
+/** Format a structured PostalAddress as a single display line. */
+export function formatAddress({ addressRegion, addressLocality, streetAddress, postalCode }) {
+  return [addressRegion, addressLocality, streetAddress, postalCode].join(', ');
+}
+
 const MONTHS = [
   'January',
   'February',
